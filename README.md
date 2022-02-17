@@ -82,6 +82,8 @@ Please keep in mind that just because there are open issues tickets that this is
 ----------------------------------------------------------
 
 ## [Project History](#project-history)
+- 17.02.2022
+    - Release: [Brave 1.35.103 Desktop](https://github.com/brave/brave-browser/pull/21146/files)
 - 16.02.2022
     - Obsolete since 1.35.101 Desktop: `#intensive-wake-up-throttling`, `#https-only-mode-setting`, `#http-cache-partitioning`, `#sms-receiver-cross-device`, `#restrict-gamepad-access`, `#cross-origin-embedder-policy-credentialles`, `#omnibox-keyword-search-button`, `#webid`, `#omnibox-drive-suggestions`, `#enable-accessibility-live-caption-soda`, `#tab-hover-card-images`, `#debug-history-intervention-no-user-activation`, `#tab-groups-collapse-freezing`, `#installed-apps-in-cbd`, `#calculate-native-win-occlusion`, `#enable-desktop-pwas-app-icon-shortcuts-menu-ui`, `#speedreader-legacy-backend`
     - Obsolete since 1.35.101 Mobile: `#intensive-wake-up-throttling`, `#https-only-mode-setting`, `#http-cache-partitioning`, `#sms-receiver-cross-device`, `#restrict-gamepad-access`, `#cross-origin-embedder-policy-credentialless`, `#webid`, `#chrome-sharing--hub-v1-5`, `#omnibox-most-visited-tiles`, `#debug-history-intervention-no-user-activation`, `#download-auto-resumption-native`, `#enable-table-ng`, `#enable-lite-video`, `#webnotes-stylize`, `#page-info-discoverability`, `#page-info-version-2`
