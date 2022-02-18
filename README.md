@@ -82,6 +82,8 @@ Please keep in mind that just because there are open issues tickets that this is
 ----------------------------------------------------------
 
 ## [Project History](#project-history)
+- 18.02.2022
+    - Release: [Brave 1.35.103 Mobile](https://github.com/brave/brave-browser/pull/21184/files)
 - 17.02.2022
     - Release: [Brave 1.35.103 Desktop](https://github.com/brave/brave-browser/pull/21146/files)
 - 16.02.2022
