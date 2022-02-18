@@ -4,7 +4,7 @@
 
 ## [Project updates](#project-updates)
 
-I'll try to keep this "hardening" guidance updated as much as I can. The below listed flags configuration/changes and tips are only tested against Windows/Linux & Android, I do not plan to test them against MacOS/iOS!
+I'll try to keep this hardening guidance updated as much as I can. The below listed flags configuration/changes and tips are only tested against Windows/Linux & Android, I do not plan to test them against MacOS/iOS!
 
 ## [Introduction](#introduction)
 
@@ -897,6 +897,7 @@ This story got a lot of attention, however it always was misleading and spread t
 
 
 ## [Why does Brave consume more RAM than Chrome](#why-does-brave-consume-more-ram-than-chrome)
+
 - Brave currently contains over 250k code changes compared to Chrome, which adds a lot of more features such as ad-blocking, Rewards, Wallet integration and more. Brave is not only yet another Chromium fork and adds a lot of unique features.
 - You can reduce the overall memory footprint by disabling hardware acceleration and disable to let run Brave in the background. Both options are enabled by default. You find the options under `brave://settings/system`. Disabling Brave News also reduces the memory usage.
 - The Brave Team as well as the Chrome team constantly working on lowering the overall memory footprint, however while adding more and more features and dependencies this is a challenging task.
@@ -907,13 +908,15 @@ This story got a lot of attention, however it always was misleading and spread t
 
 ## [Aggressive trolling because Brave uses the word ”Privacy”](#aggressive-trolling-because-brave-uses-the-word-privacy)
 
-Especially some Firefox people or shall I say loyal fans trolling Brave Browser and their Team since day one because of the slogan - ”privacy browser”. This is harsh and nothing but trolling as well as based because no Browser ever will be perfect in that regard. Those often uneducated and not even developers themselves people typically cherry picking some leaks or open issue tickets and claim the Browser is not as private as advertised to make the Browser look worse than others. This is a pointless effort because you find on every single Browser some open issue tickets, Tor Browser, Firefox, all of them have always some open issue tickets regarding privacy. Brave puts a lot of research into privacy related topics, same like Firefox and the Tor Browser.
+Especially some Firefox people or shall I say loyal fans [trolling](https://en.wikipedia.org/wiki/Internet_troll) Brave Browser and their Developer Team since practically day one because of the marketing slogan - ”privacy browser”. This is harsh as well as based because no Browser ever will be perfect in this regard. Privacy is not an on or off switch and needs continuously inspection, maintenance and changes to adopt new problems. Those smear campaigns come often from uneducated people that are not even developers themselves, these people tend to cherry pick some leaks or open issue tickets and claim the Browser is not as private as advertised to make the Browser look worse than others. This is a pointless effort because you find on every single Browser some open issue tickets, Tor Browser, Firefox, all of them have always some open issue tickets regarding privacy. This is not how FOSS works and this is no measurement instrument as "privacy index". The Brave Team puts a lot of time and research into privacy related problems, same like Firefox and the Tor Browser Project.
 
-Another strategy is to [spread fake forks to smear Brave](https://aur.archlinux.org/packages/unbrave-git), even after I reported it to Brave and the Arch Team via Tweet, such disrespectful fork is still online.
+Another strategy is to [spread fake forks to smear Brave](https://aur.archlinux.org/packages/unbrave-git), even after I reported it to Brave and the Arch Team via Tweet, such disrespectful forks continue to stay online. Not only is this deformation it also exposed how based people are against any competition.
 
-Brave Browser is defacto privacy respecting and does by default more than any other Browser, this is done by including a lot of ideas and privacy respecting changes into their Browser. In every other Browser you need to work with extensions or configuration changes to come close to Brave. I do not see how the troll argumentation holds that Brave fails regarding privacy, it is offering a solid ground with the arguably best default out-of-the-box configuration.
+Brave Browser is de facto privacy respecting and does by default more than any other Browser on the market, this is done by including a lot of ideas and privacy respecting changes directly into the Brave Browser. In every other Browser you need to work with extensions or configuration changes to come even remotely close to Brave Browser. I do not see how the troll argumentation holds that Brave fails regarding privacy, it is offering a solid ground with the arguably best default out-of-the-box configuration.
 
-If you goal is to become nearly anonymous then use Tor Browser, even the Brave Team clearly communicated this since day one on their website.
+If you goal is to become nearly anonymous then use Tor Browser, the Brave Team clearly communicated this since day one on their website.
+
+[🔝 Back to top 🔝](#)
 
 
 ## [Contradiction regarding Privacy Communities](#contradiction-regarding-privacy-communities)
