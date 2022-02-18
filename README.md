@@ -154,16 +154,17 @@ Go to `brave://adblock/`, just type it in the URL bar and it will display the ad
 
 
 #### Lists to enable from the integrated Brave Ad Block list
+
 - `CJX's Annoyance List` alternative `Fanboy Annoyances List`
 - `YousList`- To block various cosmetic stuff, aka annoyance in additional to above mentioned annoyances list. If you think this list is not enough use `Dandelion Sprout's Annoying Banners and Overlays List` instead.
 - ONE single `language based` list, based for your own country.
 
 
-Now we can improve specific things alias manually subscribing to addition lists, but which one make the most sense... The answer is easy, we want to get rid of additional extensions and hopefully we can archive it by using an additional list that supports the things we need, anti-coinmining, url-shortener etc.
+Now we can improve specific things alias manually subscribing to addition lists, but which one make the most sense... The answer is easy, we want to get rid of additional extensions and hopefully we can archive it by using an additional list that supports the things we need, anti-coinmining, URL-shortener etc.
 
 #### Optional filter-lists we could add
 
-Additional list can be useful, to [get rid of ClearURLs extension](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt), or in case if we already block DNS based ads on our entire network, in this case we might wanna use something directly which only blocks cosmetic stuff.
+Additional filter-lists can be useful, for example to [get rid of ClearURLs extension](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt), or in case if we already block DNS based ads on our entire network, in this case we might wanna use something directly which only blocks cosmetic stuff. It should be noted that uBlock as well as Brave Ad Block solutions only removing the untouched query parameter given by the original URL, this means they cannot rewrite parts or the original path of clicked URL.
 
 - AdGuard DNS filter - `https://filters.adtidy.org/windows/filters/15.txt`
 - Actually Legitimate URL Shortener Tool - `https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt`
@@ -188,14 +189,13 @@ And there are 2 ways to try to reach this goal
 
 In the static (or often called low entropy) way, the user or you can try to display the same fingerprint than many others people. In that sense, being seen as unique is bad. The best way to achieve this "low entropy" goal is to use the Tor Browser on the Tor network. No Brave hardening, no Firefox Browser hardening with thousands of configuration changes, simply and pure Tor Browser because it provides much more than configuration changes and the best way is that each and every user uses the exact same fingerprint.
 
-In the dynamic (or high entropy) way, you try to becomes "someone else" for each browser sessions, eg for each browsing session, you (ideally) try to change all your browser's displayed characteristics. In this case, being seen as unique is not a problem. At the contrary, it's something desirable: That a test site achieves to correlate you cross session, and so, achieves to see you as not unique, simply means that your attempts to becomes "someone else" for each session miserably failed and that you are traceable cross session (at least by this precise test site, and by any other site using the same tracking techniques). This way is the path that eg Brave developers are trying to take, this is also what you do if you harden other Browsers like Firefox, Edge etc.
+In the dynamic (or high [entropy](https://en.wikipedia.org/wiki/Entropy)) way, you try to becomes "someone else" for each browser sessions, eg for each browsing session, you (ideally) try to change all your browser's displayed characteristics. In this case, being seen as unique is not a problem. At the contrary, it's something desirable: That a test site achieves to correlate you cross session, and so, achieves to see you as not unique, simply means that your attempts to becomes "someone else" for each session miserably failed and that you are traceable cross session (at least by this precise test site, and by any other site using the same tracking techniques). This way is the path that eg Brave developers are trying to take, this is also what you do if you harden other Browsers like Firefox, Edge etc.
 
 In the real-world we have limited amount of possibilities to fingerprint users, this means most stuff heavily relies on JavaScript, CSS and so on. Developing counter-measures for this is possible, but since we enforce by default to disable JavaScript which already lower attacks by around 98%, the rest are some small tricks that abuses some weaknesses that are fixable more or less easily. There might be considerable small stuff which cannot be fixed but that never leads to leaks that can identify you, your browsing habits or connect other dots.
 
 The most important stuff is listed above and is on the to-do regarding fingerprinting. None of the open issues are enough to truly expose you even if someone gets all of the remaining entropy that is currently not covered by Braves Shield. Most people just use the [fingerprinting argument to bypass restrictions](https://github.com/niespodd/browser-fingerprinting).
 
 ----------------------------------------------------------
-
 
 ## [Unofficial Brave Browser Build on F-Droid](#unofficial-brave-browser-build-on-f-droid)
 
@@ -223,12 +223,11 @@ Using portable Browsers has lots of security and privacy implications.
 
 ----------------------------------------------------------
 
-## [How does Brave handles Cookies](#how-does-brave-handles-cookies)
+## [How does Brave Browser handle Cookies](#how-does-brave-browser-handle-cookies)
 
-Brave Browser is very well documented. Besides the source code and the wiki entries we have several good articles for beginners on how Brave actually handles the cookie part.
+Brave Browser is very well documented. Besides the source code and the wiki entries we have several good articles for beginners on how Brave actually handles the Cookie part.
 
-
-- [Ephemeral Storage](https://brave.com/privacy-updates/7-ephemeral-storage/) + [Test](https://dev-pages.brave.software/storage/ephemeral-storage.html).
+- [Ephemeral Storage](https://brave.com/privacy-updates/7-ephemeral-storage/) + [Test](https://dev-pages.brave.software/storage/ephemeral-storage.html). This is the quinquevalent to Firefox [Dynamic First-Party Isolation](https://bugzilla.mozilla.org/show_bug.cgi?id=1625228) (dFPI) and [Total Cookie Protection](https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/) mechanism.
 - [Insight about how cookies are handled](https://github.com/brave/brave-browser/issues/16310#issuecomment-867269617)
 
 
