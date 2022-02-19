@@ -1,4 +1,4 @@
-## Additional about:flags changes by [CHEF-KOCH](https://twitter.com/CKsTechNews) (CKTN) to harden [Brave](https://brave.com/)
+## Additional about:flags changes by [CHEF-KOCH](https://twitter.com/CKsTechNews) (CKTN) to harden [Brave Browser](https://brave.com/)
 
 ![Logo Banner - Credit: ledger.com](https://www.ledger.com/wp-content/uploads/2021/05/cover.png)
 
@@ -81,7 +81,19 @@ Please keep in mind that just because there are open issues tickets that this is
 
 ----------------------------------------------------------
 
-## [Enforced settings as defaults](#enforced-settings-as-defaults)
+## [Hardening is not a selling argument](#hardening-is-not-a-selling-argument)
+
+The mass media and some privacy communities wrongfully echo chamber that hardening and applying best practices represent security and privacy, this is an unproven claim. The reason why this is unproven is the fact that the vast majority does not use hardened profiles on a daily bases. In other words there is no proof that this is enough, what it does is that it potentially reduced the attack surface but this is all. It does not mean you are untouchable or cannot be exploited. Even if you manage to harden everything you still need to take the human factor in consideration, social engineering works really well and can bypass every firewall, every OS or Browser hardening in a matter of time. The Browser acts like a gateway not meant to be a firewall to monitor every data package that goes trough.
+
+I am entirely against selling privacy and security as product and the project goal here is not to fool people that hardening is something that is either one or zero. The factors for privacy and security are not products you install or scripts or tools you use. It is a relationship between developer and the community to deal with existent as well as new threats. Giving up control by depending on another unknown third-party who promises you xyz is not what I like to represent here because the overall goal is that mentioned issues getting shown to warn users that there are potential risks involved that you can address on a theoretical level, this means it should be shown in order to fix such problems, not to make profit out of it.
+
+Claiming hardening makes you more secure because 0,1% of all users doing or using it is working with statistics. Statistics that are often flawed because depending on the data, point of view and experience, those can variate a lot. Assuming everything one day gets fixed, hackers still trying to bypass everything, break it or invent new techniques. This is a cat and mouse game without a winner because the web evolves as well as the Browser itself and hardening will always be a part of adapting those changes by workaround potential issues.
+
+I am not a fan of mass advertising that hardening or to apply best practices is enough, what makes more sense is to make people aware of problems, provide some workarounds until it is fixed and then test it to verify if it is actually working as intended or not because even workarounds and fixes can cause additional problems or even new holes.
+
+----------------------------------------------------------
+
+## [Enforced settings as new defaults](#enforced-settings-as-new-defaults)
 
 We change those default settings to enhance the default behavior in order to reduce possible risks. You can manually unlock stuff you need, which seems more work but it is worth it + you only have to do this once per domain. This basically acts like a firewall for specific things, which is then disabled by default and you need to manually unlock first (see last screenshot to understand what I mean).
 
