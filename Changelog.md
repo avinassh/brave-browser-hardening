@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 19.02.2022
+    - News: [Why you should switch to Brave from Google Chrome](https://requestly.io/blog/switch-to-brave-from-chrome/)
 - 18.02.2022
     - Release: [Brave 1.35.103 Mobile](https://github.com/brave/brave-browser/pull/21184/files)
 - 17.02.2022
