@@ -1,4 +1,9 @@
 ## [Project History](#project-history)
+- 20.02.2022
+    - Research: [Percival: Making In-Browser Perceptual Ad Blocking Practical With Deep Learning](https://brave.com/wp-content/uploads/2020/08/atc20-din.pdf)
+    - Research: [Who Filters the Filters: Understanding the Growth, Usefulness and Efficiency of Crowdsourced Ad Blocking](https://brave.com/static-assets/files/easylist-sigmetrics-2020.pdf)
+    - Research: [AdGraph: A Machine Learning Approach to Automatic and Effective Adblocking](https://arxiv.org/abs/1805.09155)
+    - Research: [SugarCoat: Programmatically Generating Privacy-Preserving, Web-Compatible Resource Replacements for Content Blocking](https://brave.com/static-assets/files/sugarcoat-ccs-2021.pdf)
 - 19.02.2022
     - News: [Why you should switch to Brave from Google Chrome](https://requestly.io/blog/switch-to-brave-from-chrome/)
 - 18.02.2022
