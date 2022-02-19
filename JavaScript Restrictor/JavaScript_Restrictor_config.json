@@ -1,0 +1,88 @@
+ {
+	"__default__": "CK",
+	"custom_levels": {
+		"CK": {
+			"analytics": false,
+			"arrays": false,
+			"arrays_mapping": false,
+			"audiobuffer": true,
+			"audiobuffer_method": 0,
+			"battery": false,
+			"enumerateDevices": true,
+			"enumerateDevices_method": 2,
+			"gamepads": true,
+			"geolocation": true,
+			"geolocation_locationObfuscationType": 4,
+			"hardware": true,
+			"hardware_method": 1,
+			"htmlcanvaselement": false,
+			"htmlcanvaselement_method": 0,
+			"level_description": "Hardened defaults",
+			"level_id": "CK",
+			"level_text": "CKTN",
+			"physical_environment": true,
+			"physical_environment_emulateStationaryDevice": true,
+			"plugins": false,
+			"plugins_method": 0,
+			"shared_array": false,
+			"shared_array_approach_block": true,
+			"shared_array_approach_polyfill": false,
+			"time_precision": true,
+			"time_precision_precision": 1,
+			"time_precision_randomize": false,
+			"vr": true,
+			"webgl": false,
+			"webgl_method": 0,
+			"webworker": true,
+			"webworker_approach_polyfill": false,
+			"webworker_approach_slow": true,
+			"windowname": true,
+			"xhr": false,
+			"xhr_behaviour_ask": true,
+			"xhr_behaviour_block": false
+		}
+	},
+	"domains": {
+		"15rock.com": {
+			"level_id": "CK"
+		},
+		"browseraudit.com": {
+			"level_id": "0"
+		},
+		"checkout.payever.org": {
+			"level_id": "CK"
+		},
+		"chef-koch.bearblog.dev": {
+			"level_id": "CK"
+		},
+		"doileak.com": {
+			"level_id": "CK"
+		},
+		"ebay-kleinanzeigen.de": {
+			"level_id": "CK"
+		},
+		"geizhals.de": {
+			"level_id": "CK"
+		},
+		"github.com": {
+			"level_id": "CK"
+		},
+		"hddcaddy.com": {
+			"level_id": "CK"
+		},
+		"lemmy.ml": {
+			"level_id": "CK"
+		},
+		"mindfactory.de": {
+			"level_id": "CK"
+		},
+		"news.ycombinator.com": {
+			"level_id": "CK"
+		},
+		"polcak.github.io": {
+			"level_id": "2"
+		}
+	},
+	"fpDetectionOn": true,
+	"version": 5
+}
