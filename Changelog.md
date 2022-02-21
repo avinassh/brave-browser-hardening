@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 21.02.2022
+    - News: [Withdraw your BAT Rewards from Uphold without High Gas Fees](https://www.publish0x.com/bitcoin-baby-day-3-crypto-is-fun/withdrawal-your-bat-rewards-from-uphold-without-high-gas-fee-xqmjpqz)
 - 20.02.2022
     - Research: [Percival: Making In-Browser Perceptual Ad Blocking Practical With Deep Learning](https://brave.com/wp-content/uploads/2020/08/atc20-din.pdf)
     - Research: [Who Filters the Filters: Understanding the Growth, Usefulness and Efficiency of Crowdsourced Ad Blocking](https://brave.com/static-assets/files/easylist-sigmetrics-2020.pdf)
