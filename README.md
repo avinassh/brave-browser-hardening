@@ -953,7 +953,7 @@ Actual facts
 Fake with false background information.
 - [Brave legally threatens Brave fork trying to remove adds.](https://bitgrum.com/2020/09/11/brave-browser-fork-changes-name-after-legal-threats/)
 
-The story was mainly about Trademark violation and not about replacing ads, the Team never asked or contacted Brave to ask for permission to begin with.
+The story was mainly about [Trademark](https://trademarks.justia.com/869/51/brave-86951863.html) violation and not about replacing ads, the Team never asked or contacted Brave to ask for permission to begin with. Also you need to do some legal proceeding because GitHub does not take content offline without any court order or trademark confirmation.
 
 - [Brave forces rival browser 'Braver' to change its name](https://decrypt.co/35146/brave-forces-rival-browser-braver-change-name)
 
