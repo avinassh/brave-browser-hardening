@@ -933,9 +933,6 @@ If you goal is to become nearly anonymous then use Tor Browser, the Brave Team c
 
 ## [Story about Dissenter](#story-about-dissenter)
 
-Fake with false background information.
-- [Brave legally threatens Brave fork trying to remove adds.](https://bitgrum.com/2020/09/11/brave-browser-fork-changes-name-after-legal-threats/)
-
 > [In April 2019, Dissenter was removed from the Firefox Add-ons website and the Chrome Web Store for violation of their policies that causes the creation of the Dissenter web browser.
 
 [Source](https://discourse.mozilla.org/t/the-removal-of-the-dissenter-extention/38140/70)
@@ -953,7 +950,10 @@ Actual facts
 
 ## [Story about Braver Fork](#story-about-braver-fork)
 
-The story was mainly about Trademark violation and not about replacing ads.
+Fake with false background information.
+- [Brave legally threatens Brave fork trying to remove adds.](https://bitgrum.com/2020/09/11/brave-browser-fork-changes-name-after-legal-threats/)
+
+The story was mainly about Trademark violation and not about replacing ads, the Team never asked or contacted Brave to ask for permission to begin with.
 
 - [Brave forces rival browser 'Braver' to change its name](https://decrypt.co/35146/brave-forces-rival-browser-braver-change-name)
 
