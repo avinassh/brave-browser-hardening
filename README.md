@@ -931,6 +931,35 @@ If you goal is to become nearly anonymous then use Tor Browser, the Brave Team c
 [🔝 Back to top 🔝](#)
 
 
+## [Story about Dissenter](#story-about-dissenter)
+
+Fake with false background information.
+- [Brave legally threatens Brave fork trying to remove adds.](https://bitgrum.com/2020/09/11/brave-browser-fork-changes-name-after-legal-threats/)
+
+> [In April 2019, Dissenter was removed from the Firefox Add-ons website and the Chrome Web Store for violation of their policies that causes the creation of the Dissenter web browser.
+
+[Source](https://discourse.mozilla.org/t/the-removal-of-the-dissenter-extention/38140/70)
+
+
+Actual facts
+- [Alt-Right ‘parasites’ fork Brave Browser, replace BAT with BTC](https://micky.com.au/gab-parasites-fork-brave-browser-replace-bat-with-btc/)
+- [What happened to Dissenter](https://old.reddit.com/r/browsers/comments/ptaau2/what_happened_to_dissenter/)
+- [No one disputes the fact that Gab’s founder has the right to fork Brave. We just don’t think nazis add value to anything, including code bases](https://www.customerservant.com/no-one-disputes-the-fact-that-gabs-founder-has-the-right-to-fork-brave-we-just-dont-think-nazis-add-value-to-anything-including-code-bases/)
+- [Gab Network and Dissenter](https://en.wikipedia.org/wiki/Gab_(social_network)#Dissenter)
+- [Dissenter (web browser)](https://everipedia.org/wiki/lang_en/dissenter-web-browser)
+
+[🔝 Back to top 🔝](#)
+
+
+## [Story about Braver Fork](#story-about-braver-fork)
+
+The story was mainly about Trademark violation and not about replacing ads.
+
+- [Brave forces rival browser 'Braver' to change its name](https://decrypt.co/35146/brave-forces-rival-browser-braver-change-name)
+
+[🔝 Back to top 🔝](#)
+
+
 ## [Contradiction regarding Privacy Communities](#contradiction-regarding-privacy-communities)
 
 Brave contradicts themselves with weird statements regarding supporting privacy related communities or not. This is not positive nor negative, just weird.
