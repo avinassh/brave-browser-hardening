@@ -38,7 +38,7 @@ Just because there are some flag who _promise_ X does not necessarily mean you s
 
 ----------------------------------------------------------
 
-##  [Unresolved Issues with the biggest privacy/security impact](#unresolved-issues-with-the-biggest-privacysecurity-impact)
+## [Unresolved Issues with the biggest privacy/security impact](#unresolved-issues-with-the-biggest-privacysecurity-impact)
 
 You find an overview of [all opened privacy related and reported issues directly on the issue tracker](https://github.com/brave/brave-browser/labels/privacy%2Ftracking). [x] indicates that mentioned issue was fully resolved.
 
@@ -77,6 +77,7 @@ Please keep in mind that just because there are open issues tickets that this is
 - [ ] [DRAWN APART : A Device Identification Technique based on Remote GPU Fingerprinting](https://orenlab.sise.bgu.ac.il/p/DrawnApart), pretty much every Browser is affected by the new attack.
 - [ ] [There is currently no master password available for saved passwords](https://github.com/brave/brave-browser/issues/20794), which can lead to security and privacy related issues.
 - [x] [navigator.connection attribute](https://github.com/brave/brave-browser/issues/20122) - Fixed with 1.35.100, the [leakage got fixed with 1.35.101](https://github.com/brave/brave-browser/issues/20499).
+- [x] Some [AV products using and inspecting your camera and your lockscreen](https://support.kaspersky.com/15408#cameras) - This is a wontfix because this is how AVs and their security features work. You manually need to allow Brave to use the camera permission or block/allow the AV to use/not it.
 
 
 ----------------------------------------------------------
