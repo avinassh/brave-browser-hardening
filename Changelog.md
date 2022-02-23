@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 23.02.2022
+    - News: [Google kills Lite on Android](https://support.google.com/chrome/thread/151853370/sunsetting-chrome-lite-mode-in-m100-and-older?hl=en)
     - Release: [Brave 1.35.104 macOS](https://github.com/brave/brave-browser/pull/21268/files)
 - 21.02.2022
     - History: Dissenter and Braver Story explained. Nazi Fork + Trademark violation, besides it is a bad idea to imply that 2 people can compete against an entire Team. Stupid idea, Browser Development is too big to clown around with.
