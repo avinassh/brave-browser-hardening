@@ -616,8 +616,11 @@ Example chrome-flags.conf shown below.
 --enable-zero-copy
 --enable-features=VaapiVideoDecoder
 --disable-gpu-driver-bug-workarounds
-# Borked until Chrome 96 https://chromiumdash.appspot.com/commit/a4de986102a45e29c3ef596f22704bdca244c26c
-#--disable-features=UseOzonePlatform
+--disable-features=UseChromeOSDirectVideoDecoder
+# Borked until Chrome 96
+#  https://chromiumdash.appspot.com/commit/a4de986102a45e29c3ef596f22704bdca244c26c
+# ... and Chrome 98 
+# https://bugs.chromium.org/p/chromium/issues/detail?id=1236697
 #
 # Up to you and your preference and device.
 # --gpu-testing-vendor-id=0x8086 --gpu-testing-device-id=0x5917
