@@ -608,23 +608,30 @@ Flag | Name | Info comment
 
 You can create a file called `chrome-flags.conf` and put it into `$HOME/.config/chrome-flags.conf`, this makes it easier to work with flags without opening the Browser.
 
-Example chrome-flags.conf shown below.
+Example `chrome-flags.conf` below:
 
 ```sh
---ignore-gpu-blocklist
---enable-gpu-rasterization
---enable-zero-copy
---enable-features=VaapiVideoDecoder
---disable-gpu-driver-bug-workarounds
+-use-vulkan
 --disable-features=UseChromeOSDirectVideoDecoder
+--disable-gpu-driver-bug-workarounds
+--enable-accelerated-2d-canvas
+--enable-accelerated-video-decode 
+--enable-features=VaapiVideoDecoder
+--enable-gpu-rasterization
+--enable-oop-rasterization
+--enable-zero-copy
+--ignore-gpu-blocklist
 # Borked until Chrome 96
 #  https://chromiumdash.appspot.com/commit/a4de986102a45e29c3ef596f22704bdca244c26c
 # ... and Chrome 98 
 # https://bugs.chromium.org/p/chromium/issues/detail?id=1236697
 #
 # Up to you and your preference and device.
-# --gpu-testing-vendor-id=0x8086 --gpu-testing-device-id=0x5917
+# --gpu-testing-vendor-id=0x8086 
+# --gpu-testing-device-id=0x5917
 # --force-device-scale-factor=1.00
+# --enable-features=WebUIDarkMode
+# --force-dark-mode
 ```
 
 - You can enforce the usage of [vaapi](https://github.com/brave/brave-browser/issues/1024) by default via `brave --enable-oop-rasterization --enable-accelerated-video-decode`.
@@ -970,6 +977,7 @@ Fake with false background information.
 
 The story was mainly about [Trademark](https://trademarks.justia.com/869/51/brave-86951863.html) violation and not about replacing ads, the Team never asked or contacted Brave to ask for permission to begin with. Also you need to do some legal proceeding because GitHub does not take content offline without any court order or trademark confirmation.
 
+See here for more info about the Trademark story:
 - [Brave forces rival browser 'Braver' to change its name](https://decrypt.co/35146/brave-forces-rival-browser-braver-change-name)
 
 [🔝 Back to top 🔝](#)
