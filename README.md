@@ -94,6 +94,17 @@ I am not a fan of mass advertising that hardening or to apply best practices is 
 
 ----------------------------------------------------------
 
+## [Energy consumption is not a big priority](#energy-consumption-is-not-a-big-priority)
+
+As much as I would love putting this point into a bigger consideration I need to clearly say that I cannot do much tests regarding energy consumption in general. Especially not with individual flags and then even do independent tests across multiple OS and Browser builds. This would require me to work and research on this subject in full-time.
+
+There are lots of variables which can and will influence the energy aspect and this is a huge topic which I am not willingly to do on my own.
+
+The only big focus regarding the overall energy consumption is when a flag dramatically decreases battery life or put extra pressure on the CPU and/or GPU that is directly debuggable trough internal tools.
+
+----------------------------------------------------------
+
+
 ## [Enforced settings as new defaults](#enforced-settings-as-new-defaults)
 
 We change those default settings to enhance the default behavior in order to reduce possible risks. You can manually unlock stuff you need, which seems more work but it is worth it + you only have to do this once per domain. This basically acts like a firewall for specific things, which is then disabled by default and you need to manually unlock first (see last screenshot to understand what I mean).
