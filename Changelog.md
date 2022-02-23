@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 23.02.2022
+    - Release: [Brave 1.35.104 macOS](https://github.com/brave/brave-browser/pull/21268/files)
 - 21.02.2022
     - History: Dissenter and Braver Story explained. Nazi Fork + Trademark violation, besides it is a bad idea to imply that 2 people can compete against an entire Team. Stupid idea, Browser Development is too big to clown around with.
     - News: [Withdraw your BAT Rewards from Uphold without High Gas Fees](https://www.publish0x.com/bitcoin-baby-day-3-crypto-is-fun/withdrawal-your-bat-rewards-from-uphold-without-high-gas-fee-xqmjpqz)
