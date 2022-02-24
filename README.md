@@ -21,9 +21,9 @@ In case you have some questions, you can ask them directly on my official [Matri
 
 Just because there are some flag who _promise_ X does not necessarily mean you should enable/change them, there are possible drawbacks!
 
-- Browser flags are in general **BETA** and can decrease performance/privacy or even corrupt your browser profile. All mentioned flags here are carefully tested and reviewed before they are mentioned.
+- Browser flags are in general [beta](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/flag_expiry.md) and can decrease performance/privacy or even corrupt your entire browser profile, however all mentioned flags here are carefully tested and reviewed before they are mentioned.
 - In case you report some bugs in the official [Brave Browser GitHub repository](https://github.com/brave/brave-browser/issues) make sure that you use a fresh Browser profile, not any "optimized" one.
-- Some flags (changes) depends on server-side related configuration changes and platform updates, which means that especially some security based flags only fully work when the server/domain actually supports them.
+- Some flags (changes) depends on server-side related configuration and platform updates, which means that especially some security based flags only fully work when the server/domain actually supports them.
 - Some flags are OS and platform specific, on older Android or Linux, Windows Builds or Versions they are probably listed under *Unavailable*, in this case you can, of course not use that flag on your platform.
 - ~~[QUIC is disabled](https://arxiv.org/abs/2101.11871) due to [privacy](https://github.com/brave/brave-browser/issues/3855) and [fingerprinting concerns](https://eprint.iacr.org/2015/582.pdf)~~ - This concern is fixed with Brave 91.1.27.8 (nightly) and got original proposal got approved as [RFC 9000](https://www.fastly.com/blog/quic-is-now-rfc-9000).
 - Use [KeePass](https://keepass.info/) (or a [fork](https://www.keepassdx.com/)) instead of the [internal password manager](https://www.tomsguide.com/news/dont-let-web-browsers-save-passwords). I personally prefer [not to work with Browser based password manager/integration](https://www.nirsoft.net/utils/chromepass.html). For more information, read [here](https://security.stackexchange.com/questions/170481/how-secure-is-chrome-storing-a-password).
@@ -34,13 +34,18 @@ Just because there are some flag who _promise_ X does not necessarily mean you s
 - Google's [Safe Browsing](https://safebrowsing.google.com/) and other security checks and connections are NOT wanted. The OS has its its own protection mechanism (OS security model + hardening).
 - [FLoC is disabled](https://brave.com/why-brave-disables-floc/) by default in Brave. Chrome users can use uBlock or change it manually via [flags](https://twitter.com/CKsTechNews/status/1399422582588383242).
 - How we [compare the network behavior of popular browsers on first-run](https://brave.com/popular-browsers-first-run/).
-- Credential checks are disabled since we do not store passwords in Brave, instead we use KeePass or other password managers of your choice.
+- All credential checks are disabled since we do not store passwords in Brave, instead we use KeePass or other password managers of your choice.
 
 ----------------------------------------------------------
 
 ## [Unresolved Issues with the biggest privacy/security impact](#unresolved-issues-with-the-biggest-privacysecurity-impact)
 
 You find an overview of [all opened privacy related and reported issues directly on the issue tracker](https://github.com/brave/brave-browser/labels/privacy%2Ftracking). [x] indicates that mentioned issue was fully resolved.
+
+- [Working with Flags and background info when they exire](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/flag_expiry.md)
+- [List of all Flags](https://source.chromium.org/chromium/chromium/src/+/main:chrome/browser/flag-metadata.json;l=1)
+- [List of all Flags that never expire](https://source.chromium.org/chromium/chromium/src/+/main:/chrome/browser/flag-never-expire-list.json)
+
 
 Please keep in mind that just because there are open issues tickets that this is not necessarily actively abused in the real-world. In lots of cases it is hard to find evidence that theoretically problems are used to directly compromise your security or privacy. Also some of the mentioned issues might be very hard to fix because trying to workaround them can results in unwanted side effects, such as Browser crashes, website breakages etc.
 
