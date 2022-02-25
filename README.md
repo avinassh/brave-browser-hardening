@@ -112,7 +112,7 @@ The only big focus regarding the overall energy consumption is when a flag drama
 
 ## [Enforced settings as new defaults](#enforced-settings-as-new-defaults)
 
-We change those default settings to enhance the default behavior in order to reduce possible risks. You can manually unlock stuff you need, which seems more work but it is worth it + you only have to do this once per domain. This basically acts like a firewall for specific things, which is then disabled by default and you need to manually unlock first (see last screenshot to understand what I mean).
+We change mentioned default settings to [improve the default behavior in order to reduce possible risks](https://80daystartup.com/day-34/insecure-defaults-considered-harmful/). You can manually unlock stuff you need, which seems more work but it is worth it + you only have to do this once per domain. This basically acts like a firewall for specific things, which is then disabled by default and you need to manually unlock first (see last screenshot to understand what I mean).
 
 ![Shield Defaults](https://i.ibb.co/jD07Df0/Shield-defaults.png)
 
