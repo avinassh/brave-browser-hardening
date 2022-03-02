@@ -58,7 +58,7 @@ Please keep in mind that just because there are open issues tickets that this is
 - [ ] [IPTC meta data in images](https://github.com/brave/brave-browser/issues/5238)
 - [x] [Keyboard API fingerprinting](https://github.com/brave/brave-browser/issues/3964)
 - [ ] [Resource Timing](https://github.com/brave/brave-browser/issues/5487)
-- [ ] [SpeechSynthesis API](https://github.com/brave/brave-browser/issues/18062)
+- [x] [SpeechSynthesis API](https://github.com/brave/brave-browser/issues/18062)
 - [ ] [TCP Fast Open (TFO)](https://github.com/brave/brave-browser/issues/6800)
 - [ ] [TLS session resumption tracking](https://github.com/brave/brave-browser/issues/1852)
 - [ ] [Trackability of QUIC connections](https://github.com/brave/brave-browser/issues/3855)
