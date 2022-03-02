@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 02.03.2022
+    - Release: [Brave Brave 1.36.109](https://github.com/brave/brave-browser/pull/21411/files)
     - Changed: Some Minor improvements in the Readme, small updates nothing important.
     - Release: [Google Chrome 99.0.4844.51](https://developer.chrome.com/blog/new-in-chrome-99/)
     - Docs: Added small instructions how to work with Delta updates and debugging. 
