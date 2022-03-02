@@ -5,7 +5,7 @@ You basically can create a debug log for the Detla updates from `brave_installer
 
 **Example log**
 
-```mermaid
+```sh
 [03/01/22 22:01:34.779][BraveUpdate:goopdate][2561:4326][Running installer][C:\Program Files (x86)\BraveSoftware\Update\Install\{EA78FFA4-26E6-459D-9D48-03CA7B5750EE}\brave_installer-delta-x64.exe][][{AFK6A192-C873-4hh1-AC78-6CC90DG45365}]
 ```
 
