@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 02.03.2022
+    - Docs: Added small instructions how to work with Delta updates and debugging. 
 - 23.02.2022
     - News: [Google kills Lite on Android](https://support.google.com/chrome/thread/151853370/sunsetting-chrome-lite-mode-in-m100-and-older?hl=en)
     - Release: [Brave 1.35.104 macOS](https://github.com/brave/brave-browser/pull/21268/files)
