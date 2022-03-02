@@ -58,7 +58,7 @@ Please keep in mind that just because there are open issues tickets that this is
 - [ ] [IPTC meta data in images](https://github.com/brave/brave-browser/issues/5238)
 - [x] [Keyboard API fingerprinting](https://github.com/brave/brave-browser/issues/3964)
 - [ ] [Resource Timing](https://github.com/brave/brave-browser/issues/5487)
-- [x] [SpeechSynthesis API](https://github.com/brave/brave-browser/issues/18062)
+- [x] [SpeechSynthesis API](https://github.com/brave/brave-browser/issues/18062) see [here for more information](https://dl.acm.org/doi/pdf/10.1145/3308558.3313703).
 - [ ] [TCP Fast Open (TFO)](https://github.com/brave/brave-browser/issues/6800)
 - [ ] [TLS session resumption tracking](https://github.com/brave/brave-browser/issues/1852)
 - [ ] [Trackability of QUIC connections](https://github.com/brave/brave-browser/issues/3855)
@@ -80,7 +80,7 @@ Please keep in mind that just because there are open issues tickets that this is
 - [x] [SpeechSynthesis-Based Browser Fingerprinting](https://dl.acm.org/doi/pdf/10.1145/3308558.3313703)
 - [x] Brave is re-skinned Safari on iOS and iPadOS, which means `chrome://flags` won't be a valid URL since WebKit doesn't recognize such URLs. This is a wont-fix issue, because it is OS limitation.
 - [ ] [DRAWN APART : A Device Identification Technique based on Remote GPU Fingerprinting](https://orenlab.sise.bgu.ac.il/p/DrawnApart), pretty much every Browser is affected by the new attack.
-- [ ] [There is currently no master password available for saved passwords](https://github.com/brave/brave-browser/issues/20794), which can lead to security and privacy related issues.
+- [ ] [There is currently no master password available for saved passwords](https://github.com/brave/brave-browser/issues/13350), which can lead to security and privacy related issues.
 - [x] [navigator.connection attribute](https://github.com/brave/brave-browser/issues/20122) - Fixed with 1.35.100, the [leakage got fixed with 1.35.101](https://github.com/brave/brave-browser/issues/20499).
 - [x] Some [AV products using and inspecting your camera and your lockscreen](https://support.kaspersky.com/15408#cameras) - This is a wontfix because this is how AVs and their security features work. You manually need to allow Brave to use the camera permission or block/allow the AV to use/not it.
 
