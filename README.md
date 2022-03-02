@@ -147,7 +147,7 @@ Importing the configuration file is quickly done. Just import the configuration 
 
 ## [Utilizing Brave Ad Block, the right-way](#utilizing-brave-ad-block-the-right-way)
 
-The overall amount of trackers are limited. This means that the majority of websites uses Google - among some other - tracking systems. Most [popular and even unpopular websites trusting the big tracking players](https://arxiv.org/pdf/1810.09160.pdf), which means it makes no sense to load filter-lists with 2 trillion entries when 80 Percent of the world uses the same tracking system. You can skip this section if you already block ads via DNS blocker system-wide in your network with AdGuard Home or PiHole and continue with the manual filter-lists we could use sub-section.
+The overall amount of trackers are limited. This means that the majority of websites uses Google - among some other - tracking systems. Most [popular and even unpopular websites trusting the big tracking players](https://arxiv.org/pdf/1810.09160.pdf), which means it makes no sense to load filter-lists with 2 trillion entries when 80 Percent of the world uses the same tracking system. You can skip this section if you already block ads via DNS blocker system-wide in your network with AdGuard Home or Pi-Hole and continue with the manual filter-lists we could use sub-section.
 
 
 Finding some lists is pretty easy, you can manually search them or use some [aggregators who list filter-lists](https://filterlists.com/).
@@ -185,7 +185,7 @@ The following steps are on Desktop and Mobile platforms the same, so I do not ex
 Go to `brave://adblock/`, just type it in the URL bar and it will display the ad-block interface with some options. By default nothing is selected and you have to choose which filters you want to enable or even manually add. Custom filters are being updated every 7 days, which might change in the future. Syncing filter-lists and your custom rules are possible - the flag is `#brave-cosmetic-filtering-sync-load`, it will get removed in the future and directly integrated and enabled by default once it is reliable enough.
 
 
-#### Lists to enable from the integrated Brave Ad Block list
+#### Additional lists you can enable from the integrated Brave Ad Block page
 
 - `CJX's Annoyance List` alternative `Fanboy Annoyances List`
 - `YousList`- To block various cosmetic stuff, aka annoyance in additional to above mentioned annoyances list. If you think this list is not enough use `Dandelion Sprout's Annoying Banners and Overlays List` instead.
