@@ -154,17 +154,19 @@ Finding some lists is pretty easy, you can manually search them or use some [agg
 
 
 By default those [filters are already used and enabled by default](https://github.com/brave/adblock-resources/blob/master/filter_lists/default.json).
+- Block Origin Filters
 - Brave Android-Specific Rules
 - Brave Social
+- Brave Social Unbreak
 - Brave Specific
 - Brave Unbreak
 - EasyList
 - EasyPrivacy
 - Peter Lowe's Ad and tracking server list
+- SugarCoat Rules 
 - URLhaus Malicious URL Blocklist
 - uBlock Origin 2020 Filters
 - uBlock Origin 2021 Filters
-- uBlock Origin Filters
 - uBlock Origin filters - Badware risks
 - uBlock Origin filters - Unbreak
 - uBlock Origin filters – Privacy
