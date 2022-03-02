@@ -1,5 +1,7 @@
 ## [Project History](#project-history)
 - 02.03.2022
+    - Changed: Some Minor improvements in the Readme, small updates nothing important.
+    - Release: [Google Chrome 99.0.4844.51](https://developer.chrome.com/blog/new-in-chrome-99/)
     - Docs: Added small instructions how to work with Delta updates and debugging. 
 - 23.02.2022
     - News: [Google kills Lite on Android](https://support.google.com/chrome/thread/151853370/sunsetting-chrome-lite-mode-in-m100-and-older?hl=en)
