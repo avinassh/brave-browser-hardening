@@ -2,9 +2,11 @@
 
 ![Logo Banner - Credit: ledger.com](https://www.ledger.com/wp-content/uploads/2021/05/cover.png)
 
+
 ## [Project updates](#project-updates)
 
 I'll try to keep this hardening guidance updated as much as I can. The below listed flags configuration/changes and tips are only tested against Windows/Linux & Android, I do not plan to test them against MacOS/iOS!
+
 
 ## [Introduction](#introduction)
 
@@ -704,6 +706,7 @@ The official [Brave QA Test Pages are here](https://dev-pages.brave.software/ind
 
 
 ## [Brave Talk FAQ](#brave-talk-faq)
+- [Brave Talk for Google Calendar](https://chrome.google.com/webstore/detail/brave-talk-for-google-cal/nimfmkdcckklbkhjjkmbjfcpaiifgamg), see official [announce](https://brave.com/brave-talk-extension/).
 - [Differences between Jitsi and Brave Talk](https://old.reddit.com/r/BATProject/comments/q77o9g/brave_talk_vs_jisti/).
 - You can access [Brave Talk](https://brave.com/brave-talk-launch/) via sidebar (needs to be enabled) or via official URL directly: [talk.brave.com](https://talk.brave.com/).
 - Why do I need to enable Rewards to use Brave Talk? For the no-cost option, enabling Brave Rewards helps Brave to cover the costs of video infrastructure. There is an alternative option available, you can subscribe to Brave Premium for a cost ($7 USD/month).
