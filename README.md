@@ -804,19 +804,19 @@ This story got a lot of attention, however it always was misleading and spread t
 
 
 ### [Reference for the Brave vs. Browser X discussion](#reference-for-the-brave-vs-browser-x-discussion)
-- [Browser privacy analyzed (tcd.ie) [pdf]](https://www.scss.tcd.ie/Doug.Leith/pubs/browser_privacy.pdf)
 - [Browser Startup Comparison (netmeister.org)](https://www.netmeister.org/blog/browser-startup.html) and [Braves own inspection (brave.com)](https://brave.com/popular-browsers-first-run/)
-- [Goggles: Democracy dies in darkness, and so does the Web (brave.com) [pdf]](https://brave.com/wp-content/uploads/2021/03/goggles.pdf)
+- [Browser privacy analyzed (tcd.ie) [pdf]](https://www.scss.tcd.ie/Doug.Leith/pubs/browser_privacy.pdf)
 - [Firefox and Chromium (madaidans-insecurities.github.io)](https://madaidans-insecurities.github.io/firefox-chromium.html)
+- [Goggles: Democracy dies in darkness, and so does the Web (brave.com) [pdf]](https://brave.com/wp-content/uploads/2021/03/goggles.pdf)
 - [How to find the most secure browsers (onlinesecurityworld.com)](https://onlinesecurityworld.com/how-to-find-the-most-secure-browsers/)
 - [Mozilla's position on specific web standards (mozilla.github.io)](https://mozilla.github.io/standards-positions/)
 - [The Security Architecture of the Chromium Browser (seclab.stanford.edu)](https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
+- [Update on Brave’s Ongoing Direct Mail Marketing Campaign](https://old.reddit.com/r/brave_browser/comments/t4gzuw/update_on_braves_ongoing_direct_mail_marketing/)
 
 [🔝 Back to top 🔝](#)
 
 
 ## [Why does Brave consume more RAM than Chrome](#why-does-brave-consume-more-ram-than-chrome)
-
 - Brave currently contains over 250k code changes compared to Chrome, which adds a lot of more features such as ad-blocking, Rewards, Wallet integration and more. Brave is not only yet another Chromium fork and adds a lot of unique features.
 - You can reduce the overall memory footprint by disabling hardware acceleration and disable to let run Brave in the background. Both options are enabled by default. You find the options under `brave://settings/system`. Disabling Brave News also reduces the memory usage.
 - The Brave Team as well as the Chrome team constantly working on lowering the overall memory footprint, however while adding more and more features and dependencies this is a challenging task.
@@ -829,7 +829,7 @@ This story got a lot of attention, however it always was misleading and spread t
 
 Especially some Firefox people or shall I say loyal fans [trolling](https://en.wikipedia.org/wiki/Internet_troll) Brave Browser and their Developer Team since practically day one because of the marketing slogan - ”privacy browser”. This is harsh as well as based because no Browser ever will be perfect in this regard. Privacy is not an on or off switch and needs continuously inspection, maintenance and changes to adopt new problems. Those smear campaigns come often from uneducated people that are not even developers themselves, these people tend to cherry pick some leaks or open issue tickets and claim the Browser is not as private as advertised to make the Browser look worse than others. This is a pointless effort because you find on every single Browser some open issue tickets, Tor Browser, Firefox, all of them have always some open issue tickets regarding privacy. This is not how FOSS works and this is no measurement instrument as "privacy index". The Brave Team puts a lot of time and research into privacy related problems, same like Firefox and the Tor Browser Project.
 
-Another strategy is to [spread fake forks to smear Brave](https://aur.archlinux.org/packages/unbrave-git), even after I reported it to Brave and the Arch Team via Tweet, such disrespectful forks continue to stay online. Not only is this deformation it also exposed how based people are against any competition.
+Another strategy is to [spread fake forks to smear Brave](https://aur.archlinux.org/packages/unbrave-git), even after I reported it to Brave and the Arch Team via Tweet, such disrespectful forks continue to stay online. Not only is this deformation it also exposes how based people are against any competition.
 
 Brave Browser is de facto privacy respecting and does by default more than any other Browser on the market, this is done by including a lot of ideas and privacy respecting changes directly into the Brave Browser. In every other Browser you need to work with extensions or configuration changes to come even remotely close to Brave Browser. I do not see how the troll argumentation holds that Brave fails regarding privacy, it is offering a solid ground with the arguably best default out-of-the-box configuration.
 
@@ -840,29 +840,28 @@ If you goal is to become nearly anonymous then use Tor Browser, the Brave Team c
 
 ## [Story about Dissenter](#story-about-dissenter)
 
+Fake with false background information.
+- [Brave legally threatens Brave fork trying to remove adds.](https://bitgrum.com/2020/09/11/brave-browser-fork-changes-name-after-legal-threats/)
+
 > [In April 2019, Dissenter was removed from the Firefox Add-ons website and the Chrome Web Store for violation of their policies that causes the creation of the Dissenter web browser.
 
 [Source](https://discourse.mozilla.org/t/the-removal-of-the-dissenter-extention/38140/70)
 
 
-Actual facts
+Actual facts:
 - [Alt-Right ‘parasites’ fork Brave Browser, replace BAT with BTC](https://micky.com.au/gab-parasites-fork-brave-browser-replace-bat-with-btc/)
-- [What happened to Dissenter](https://old.reddit.com/r/browsers/comments/ptaau2/what_happened_to_dissenter/)
-- [No one disputes the fact that Gab’s founder has the right to fork Brave. We just don’t think nazis add value to anything, including code bases](https://www.customerservant.com/no-one-disputes-the-fact-that-gabs-founder-has-the-right-to-fork-brave-we-just-dont-think-nazis-add-value-to-anything-including-code-bases/)
-- [Gab Network and Dissenter](https://en.wikipedia.org/wiki/Gab_(social_network)#Dissenter)
 - [Dissenter (web browser)](https://everipedia.org/wiki/lang_en/dissenter-web-browser)
+- [Gab Network and Dissenter](https://en.wikipedia.org/wiki/Gab_(social_network)#Dissenter)
+- [No one disputes the fact that Gab’s founder has the right to fork Brave. We just don’t think nazis add value to anything, including code bases](https://www.customerservant.com/no-one-disputes-the-fact-that-gabs-founder-has-the-right-to-fork-brave-we-just-dont-think-nazis-add-value-to-anything-including-code-bases/)
+- [What happened to Dissenter](https://old.reddit.com/r/browsers/comments/ptaau2/what_happened_to_dissenter/)
 
 [🔝 Back to top 🔝](#)
 
 
 ## [Story about Braver Fork](#story-about-braver-fork)
 
-Fake with false background information.
-- [Brave legally threatens Brave fork trying to remove adds.](https://bitgrum.com/2020/09/11/brave-browser-fork-changes-name-after-legal-threats/)
-
 The story was mainly about [Trademark](https://trademarks.justia.com/869/51/brave-86951863.html) violation and not about replacing ads, the Team never asked or contacted Brave to ask for permission to begin with. Also you need to do some legal proceeding because GitHub does not take content offline without any court order or trademark confirmation.
 
-See here for more info about the Trademark story:
 - [Brave forces rival browser 'Braver' to change its name](https://decrypt.co/35146/brave-forces-rival-browser-braver-change-name)
 
 [🔝 Back to top 🔝](#)
