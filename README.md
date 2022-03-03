@@ -475,7 +475,7 @@ Flag | Name | Info comment
 [🔝 Back to top 🔝](#)
 
 
-### [Other Useful Brave Browser Tips](#other-useful-brave-browser-tips)
+## [Other Useful Brave Browser Tips](#other-useful-brave-browser-tips)
 - [Add shortcuts to instantly use a website's search bar directly from Brave's search bar, e.g. youtube, amazon, etc.](https://old.reddit.com/r/brave_browser/comments/r7pnlk/psa_you_can_add_shortcuts_to_instantly_use_a/)
 - **DO NOT** use nightly builds. The logic to use nightly builds to get "things first" is flawed. Often you run into MORE fingerprinting due to bugs and not reviewed stuff than using stable builds. Critical vulnerabilities getting fixed immediately in stable builds anyway.
 - Brave is well [documented](https://support.brave.com/hc/en-us) and their [Wiki](https://github.com/brave/brave-browser/wiki) helps a lot.
@@ -492,7 +492,7 @@ Flag | Name | Info comment
 [🔝 Back to top 🔝](#)
 
 
-### [Linux specific Tips](#linux-specific-tips)
+## [Linux specific Tips](#linux-specific-tips)
 
 You can create a file called `chrome-flags.conf` and put it into `$HOME/.config/chrome-flags.conf`, this makes it easier to work with flags without opening the Browser.
 
@@ -536,7 +536,7 @@ Example `chrome-flags.conf` below:
 [🔝 Back to top 🔝](#)
 
 
-### [Default Fonts](#default-fonts)
+## [Default Fonts](#default-fonts)
 By default Brave Browser uses Poppins and Muli for the content you see around the web, those mentioned fonts are not the default fonts to render the actual content.
 
 The [actual fonts](https://brave.com/brave-branding-assets/) are
@@ -559,7 +559,7 @@ There is currently no way to disable font anti-aliasing/font smoothing.
 [🔝 Back to top 🔝](#)
 
 
-### [Browser Extensions](#browser-extensions)
+## [Browser Extensions](#browser-extensions)
 In general less is more, which means less memory + attack surface & in terms of fingerprinting.
 
 Extension | comment
@@ -582,7 +582,7 @@ Extension | comment
 [🔝 Back to top 🔝](#)
 
 
-### [Optional Browser Extensions (some suggestions for specific needs)](#optional-browser-extensions-some-suggestions-for-specific-needs)
+## [Optional Browser Extensions (some suggestions for specific needs)](#optional-browser-extensions-some-suggestions-for-specific-needs)
 Extension | comment
 -- | --
 [Acid Tabs](https://chrome.google.com/webstore/detail/acid-tabs/hgceopemmcmigbmhphbcgkeffommpjfc) | Auto-Grouping your Tabs easily.
@@ -613,11 +613,10 @@ Extension | comment
 [WebWormhole](https://chrome.google.com/webstore/detail/webwormhole/jhombkhjanncdalcbcahinpjoacaiidn) | WebWormhole lets you send files from one place to another.
 [YouTube Dislike Count which doesn't need external API call](https://textbin.net/8iyxfntpaa) | Userscript solution which works without any external API, an extension but with external calls is available [here](https://chrome.google.com/webstore/detail/youtube-dislike-button-co/mjnhacklcfliofhdgnkemmkioinkhcnk?ucbcb=1).
 
-
 [🔝 Back to top 🔝](#)
 
 
-### [Browser Extensions you DO NOT need](#browser-extensions-you-do-not-need)
+## [Browser Extensions you DO NOT need](#browser-extensions-you-do-not-need)
 Extension | comment
 -- | --
 [Barrier](https://chrome.google.com/webstore/detail/barrier/glaclfmcjdiljbojakihhobalpnihndd) | Already integrated into Brave Shields.
@@ -642,7 +641,7 @@ Extension | comment
 [🔝 Back to top 🔝](#)
 
 
-### [Parcourstest](#parcourstest)
+## [Parcourstest](#parcourstest)
 
 Here are the tests the Browser (Desktop/Mobile) needs to pass. This needs to be done so that we know the flag/changes we done do not influence (negatively) the Browser in a way we do not want. [Privacytests.org](https://privacytests.org/) provides a solid but not perfect overview of what is currently covered with the DEFAULT Brave Browser settings and shield settings. Test results variate a lot with changed shield settings as well as changed flags and settings.
 
@@ -672,15 +671,15 @@ This is my own Test Setup.
 - Functionality: [webcamtests](https://webcamtests.com/), Webcam Test Web Utility must show a picture in case you use and plugged in your webcam. Since we blocked the webcam permission by default, you need to unlock that permission first for the website. Do not add an general exclusion to the permission page. This then also tests if it really blocks the cam permission or not each time we revisit the page.
 - Security: [XSinator – XS-Leak Browser Test Suite](https://xsinator.com/), needs to pass, this will not happen this year but this is a long-time goal.
 
-----------------------------------------------------------
 
 The official [Brave QA Test Pages are here](https://dev-pages.brave.software/index.html).
 
-
 [🔝 Back to top 🔝](#)
 
+----------------------------------------------------------
 
-### [Brave Browser FAQ](#brave-browser-faq)
+## [Brave Browser FAQ](#brave-browser-faq)
+
 - [Brave has its own alternative to Firefox's Total Cookie Protection with Ephemeral Site Storage](https://brave.com/privacy-updates/7-ephemeral-storage/)
 - [Brave: Opt-In Data Collection](https://support.brave.com/hc/en-us/articles/4409406835469)
 - [Brave Telemetry Explained](https://brave.com/popular-browsers-first-run/)
@@ -694,7 +693,7 @@ The official [Brave QA Test Pages are here](https://dev-pages.brave.software/ind
 [🔝 Back to top 🔝](#)
 
 
-### [Brave VPN FAQ](#brave-vpn-faq)
+## [Brave VPN FAQ](#brave-vpn-faq)
 
 ![Brave VPN](https://i.ibb.co/QMtrfSN/2021-11-12-00-52.png)
 
@@ -704,15 +703,16 @@ The official [Brave QA Test Pages are here](https://dev-pages.brave.software/ind
 [🔝 Back to top 🔝](#)
 
 
-### [Brave Talk FAQ](#brave-talk-faq)
+## [Brave Talk FAQ](#brave-talk-faq)
 - [Differences between Jitsi and Brave Talk](https://old.reddit.com/r/BATProject/comments/q77o9g/brave_talk_vs_jisti/).
 - You can access [Brave Talk](https://brave.com/brave-talk-launch/) via sidebar (needs to be enabled) or via official URL directly: [talk.brave.com](https://talk.brave.com/).
 - Why do I need to enable Rewards to use Brave Talk? For the no-cost option, enabling Brave Rewards helps Brave to cover the costs of video infrastructure. There is an alternative option available, you can subscribe to Brave Premium for a cost ($7 USD/month).
 
+
 [🔝 Back to top 🔝](#)
 
 
-### [Brave Rewards FAQ](#brave-rewards-faq)
+## [Brave Rewards FAQ](#brave-rewards-faq)
 - Brave Rewards, depending on your country count as income, which means it is [NOT tax free](https://koinly.io/blog/crypto-airdrop-tax/).
 - [The browser Brave pays its 42 million users 70% of the revenue it generates from ads they see. Brave compensates them in its own “Basic Attention Tokens,” which they can redeem for currency or use to tip their favorite sites. Users report earning $5 to $10 monthly, according to a Brave spokeswoman.](https://www.wsj.com/articles/personal-data-is-worth-billions-these-startups-want-you-to-get-a-cut-11638633640?mod=hp_featst_pos3)
 - In case you see no Ads at all while you actually enabled it, make sure you check this [article](https://community.brave.com/t/if-you-not-receive-ads-on-windows-or-ubuntu/162298) first.
@@ -734,11 +734,10 @@ The official [Brave QA Test Pages are here](https://dev-pages.brave.software/ind
 - The lack of Brave Rewards on iOS is thanks to Apple's App Store rules, see [here](https://brave.com/rewards-ios/) why.
 - You can obtain growth statistics for BAT [here](https://basicattentiontoken.org/growth), monthly [growth statistics are disclosed here](https://bravebat.info/).
 
-
 [🔝 Back to top 🔝](#)
 
 
-### [Brave Wallet FAQ](#brave-wallet-faq)
+## [Brave Wallet FAQ](#brave-wallet-faq)
 
 You can see the Wallet implementation progress [here](https://github.com/brave/brave-browser/projects/24).
 
@@ -755,7 +754,7 @@ You can see the Wallet implementation progress [here](https://github.com/brave/b
 [🔝 Back to top 🔝](#)
 
 
-### [Brave Search FAQ](#brave-search-faq)
+## [Brave Search FAQ](#brave-search-faq)
 
 Brave needs to fix mentioned points otherwise I cannot suggest using it as private alternative. Until then you could use Qwant, Presearch or other [listed alternatives](https://chef-koch.bearblog.dev/privacy-tools-list-by-chef-koch/#metasearch-engines).
 
@@ -781,7 +780,7 @@ Brave needs to fix mentioned points otherwise I cannot suggest using it as priva
 [🔝 Back to top 🔝](#)
 
 
-### [Brave - Ask me anything (AMA) (sorted from newest to oldest)](#brave---ask-me-anything-ama-sorted-from-newest-to-oldest)
+## [Brave - Ask me anything (AMA) (sorted from newest to oldest)](#brave---ask-me-anything-ama-sorted-from-newest-to-oldest)
 - [Upcoming Brave Wallet AMA with Brian Bondy (CTO & Co-founder), Douglas Daniel (Front-End Engineer), James Mudgett (Sr. Director, Wallet), & Luke Mulks (VP, BizDev) from Brave - November 18, 2021 (reddit.com)](https://old.reddit.com/r/BATProject/comments/qwa4dc/upcoming_brave_wallet_ama_with_brian_bondy_cto/)
 - [I'm Peter Snyder, Senior Privacy Researcher and Director of Privacy at Brave. (reddit.com)](https://old.reddit.com/r/BATProject/comments/p6u6o9/im_peter_snyder_senior_privacy_researcher_and/)
 - [Brave CTO, and IPFS Lead: AMA about IPFS in Brave and the Decentralized Web (reddit.com)](https://old.reddit.com/r/IAmA/comments/l2tvx1/we_are_brian_bondy_cofounder_and_cto_of_the_brave/)
@@ -791,7 +790,7 @@ Brave needs to fix mentioned points otherwise I cannot suggest using it as priva
 [🔝 Back to top 🔝](#)
 
 
-### [Brave Referral Story](#brave-referral-story)
+## [Brave Referral Story](#brave-referral-story)
 
 - [Brave browser CEO apologizes for automatically adding affiliate links to cryptocurrency URLs](https://www.theverge.com/2020/6/8/21283769/brave-browser-affiliate-links-crypto-privacy-ceo-apology).
 
@@ -807,7 +806,7 @@ The whole story got a lot of attention, however it always was misleading and spr
 Later in 2020 the [referral program was shut down](https://brave.com/referral-program-update/).
 
 
-### [Reference for the Brave vs. Browser X discussion](#reference-for-the-brave-vs-browser-x-discussion)
+## [Reference for the Brave vs. Browser X discussion](#reference-for-the-brave-vs-browser-x-discussion)
 - [Browser Startup Comparison (netmeister.org)](https://www.netmeister.org/blog/browser-startup.html) and [Braves own inspection (brave.com)](https://brave.com/popular-browsers-first-run/)
 - [Browser privacy analyzed (tcd.ie) [pdf]](https://www.scss.tcd.ie/Doug.Leith/pubs/browser_privacy.pdf)
 - [Firefox and Chromium (madaidans-insecurities.github.io)](https://madaidans-insecurities.github.io/firefox-chromium.html)
