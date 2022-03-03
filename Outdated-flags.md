@@ -1,7 +1,7 @@
 [[_TOC_]]
 
 
-### [Desktop outdated, removed or integrated/replaced)](#desktop-outdated-removed-or-integratedreplaced)
+### [Desktop outdated, removed or integrated/replaced](#desktop-outdated-removed-or-integratedreplaced)
 Flag | Name | Disabled since or comment
 -- | -- | --
 `N/A` | Enable Tab Search (the little arrow down icon to search trough tabs) | Chrome 90, to disable it you can use `-disable-features=TabSearch`, an option to disable it is [planned](https://github.com/brave/brave-browser/issues/16007).
