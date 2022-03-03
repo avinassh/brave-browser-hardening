@@ -1,3 +1,6 @@
+[[_TOC_]]
+
+
 ### [Desktop outdated, removed or integrated/replaced)](#desktop-outdated-removed-or-integratedreplaced)
 Flag | Name | Disabled since or comment
 -- | -- | --
