@@ -17,6 +17,9 @@ The main purpose of this guidance is to inform people about possibilities to enh
 In case you have some questions, you can ask them directly on my official [Matrix Server](https://matrix.to/#/#cktn:matrix.org).
 
 
+[[_TOC_]]
+
+
 ## [Important notice: READ this before you start changing some random Browser flags!](#important-notice-read-this-before-you-start-changing-some-random-browser-flags)
 
 Just because there are some flag who _promise_ X does not necessarily mean you should enable/change them, there are possible drawbacks!
@@ -788,19 +791,20 @@ Brave needs to fix mentioned points otherwise I cannot suggest using it as priva
 [🔝 Back to top 🔝](#)
 
 
-### [Clickbait on behalf of Brave in the Media](#clickbait-on-behalf-of-brave-in-the-media)
+### [Brave Referral Story](#brave-referral-story)
 
 - [Brave browser CEO apologizes for automatically adding affiliate links to cryptocurrency URLs](https://www.theverge.com/2020/6/8/21283769/brave-browser-affiliate-links-crypto-privacy-ceo-apology).
 
-This story got a lot of attention, however it always was misleading and spread to gain clicks. The matter was resolved after 7-8 hours and pushed within 12 hours as commit. The actual update got released within 24 hours. Some users had to wait 48 hours because this is how the distribution system handles and delivers updates to avoid huge pressure on the server or hit GitHub limitations.
+The whole story got a lot of attention, however it always was misleading and spread to gain clicks. The matter was resolved after 7-8 hours and pushed within 12 hours as commit. The actual update got released within 24 hours. Some users had to wait 48 hours because this is how the distribution system handles and delivers updates to avoid huge pressure on the server or hit GitHub limitations.
 
 > “That being said, I think there was a lot of misunderstanding of the situation. There was no privacy harm to users, and what was being done is similar to how most, if not all, browsers interact with search engines, to receive referral cash. Using DDG in Firefox, to give one example, tells DDG the query came from Firefox the "FFAB", or, guessing, "Firefox Address Bar"…”
 
 
 > “…The user was never able to be tracked, the site wasn't able to learn anything additional about you, etc.”
 
-
 [Source](https://reddit.com/r/BATProject/comments/p6u6o9/_/h9fwa42/?context=1)
+
+Later in 2020 the [referral program was shut down](https://brave.com/referral-program-update/).
 
 
 ### [Reference for the Brave vs. Browser X discussion](#reference-for-the-brave-vs-browser-x-discussion)
