@@ -877,9 +877,4 @@ Brave contradicts themselves with weird statements regarding supporting privacy 
 ["Brave doesn't want to be associated with privacy focused groups"](https://web.archive.org/web/20210914083347/https://privacyguides.org/browsers/) while [Peter Snyder](https://brave.com/ama-with-peter-snyder/) is backing [GPC](https://brave.com/web-standards-at-brave/4-global-privacy-control/) along with [DuckDuckGo](https://spreadprivacy.com/global-privacy-control-enabled-by-default/), [Mozilla](https://blog.mozilla.org/netpolicy/2021/10/28/implementing-global-privacy-control/), [Disconnect](https://blog.disconnect.me/introducing-global-privacy-control/), [Abine](https://www.abine.com/blog/2020/online-privacy-leaders-launch-gpc-global-privacy-control-standard/) and the [EFF](https://www.eff.org/gpc-privacy-badger).
 
 
-## [Personal Note](#personal-note)
-
-I do not work for Brave nor do I get paid for writing any of this. The intention/motivation behind this guide is to harden Brave Browser for maximum performance, security, privacy and make it even more awesome than it already is.
-
-
 [🔝 Back to top 🔝](#)
