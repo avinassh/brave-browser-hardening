@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 03.03.20022
+    - News: [Brave announces Brave Talk extension, bringing one-click scheduling to Google Calendar](https://brave.com/brave-talk-extension/)
 - 02.03.2022
     - Release: [Brave Brave 1.36.109](https://github.com/brave/brave-browser/pull/21411/files)
     - Changed: Some minor improvements in the Readme, small updates nothing important.
