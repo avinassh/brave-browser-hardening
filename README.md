@@ -320,6 +320,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 [#brave-rewards-verbose-logging](chrome://flags/#brave-rewards-verbose-logging) | Enable Brave Rewards verbose logging | ❌ enabled by default since 1.25.68+
 [#enable-parallel-downloading](chrome://flags/#enable-parallel-downloading) | Parallel downloading | ✔️
 [#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+)
+[#restrict-websockets-pool](chrome://flags/#restrict-websockets-pool) | Restrict WebSockets pool | ✔️ (97.x+)
 
 [🔝 Back to top 🔝](#)
 
@@ -439,6 +440,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 [#enable-instant-start](chrome://flags/#enable-instant-start) | Instant start | ✔️
 [#enable-parallel-downloading](chrome://flags/#enable-parallel-downloading) | Parallel downloading | ✔️
 [#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+)
+[#restrict-websockets-pool](chrome://flags/#restrict-websockets-pool) | Restrict WebSockets pool | ✔️ (97.x+)
 [#smooth-scrolling](chrome://flags/#smooth-scrolling) | Smooth Scrolling | ✔️
 
 [🔝 Back to top 🔝](#)
