@@ -175,16 +175,16 @@ The following steps are on Desktop and Mobile platforms the same, so I do not ex
 Go to `brave://adblock/`, just type it in the URL bar and it will display the ad-block interface with some options. By default nothing is selected and you have to choose which filters you want to enable or even manually add. Custom filters are being updated every 7 days, which might change in the future. Syncing filter-lists and your custom rules are possible - the flag is `#brave-cosmetic-filtering-sync-load`, it will get removed in the future and directly integrated and enabled by default once it is reliable enough.
 
 
-#### Additional lists you can enable from the integrated Brave Ad Block page
+### [Additional lists you can enable from the integrated Brave Ad Block page(#additional-lists-you-can-enable-from-the-integrated-brave-ad-block-page)
 
-- `CJX's Annoyance List` alternative `Fanboy Annoyances List`
 - `YousList`- To block various cosmetic stuff, aka annoyance in additional to above mentioned annoyances list. If you think this list is not enough use `Dandelion Sprout's Annoying Banners and Overlays List` instead.
 - ONE single `language based` list, based for your own country.
 
 
 Now we can improve specific things alias manually subscribing to addition lists, but which one make the most sense... The answer is easy, we want to get rid of additional extensions and hopefully we can archive it by using an additional list that supports the things we need, anti-coinmining, URL-shortener etc.
 
-#### Optional filter-lists we could add
+
+### [Optional filter-lists you could add](#optional-filter-lists-you-could-add)
 
 Additional filter-lists can be useful, for example to [get rid of ClearURLs extension](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt), or in case if we already block DNS based ads on our entire network, in this case we might wanna use something directly which only blocks cosmetic stuff. It should be noted that uBlock as well as Brave Ad Block solutions only removing the untouched query parameter given by the original URL, this means they cannot rewrite parts or the original path of clicked URL.
 
@@ -262,7 +262,7 @@ The official Brave release schedule can be found over [here](https://github.com/
 
 
 ### [Desktop Security](#desktop-security)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#block-insecure-private-network-requests](chrome://flags/#block-insecure-private-network-requests) | Block insecure private network requests |  ✔️
 [#brave-domain-block](chrome://flags/#brave-domain-block) | Enable domain blocking | ✔️
@@ -280,7 +280,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 
 
 ### [Desktop Privacy](#desktop-privacy)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️
 [#brave-extension-network-blocking](chrome://flags/#brave-extension-network-blocking) | Enable extension network blocking | ✔️ (91+)
@@ -314,7 +314,7 @@ Benchmarks against Edge and Firefox are pretty much useless. There are multiple 
 - [Benchmarks, are often outdated pretty fast](https://old.reddit.com/r/Android/comments/kxg8gh/android_browser_benchmark_tests/). At best this is a snapshot of the current state but every Browser evolves, fixes stuff etc.
 
 
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#brave-adblock-cookie-list-default](chrome://flags/#brave-adblock-cookie-list-default) | Treat 'Easylist-Cookie List' as a default list source | ✔️
 [#brave-rewards-verbose-logging](chrome://flags/#brave-rewards-verbose-logging) | Enable Brave Rewards verbose logging | ❌ enabled by default since 1.25.68+
@@ -326,7 +326,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 
 
 ### [Desktop Functionality / Usability](#desktop-functionality--usability)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#brave-adblock-cname-uncloaking](chrome://flags/#brave-adblock-cname-uncloaking) | Enable CNAME uncloaking | ✔️ 91.1.27.36 (This will become obsolete and enabled by default once fully stable and merged into shields directly)
 [#brave-cosmetic-filtering-sync-load)](chrome://flags/#brave-cosmetic-filtering-sync-load) | Enable sync loading of cosmetic filter rules | ✔️
@@ -350,7 +350,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 
 
 ### [Desktop Scrolling](#desktop-scrolling)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#percent-based-scrolling](chrome://flags/#percent-based-scrolling) | Percent-based Scrolling | ✔️
 [#smooth-scrolling](chrome://flags/#smooth-scrolling) | Smooth Scrolling | ✔️
@@ -359,7 +359,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 
 
 ### [Desktop PWA](#desktop-pwa)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#enable-desktop-pwas-elided-extensions-menu](chrome://flags/#enable-desktop-pwas-elided-extensions-menu) | Desktop PWAs elided extensions menu | ✔️
 [#enable-desktop-pwas-launch-handler](chrome://flags/#enable-desktop-pwas-launch-handler) | Desktop PWA launch handler | ✔️
@@ -376,7 +376,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 
 
 ### [Desktop Brave Reader Mode / Speedreader](#desktop-brave-reader-mode--speedreader)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#enable-reader-mode](chrome://flags/#enable-reader-mode) | Enable Reader Mode | ✔️ Enabled available in settings (_we enforce it_, optional)
 
@@ -387,7 +387,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 ## [Android (mobile) Flags](#android-mobile-flags)
 
 ### [Mobile Security](#mobile-security)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#block-insecure-private-network-requestst](chrome://flags/#block-insecure-private-network-requestst) | N/A | ✔️
 [#brave-ephemeral-storage](chrome://flags/#brave-ephemeral-storage) | Enable Ephemeral Storage | ✔️
@@ -403,7 +403,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 
 
 ### [Mobile Privacy](#mobile-privacy)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️
 [#continuous-search](chrome://flags/#continuous-search) | Continues Search | ❌
@@ -421,7 +421,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 
 
 ### [Mobile PWA](mobile-pwa)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#pwa-update-dialog-for-name-and-icon](chrome://flags/#pwa-update-dialog-for-name-and-icon) | Enable PWA install update dialog for name/icon changes | ✔️
 
@@ -429,7 +429,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 
 
 ### [Mobile Performance](#mobile-performance)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#back-forward-cache](chrome://flags/#back-forward-cache) | Back and forward Cache | ✔️
 [#brave-adblock-cookie-list-default](chrome://flags/#brave-adblock-cookie-list-default) | Treat 'Easylist-Cookie List' as a default list source | ✔️
@@ -447,7 +447,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 
 
 ### [Mobile Functionality / Usability](#mobile-functionality--usability)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#brave-adblock-cname-uncloaking](chrome://flags/#brave-adblock-cname-uncloaking) | Enable CNAME uncloaking | ✔️ 91.1.27.36 (This will become obsolete and enabled by default once fully stable and merged into shields directly)
 [#brave-cosmetic-filtering-sync-load)](chrome://flags/#brave-cosmetic-filtering-sync-load) | Enable sync loading of cosmetic filter rules | ✔️
@@ -465,7 +465,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 
 
 ### [Brave only specific flags (not needed to be enforced)](#brave-only-specific-flags-not-needed-to-be-enforced)
-Flag | Name | Info comment
+Flag | Name | Comment
 -- | -- | --
 [#brave-adblock-cosmetic-filtering-native](chrome://flags/#brave-adblock-cosmetic-filtering-native) | Use native implementation for cosmetic filtering | Enabled by default even if it only shows "default"
 [#brave-adblock-cosmetic-filtering](chrome://flags/#brave-adblock-cosmetic-filtering) | Enable cosmetic filtering | Enabled by default even if it only shows "default"
@@ -479,6 +479,7 @@ Flag | Name | Info comment
 
 
 ## [Other Useful Brave Browser Tips](#other-useful-brave-browser-tips)
+
 - [Add shortcuts to instantly use a website's search bar directly from Brave's search bar, e.g. youtube, amazon, etc.](https://old.reddit.com/r/brave_browser/comments/r7pnlk/psa_you_can_add_shortcuts_to_instantly_use_a/)
 - **DO NOT** use nightly builds. The logic to use nightly builds to get "things first" is flawed. Often you run into MORE fingerprinting due to bugs and not reviewed stuff than using stable builds. Critical vulnerabilities getting fixed immediately in stable builds anyway.
 - Brave is well [documented](https://support.brave.com/hc/en-us) and their [Wiki](https://github.com/brave/brave-browser/wiki) helps a lot.
@@ -540,6 +541,7 @@ Example `chrome-flags.conf` below:
 
 
 ## [Default Fonts](#default-fonts)
+
 By default Brave Browser uses Poppins and Muli for the content you see around the web, those mentioned fonts are not the default fonts to render the actual content.
 
 The [actual fonts](https://brave.com/brave-branding-assets/) are
@@ -563,9 +565,10 @@ There is currently no way to disable font anti-aliasing/font smoothing.
 
 
 ## [Browser Extensions](#browser-extensions)
-In general less is more, which means less memory + attack surface & in terms of fingerprinting.
 
-Extension | comment
+In general less is more, which means less memory + attack surface & in terms of speed and fingerprinting.
+
+Extension | Comment
 -- | --
 [Behave!](https://github.com/mindedsecurity/behave) | Monitors and warns if a web page performs DNS Rebinding attacks to Private IPs, accesses Private IPs and allows Port Scans (among other features).
 [Bypass Paywalls](https://github.com/iamadamdev/bypass-paywalls-chrome) alternative [Bypass Paywalls for Chrome Clean](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean) | Bypass annoying article [PayWalls](https://en.wikipedia.org/wiki/Paywall).
@@ -585,8 +588,8 @@ Extension | comment
 [🔝 Back to top 🔝](#)
 
 
-## [Optional Browser Extensions (some suggestions for specific needs)](#optional-browser-extensions-some-suggestions-for-specific-needs)
-Extension | comment
+### [Optional Browser Extensions (some suggestions for specific needs)](#optional-browser-extensions-some-suggestions-for-specific-needs)
+Extension | Comment
 -- | --
 [Acid Tabs](https://chrome.google.com/webstore/detail/acid-tabs/hgceopemmcmigbmhphbcgkeffommpjfc) | Auto-Grouping your Tabs easily.
 [CheaperThan. Amazon](https://chrome.google.com/webstore/detail/cheaperthan-amazon/dgoicbnaoajknfnkijgjdelfdihpicie) | Snipe Amazon deals.
@@ -619,8 +622,8 @@ Extension | comment
 [🔝 Back to top 🔝](#)
 
 
-## [Browser Extensions you DO NOT need](#browser-extensions-you-do-not-need)
-Extension | comment
+### [Browser Extensions you DO NOT need](#browser-extensions-you-do-not-need)
+Extension | Comment
 -- | --
 [Barrier](https://chrome.google.com/webstore/detail/barrier/glaclfmcjdiljbojakihhobalpnihndd) | Already integrated into Brave Shields.
 [Canvas Blocker](https://chrome.google.com/webstore/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd) | Brave [randomize the fingerprint, depending on your Shield settings](https://brave.com/privacy-updates-3/).
@@ -630,7 +633,7 @@ Extension | comment
 [Cookie-AutoDelete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) | Set shield defaults to never allow Cookies and only unlock Cookies when needed, ensure "clear browser data on exit" and cookies are enabled in Brave's settings.
 [Decentraleyes](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj) | Decentraleyes is practically abandonware with little to no impact and outdated resources. The benefit cannot be proven in the real-world because CDNs update very often, due to security fixes, performance etc. using hardcoded and old libraries can make you more vulnerable.
 [Disconnect](https://disconnect.me/disconnect) | Useless, integrated into Braves filter-lists.
-[Ghostery](https://www.ghostery.com/) | Brave Adblock does the same. ↑
+[Ghostery](https://www.ghostery.com/) | Brave Ad Block does the same. ↑
 [HTTPS Everywhere](https://github.com/EFForg/https-everywhere) | Integrated into [Brave Shields](https://support.brave.com/hc/en-us/articles/360022973471-What-is-Shields).
 [LAN-port-scan forbidder](https://github.com/garywill/LAN-port-scan-forbidder) | Browser extension to protect private network. You can archive same with a Lan blocking filterlist + Browser restricts specific ports already by default.
 [LocalCDN](https://chrome.google.com/webstore/detail/localcdn/njdfdhgcmkocbgbhcioffdbicglldapd) | Integrated into Brave Shields, lots of [CDNs and Endpoints getting tunneled](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)#services-we-proxy-through-brave-servers).
