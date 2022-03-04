@@ -45,7 +45,7 @@ Just because there are some flag who _promise_ X does not necessarily mean you s
 
 ## [Unresolved Issues with the biggest privacy/security impact](#unresolved-issues-with-the-biggest-privacysecurity-impact)
 
-You find an overview of [all opened privacy related and reported issues directly on the issue tracker](https://github.com/brave/brave-browser/labels/privacy%2Ftracking). [x] indicates that mentioned issue was fully resolved.
+You find an overview of [all opened privacy related and reported issues directly on the issue tracker](https://github.com/brave/brave-browser/labels/privacy%2Ftracking). [x] indicates that mentioned issue was fully resolved, or that this is something that will not be fixed.
 
 - [Working with Flags and background info when they exire](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/flag_expiry.md)
 - [List of all Flags](https://source.chromium.org/chromium/chromium/src/+/main:chrome/browser/flag-metadata.json;l=1)
@@ -245,7 +245,7 @@ Using portable Browsers has lots of security and privacy implications.
 
 ----------------------------------------------------------
 
-## [How does Brave Browser handle Cookies](#how-does-brave-browser-handle-cookies)
+## [How Brave Browser handles Cookies](#how-brave-browser-handles-cookies)
 
 Brave Browser is very well documented. Besides the source code and the wiki entries we have several good articles for beginners on how Brave actually handles the Cookie part.
 
