@@ -11,7 +11,7 @@ You basically can create a debug log for the Detla updates from `brave_installer
 
 ### Needed Registry changes
 
-You need to run PowerShell with an Brave Dev Build higher than 1.36.x and run the following commands with admin rights. Make sure you add both entries. An OS restart is not required.
+You need to enable `#use-dev-updater-url` flag and then run PowerShell with admin rights, an Brave Dev build higher than 1.36.x + run the following commands with admin rights. Make sure you add both entries. An OS restart is not required.
 
 ```Powershell
 New-Item –Path "HKLM:\SOFTWARE\WOW6432Node\BraveSoftware" –Name UpdateDev
