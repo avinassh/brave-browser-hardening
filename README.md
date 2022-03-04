@@ -282,22 +282,23 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 ### [Desktop Privacy](#desktop-privacy)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 -- | -- | --
-[#extensions-menu-access-control](chrome://flags/#extensions-menu-access-control) | Extensions Menu Access Control | ✔️
-[#force-major-version-to-100](chrome://flags/#force-major-version-to-100) | [#force-major-version-to-100](https://blog.chromium.org/2021/10/chrome-96-beta-conditional-focus.html) | ❌
-[#enable-fenced-frames](chrome://flags/#enable-fenced-frames) | Enable the <fencedframe> element. | ✔️ with ShadowDOM
-[#reduce-user-agent](chrome://flags/#reduce-user-agent) | Reduce User-Agent request header | ✔️
 [#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️
-[#privacy-review](chrome://flags/#privacy-review) | Privacy Review (93.1.31.39+) | ✔️
-[#enable-lens-region-search](chrome://flags/#enable-lens-region-search) | Search your screen with Google Lens (93.1.31.39+) | ❌
-[#webxr-incubations](chrome://flags/#webxr-incubations) | WebXR Incubations | ❌ (92.0+)
-[#enable-quic](chrome://flags/#enable-quic) | Experimental QUIC protocol | ✔️ Needed for HTTP3/DoQ, now known as [RFC 9000](https://www.fastly.com/blog/quic-is-now-rfc-9000)
-[#omnibox-pedals-batch2](chrome://flags/#omnibox-pedals-batch2) | Omnibox Pedals batch 2 | ❌
-[#omnibox-rich-autocompletion-promisin](chrome://flags/#omnibox-rich-autocompletion-promisin) | Omnibox Rich Autocompletion Promising | ❌
-[#omnibox-dynamic-max-autocomplete](chrome://flags/#omnibox-dynamic-max-autocomplete) | Omnibox Dynamic Max Autocomplete | ❌ (_causes lags if enabled / 5+_)
 [#brave-extension-network-blocking](chrome://flags/#brave-extension-network-blocking) | Enable extension network blocking | ✔️ (91+)
 [#enable-accessibility-live-caption](chrome://flags/#enable-accessibility-live-caption) | Live Caption |❌ (90.x+) ⚠️[borked](https://github.com/brave/brave-browser/issues/15640)
-[#system-keyboard-lock](chrome://flags/#system-keyboard-lock) | Experimental system keyboard lock | ❌ (89.x+)
 [#enable-autofill-credit-card-authentication](chrome://flags/#enable-autofill-credit-card-authentication) | Allow using platform authenticators to retrieve server cards | ❌ (87.x+)
+[#enable-fenced-frames](chrome://flags/#enable-fenced-frames) | Enable the <fencedframe> element. | ✔️ with ShadowDOM
+[#enable-lens-region-search](chrome://flags/#enable-lens-region-search) | Search your screen with Google Lens (93.1.31.39+) | ❌
+[#enable-quic](chrome://flags/#enable-quic) | Experimental QUIC protocol | ✔️ Needed for HTTP3/DoQ, now known as [RFC 9000](https://www.fastly.com/blog/quic-is-now-rfc-9000)
+[#extensions-menu-access-control](chrome://flags/#extensions-menu-access-control) | Extensions Menu Access Control | ✔️
+[#force-major-version-to-100](chrome://flags/#force-major-version-to-100) | [#force-major-version-to-100](https://blog.chromium.org/2021/10/chrome-96-beta-conditional-focus.html) | ❌
+[#ntp-cache-one-google-bar](chrome://flags/#ntp-cache-one-google-bar) | Cache OneGoogleBar | ❌
+[#omnibox-dynamic-max-autocomplete](chrome://flags/#omnibox-dynamic-max-autocomplete) | Omnibox Dynamic Max Autocomplete | ❌ (_causes lags if enabled / 5+_)
+[#omnibox-pedals-batch2](chrome://flags/#omnibox-pedals-batch2) | Omnibox Pedals batch 2 | ❌
+[#omnibox-rich-autocompletion-promisin](chrome://flags/#omnibox-rich-autocompletion-promisin) | Omnibox Rich Autocompletion Promising | ❌
+[#privacy-review](chrome://flags/#privacy-review) | Privacy Review (93.1.31.39+) | ✔️
+[#reduce-user-agent](chrome://flags/#reduce-user-agent) | Reduce User-Agent request header | ✔️
+[#system-keyboard-lock](chrome://flags/#system-keyboard-lock) | Experimental system keyboard lock | ❌ (89.x+)
+[#webxr-incubations](chrome://flags/#webxr-incubations) | WebXR Incubations | ❌ (92.0+)
 
 [🔝 Back to top 🔝](#)
 
