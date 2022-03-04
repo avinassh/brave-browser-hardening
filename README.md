@@ -705,6 +705,7 @@ The official [Brave QA Test Pages are here](https://dev-pages.brave.software/ind
 
 
 ## [Brave Talk FAQ](#brave-talk-faq)
+
 - [Brave Talk for Google Calendar](https://chrome.google.com/webstore/detail/brave-talk-for-google-cal/nimfmkdcckklbkhjjkmbjfcpaiifgamg), see official [announce](https://brave.com/brave-talk-extension/).
 - [Differences between Jitsi and Brave Talk](https://old.reddit.com/r/BATProject/comments/q77o9g/brave_talk_vs_jisti/).
 - You can access [Brave Talk](https://brave.com/brave-talk-launch/) via sidebar (needs to be enabled) or via official URL directly: [talk.brave.com](https://talk.brave.com/).
@@ -715,6 +716,7 @@ The official [Brave QA Test Pages are here](https://dev-pages.brave.software/ind
 
 
 ## [Brave Rewards FAQ](#brave-rewards-faq)
+
 - Brave Rewards, depending on your country count as income, which means it is [NOT tax free](https://koinly.io/blog/crypto-airdrop-tax/).
 - [The browser Brave pays its 42 million users 70% of the revenue it generates from ads they see. Brave compensates them in its own “Basic Attention Tokens,” which they can redeem for currency or use to tip their favorite sites. Users report earning $5 to $10 monthly, according to a Brave spokeswoman.](https://www.wsj.com/articles/personal-data-is-worth-billions-these-startups-want-you-to-get-a-cut-11638633640?mod=hp_featst_pos3)
 - In case you see no Ads at all while you actually enabled it, make sure you check this [article](https://community.brave.com/t/if-you-not-receive-ads-on-windows-or-ubuntu/162298) first.
@@ -744,14 +746,11 @@ The official [Brave QA Test Pages are here](https://dev-pages.brave.software/ind
 You can see the Wallet implementation progress [here](https://github.com/brave/brave-browser/projects/24).
 
 - Brave [Wallet’s source code](https://github.com/brave/brave-core/blob/master/LICENSE) is available under an Open Source license, unlike other popular web 3.0 extensions.
-- If you install MetaMask, then the default wallet will actively change to MetaMask. If you’re a user of the old Crypto Wallets extension in Brave (a fork of MetaMask), then the first thing to know is that you can switch back to the old wallet in brave://settings/wallet by changing your default wallet back to Crypto Wallets.
-- Mobile wallet support (_planned_)
-- Full native NFT support, including owned NFT discovery, an NFT catalog, and the addition of NFT asset values in your portfolio. (_planned_)
-- Support for more blockchains (_planned_)
-- Brave Swap Rewards (_planned_)
-- Brave Rewards integrated into the wallet UI (_planned_)
-- Live Market data for most asset (including non EVM based assets) (_planned_)
 - Default currency and crypto conversion display settings. (_planned_)
+- Full native NFT support, including owned NFT discovery, an NFT catalog, and the addition of NFT asset values in your portfolio. (_planned_)
+- If you install MetaMask, then the default wallet will actively change to MetaMask. If you’re a user of the old Crypto Wallets extension in Brave (a fork of MetaMask), then the first thing to know is that you can switch back to the old wallet in brave://settings/wallet by changing your default wallet back to Crypto Wallets.
+- Live Market data for most asset (including non EVM based assets) (_planned_)
+- Support for more blockchains (_planned_)
 
 [🔝 Back to top 🔝](#)
 
@@ -822,6 +821,7 @@ Later in 2020 the [referral program was shut down](https://brave.com/referral-pr
 
 
 ## [Why does Brave consume more RAM than Chrome](#why-does-brave-consume-more-ram-than-chrome)
+
 - Brave currently contains over 250k code changes compared to Chrome, which adds a lot of more features such as ad-blocking, Rewards, Wallet integration and more. Brave is not only yet another Chromium fork and adds a lot of unique features.
 - You can reduce the overall memory footprint by disabling hardware acceleration and disable to let run Brave in the background. Both options are enabled by default. You find the options under `brave://settings/system`. Disabling Brave News also reduces the memory usage.
 - The Brave Team as well as the Chrome team constantly working on lowering the overall memory footprint, however while adding more and more features and dependencies this is a challenging task.
