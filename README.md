@@ -338,8 +338,11 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#extension-workflow-justification](chrome://flags/#extension-workflow-justification) | Extension request justification (93.x+) | ✔️
 [#force-color-profile](chrome://flags/#force-color-profile) | Force color profile | ✔️[scRBG](https://en.wikipedia.org/wiki/ScRGB) or [HDR](https://en.wikipedia.org/wiki/High_Dynamic_Range_(display_and_formats)#Description) (if your Monitor supports HDR enable the HDR option)
 [#forced-colors](chrome://flags/#forced-colors) | Forced Colors | ✔️
+[#history-journeys-omnibox-action](chrome://flags/#history-journeys-omnibox-action) | History Journeys Omnibox Action | ✔️ (Chrome 97+)
+[#history-journeys](chrome://flags/#history-journeys) | History Journeys | ✔️ (Chrome 98+)
 [#media-session-webrtc](chrome://flags/#media-session-webrtc) | Enable WebRTC actions in Media Session (93.x+) | ✔️
 [#omnibox-keyword-space-triggering-setting](chrome://flags/#omnibox-keyword-space-triggering-setting) | Omnibox Keyword Space Triggering Setting | ✔️
+[#page-info-history-desktop](chrome://flags/#page-info-history-desktop) | Page info history | ✔️ (Chrome 97+)
 [#playback-speed-button](chrome://flags/#playback-speed-button) | Playback Speed Button | ✔️
 [#scrollable-tabstrip](chrome://flags/#scrollable-tabstrip) | Tab Scrolling | ✔️ (tabs shrink to a medium width)
 [#shared-highlighting-v2](chrome://flags/#shared-highlighting-v2) | Shared Highlighting 2.0 | ✔️ (Chrome 90.x+)

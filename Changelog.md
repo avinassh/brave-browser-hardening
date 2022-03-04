@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 04.03.2022
+    - Desktop/Usability: `History Journeys`, `History Journeys Omnibox Action` and `Page info history` enabled which makes it easier to work with search and tab history. The journeys are not collected in private browser mode and nothing is submitted. I see it as useful to use those flags since it makes it easier to search and use history without opening dozens of new tabs.
     - Desktop/Mobile Performance: Enable `#restrict-websockets-pool` by default, which limits the connections to 6 which is enough for most websites. There are some intense websites that possible require more but I never found some websites who entirely break because of this. This also has a security benefit and the reason why I want to enforce it.
 - 03.03.2022
     - Fixed: Starting with Chrome 99.0.4844.51+ you can again delete default search engine providers, this was actually by design, the story about this is that people started to remove all entries and had no visible option to restore the default list. The workaround to mess with profile settings and configuration files often ended up with profile corruptions and it was very hard foe beginners to deal with it. In the future Chrome will get an visible option and button to restore the default list.
