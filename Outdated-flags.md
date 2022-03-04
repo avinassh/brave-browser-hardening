@@ -4,6 +4,7 @@
 ### [Desktop outdated, removed or integrated/replaced](#desktop-outdated-removed-or-integratedreplaced)
 Flag | Name | Disabled since or comment
 -- | -- | --
+[#brave-speedreader](chrome://flags/#brave-speedreader) | Enable SpeedReader | ✔️ This is now a settings point under Browser Settings since v95+ which you can easily switch.
 `N/A` | Enable Tab Search (the little arrow down icon to search trough tabs) | Chrome 90, to disable it you can use `-disable-features=TabSearch`, an option to disable it is [planned](https://github.com/brave/brave-browser/issues/16007).
 `#enable-experimental-fling-animation` | Enable experimental fling animation (enabled) | Chrome 91+
 `#vertical-tabs` | Vertical tabs (enabled) | Implemented in Brave 91+ - Menu allows multiple states, hide on click, on/off etc.

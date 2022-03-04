@@ -471,7 +471,6 @@ Flag | Name | Info comment
 [#brave-ads-allowed-to-fallback-to-custom-push-notification-ads](chrome://flags/#brave-ads-allowed-to-fallback-to-custom-push-notification-ads) | Allow Brave Ads to fallback from native to custom push notifications | This is OS specific and in the future will be obsolete since Brave will detect the OS and then automatically fallback to the legacy system.
 [#brave-decentralized-dns](chrome://flags/#brave-decentralized-dns) | Enable Decentralized DNS | ✔️ This is now a settings point under Browser Settings since v95+ which you can easily switch.
 [#brave-news](chrome://flags/#brave-news) | Enable Brave News | Your own decision to enable it or not, it is a global switch.
-[#brave-speedreader](chrome://flags/#brave-speedreader) | Enable SpeedReader | ✔️ This is now a settings point under Browser Settings since v95+ which you can easily switch.
 [#enable-webrtc-hide-local-ips-with-mdns](chrome://flags/#enable-webrtc-hide-local-ips-with-mdns) | This is not Brave only specific but there are two ways how Brave handles it, [via Shields or Setting](https://avoidthehack.com/webrtc-leaks-how-to-fix) | Do not enforce it via flag
 
 [🔝 Back to top 🔝](#)
