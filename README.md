@@ -377,7 +377,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 ### [Desktop Brave Reader Mode / Speedreader](#desktop-brave-reader-mode--speedreader)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and comment
 -- | -- | --
-[#enable-reader-mode](chrome://flags/#enable-reader-mode) | Enable Reader Mode |✔️(_we enforce it_, optional)
+[#enable-reader-mode](chrome://flags/#enable-reader-mode) | Enable Reader Mode | ✔️ Enabled available in settings (_we enforce it_, optional)
 
 [🔝 Back to top 🔝](#)
 
