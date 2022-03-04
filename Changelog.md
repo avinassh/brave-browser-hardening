@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 03.03.20022
+    - Fixed: Starting with Chrome 99.0.4844.51+ you can again delete default search engine providers, this was actually by design, the story about this is that people started to remove all entries and had no visible option to restore the default list. The workaround to mess with profile settings and configuration files often ended up with profile corruptions and it was very hard foe beginners to deal with it. In the future Chrome will get an visible option and button to restore the default list.
     - News: [Brave announces Brave Talk extension, bringing one-click scheduling to Google Calendar](https://brave.com/brave-talk-extension/)
 - 02.03.2022
     - Release: [Brave Brave 1.36.109](https://github.com/brave/brave-browser/pull/21411/files)
