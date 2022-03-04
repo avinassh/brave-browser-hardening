@@ -849,15 +849,14 @@ If you goal is to become nearly anonymous then use Tor Browser, the Brave Team c
 
 ## [Story about Dissenter](#story-about-dissenter)
 
-Fake with false background information.
-- [Brave legally threatens Brave fork trying to remove adds.](https://bitgrum.com/2020/09/11/brave-browser-fork-changes-name-after-legal-threats/)
+A fake story with false background information, see [Brave legally threatens Brave fork trying to remove adds.](https://bitgrum.com/2020/09/11/brave-browser-fork-changes-name-after-legal-threats/).
 
-> [In April 2019, Dissenter was removed from the Firefox Add-ons website and the Chrome Web Store for violation of their policies that causes the creation of the Dissenter web browser.
+> In April 2019, Dissenter was removed from the Firefox Add-ons website and the Chrome Web Store for violation of their policies that causes the creation of the Dissenter web browser.
 
 [Source](https://discourse.mozilla.org/t/the-removal-of-the-dissenter-extention/38140/70)
 
 
-Actual facts:
+Actual why this really was removed:
 - [Alt-Right ‘parasites’ fork Brave Browser, replace BAT with BTC](https://micky.com.au/gab-parasites-fork-brave-browser-replace-bat-with-btc/)
 - [Dissenter (web browser)](https://everipedia.org/wiki/lang_en/dissenter-web-browser)
 - [Gab Network and Dissenter](https://en.wikipedia.org/wiki/Gab_(social_network)#Dissenter)
