@@ -175,7 +175,7 @@ The following steps are on Desktop and Mobile platforms the same, so I do not ex
 Go to `brave://adblock/`, just type it in the URL bar and it will display the ad-block interface with some options. By default nothing is selected and you have to choose which filters you want to enable or even manually add. Custom filters are being updated every 7 days, which might change in the future. Syncing filter-lists and your custom rules are possible - the flag is `#brave-cosmetic-filtering-sync-load`, it will get removed in the future and directly integrated and enabled by default once it is reliable enough.
 
 
-### [Additional lists you can enable from the integrated Brave Ad Block page(#additional-lists-you-can-enable-from-the-integrated-brave-ad-block-page)
+### [Additional lists you can enable from the integrated Brave Ad Block page](#additional-lists-you-can-enable-from-the-integrated-brave-ad-block-page)
 
 - `YousList`- To block various cosmetic stuff, aka annoyance in additional to above mentioned annoyances list. If you think this list is not enough use `Dandelion Sprout's Annoying Banners and Overlays List` instead.
 - ONE single `language based` list, based for your own country.
