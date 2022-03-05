@@ -228,7 +228,7 @@ Brave Browser is not yet listed in any official F-Droid repository or has its ow
 However, there is an unofficial Repository - [Alefvanoon's Repository](https://repo.alefvanoon.xyz/fdroid/repo/?fingerprint=04DF198F553069C7BE60F057AE12000E99F7700DA895CC1CE2EB11DC871581F1) - which delivers Brave Browser with 2 Anti-Features, you can add the repository via QR-Code in F-Droid, Aurora Droid or enable the repository in the Droidify app.
 
 
-Please keep in mind that [using F-Droid has its own downsides](https://wonderfall.dev/fdroid-issues/).
+Please keep in mind that [using F-Droid has its own downsides](https://wonderfall.dev/fdroid-issues/) and that Alefvanoon is usually far behind in releasing stable builds.
 
 
 ----------------------------------------------------------
@@ -256,7 +256,7 @@ Brave Browser is very well documented. Besides the source code and the wiki entr
 
 ----------------------------------------------------------
 
-## [Desktop Flags](#Desktop-Flags)
+## [Desktop Flags](#desktop-flags)
 
 The official Brave release schedule can be found over [here](https://github.com/brave/brave-browser/wiki/Brave-Release-Schedule), the [archive is here](https://github.com/brave/brave-browser/wiki/Brave-Release-Schedule-Archive). There is currently no plan to release a Brave Browser version for SmartTV.
 
@@ -539,13 +539,12 @@ Example `chrome-flags.conf` below:
 - [Font rendering can be a PITA](https://lonesysadmin.net/2011/09/12/how-to-fix-google-chrome-font-rendering-issues/), Settings --> Advanced --> System --> Hardware Acceleration is your first starter here.
 - `#enable-gpu-rasterization` + `#enable-zero-copy` + `#canvas-oop-rasterization` combined can boost the performance on Linux by solid 10 percent, do not enable those flags on other platforms.
 
-
 [🔝 Back to top 🔝](#)
 
 
 ## [Default Fonts](#default-fonts)
 
-By default Brave Browser uses Poppins and Muli for the content you see around the web, those mentioned fonts are not the default fonts to render the actual content.
+By default Brave Browser uses Poppins and Muli for the content you see around the web, those mentioned fonts are not the default fonts to render the actual content. 
 
 The [actual fonts](https://brave.com/brave-branding-assets/) are
 - Standard font: Liberation Serif / Times New Roman 16
@@ -654,7 +653,7 @@ Extension | Comment
 Here are the tests the Browser (Desktop/Mobile) needs to pass. This needs to be done so that we know the flag/changes we done do not influence (negatively) the Browser in a way we do not want. [Privacytests.org](https://privacytests.org/) provides a solid but not perfect overview of what is currently covered with the DEFAULT Brave Browser settings and shield settings. Test results variate a lot with changed shield settings as well as changed flags and settings.
 
 
-This is my own Test Setup.
+This is my own test setup.
 
 
 - All: `brave://interstitials/` must pass (contains all sub-resources to test security, privacy etc.), there ae bunch of others like e.g. `chrome://floc-internals/` but they are not relevant since the source for this got removed.
@@ -679,6 +678,7 @@ This is my own Test Setup.
 - Functionality: [webcamtests](https://webcamtests.com/), Webcam Test Web Utility must show a picture in case you use and plugged in your webcam. Since we blocked the webcam permission by default, you need to unlock that permission first for the website. Do not add an general exclusion to the permission page. This then also tests if it really blocks the cam permission or not each time we revisit the page.
 - Security: [XSinator – XS-Leak Browser Test Suite](https://xsinator.com/), needs to pass, this will not happen this year but this is a long-time goal.
 
+Official Test:
 
 The official [Brave QA Test Pages are here](https://dev-pages.brave.software/index.html).
 
@@ -688,15 +688,12 @@ The official [Brave QA Test Pages are here](https://dev-pages.brave.software/ind
 
 ## [Brave Browser FAQ](#brave-browser-faq)
 
-- [Brave has its own alternative to Firefox's Total Cookie Protection with Ephemeral Site Storage](https://brave.com/privacy-updates/7-ephemeral-storage/)
-- [Brave: Opt-In Data Collection](https://support.brave.com/hc/en-us/articles/4409406835469)
-- [Brave Telemetry Explained](https://brave.com/popular-browsers-first-run/)
-- [Uphold Privacy Policy (used by Brave Rewards)](https://uphold.com/en/legal/privacy-policy)
-- [Brave forces rival browser 'Braver' to change its name](https://decrypt.co/35146/brave-forces-rival-browser-braver-change-name), the Browser was always behind Chromium (un-googled, Brave,... and is now "dead")
-- `I can't claim my BAT!?` Try disabling any VPN/Proxy or SOCKS. In case you're on Android you need SafetyNet to pass, you can try to [bypass it via Magisk](https://android.gadgethacks.com/how-to/magisk-101-fix-safetynet-cts-profile-mismatch-errors-0178047/).
 - [Brave Team answered to wrong accusations](https://np.reddit.com/r/brave_browser/comments/nw7et2/i_just_read_a_post_on_rprivacytoolsio_and_wtf/h18fxec/?context=3), see [here](https://old.reddit.com/r/CryptoCurrency/comments/nxce6t/brave_browser_scam_a_fake_privacy_browser_sharing/h1ely5i/) for more details. Especially [Firefox fanboys cannot accept the competition](http://ebin.city/~werwolf/posts/brave-is-shit/) even after they got [proven wrong](https://news.ycombinator.com/item?id=27552530) they do not even edit their article.
+- [Brave forces rival browser 'Braver' to change its name](https://decrypt.co/35146/brave-forces-rival-browser-braver-change-name), the Browser was always behind Chromium (un-googled, Brave,... and is now "dead")
+- [Brave has its own alternative to Firefox's Total Cookie Protection with Ephemeral Site Storage](https://brave.com/privacy-updates/7-ephemeral-storage/)
+- [Brave: Opt-In Data Collection](https://support.brave.com/hc/en-us/articles/4409406835469) & [Brave Telemetry Explained](https://brave.com/popular-browsers-first-run/)
 - [IPFS Support in Brave](https://brave.com/ipfs-support/)
-- Brave News for Android - To enable it go to `brave://flags` and enable the `Brave News` toggle. It will hit the release version of Android on Jan 4, 2022. At the time of posting it, it is only available trough nightly.
+- [Uphold Privacy Policy (used by Brave Rewards)](https://uphold.com/en/legal/privacy-policy)
 
 [🔝 Back to top 🔝](#)
 
@@ -737,6 +734,7 @@ The official [Brave QA Test Pages are here](https://dev-pages.brave.software/ind
 - If you format your PC/Smartphone you loose your BAT because they are temporarily stored on local machine until sync grabs it.
 - [Custom tipping amount](https://old.reddit.com/r/BATProject/comments/nn73yz/custom_tipping_amounts_feature_is_now_live_on/) can freely adjusted (_for now_) on Desktop only.
 - [No more 5 BAT payout minimum for Creators](https://ruqqus.com/+BraveBrowser/post/c5wk/no-more-5-bat-payout-minimum).
+- `I can't claim my BAT!?` Try disabling any VPN/Proxy or SOCKS. In case you're on Android you need SafetyNet to pass, you can try to [bypass it via Magisk](https://android.gadgethacks.com/how-to/magisk-101-fix-safetynet-cts-profile-mismatch-errors-0178047/).
 - I got some BAT and cannot verify my wallet (country not supported etc.). Create a publisher's account and connect your YouTube, Reddit or a website. Then tip yourself. You'll lose 10% of your BAT in the process, but it's better than losing everything.
 - [Gemini Now Provides an Integrated Crypto Experience for Brave Users](https://www.gemini.com/blog/gemini-now-provides-an-integrated-crypto-experience-for-brave-users)
 - [The new Gemini User Wallet in Brave Rewards lets users seamlessly redeem and move their BAT. (video)](https://vimeo.com/595169365), for text only announce, [check this out](https://brave.com/gemini-user-wallet/).
