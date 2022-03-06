@@ -39,7 +39,6 @@ Just because there are some flag who _promise_ X does not necessarily mean you s
 - Voice (Android) search input is disabled due to multiple [privacy concerns](https://www.makeuseof.com/tag/stop-google-android-listening/).
 - Browser based PDF is not changed because I prefer [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader.html) (_aka offline reading_) due to multiple [privacy/malware concerns](https://arxiv.org/abs/2103.02707).
 - Omnibox functionality is limited due to multiple [privacy concerns](https://www.cnet.com/news/eff-were-concerned-about-googles-omnibox/). See [here](http://blogoscoped.com/archive/2008-09-04-n10.html) for more info.
-- Implications with [BrowserAudit.com](https://browseraudit.com/).
 - Google's [Safe Browsing](https://safebrowsing.google.com/) and other security checks and connections are NOT wanted. The OS has its its own protection mechanism (OS security model + hardening).
 - [FLoC is disabled](https://brave.com/why-brave-disables-floc/) by default in Brave. Chrome users can use uBlock or change it manually via [flags](https://twitter.com/CKsTechNews/status/1399422582588383242).
 - How we [compare the network behavior of popular browsers on first-run](https://brave.com/popular-browsers-first-run/).
@@ -686,7 +685,6 @@ This is my own test setup.
 
 
 - All: `brave://interstitials/` must pass (contains all sub-resources to test security, privacy etc.), there ae bunch of others like e.g. `chrome://floc-internals/` but they are not relevant since the source for this got removed.
-- Security: [BrowserAudit](https://browseraudit.com/), needs minimum a score of 95% (some tests never pass on Chrome, this is okay and expected). You need to disable the shield and allow cookies to test it. Keep in mind that the test is not 100 percent reliable and is only an overall test to quickly reveal majaro issues and nothing more.
 - Performance: [Input lag test](basro.github.io/input-lag-measuring-tool), needs to pass 90+ Hz check (your monitor/device needs to support it) on some Android ROMs you need to enforce the [refresh rate manually](https://www.androidcentral.com/how-change-your-phones-resolution-and-refresh-rate) (or use an [app](https://forum.xda-developers.com/t/app-galaxy-max-hz-refresh-rate-control-quick-resolution-switcher-screen-off-mods-adaptive-mod-keep-high-adaptive-on-power-saving-mode-and-more.4181447/) and unlock [fps](https://forum.xda-developers.com/t/mod-increase-frames-per-second-5-14-15.3108786/))
 - Privacy: [Browser IP leak](https://browserleaks.com/ip), needs to pass in Tor + Incognito mode
 - Privacy: Cloaked CNAMEs _check_ against a real world website e.g. https://publicwww.com/websites/EA_data/ Brave shields must block `https://seomon.com/piwik/matomo.js`.

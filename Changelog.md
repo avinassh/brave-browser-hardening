@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 06.03.2022
+    - Changed: Browseraudit.com removed, the [source code](https://github.com/browseraudit/) is from 2015 and is heavily outdated, there is practical no activity anymore.
     - Ad Block: `#brave-adblock-redirect-url`
     - Mobile Security: `#biometric-reauth-password-filling`, this depends on if you use biometric auth or not, keep in mind that we disable and enforce all autofills in general. The flag is not mentioned below as this is a personal decision and use-case scenario.
     - Mobile PWA: `#messages-for-android-pwa-install`
