@@ -23,3 +23,23 @@ Restart your Brave Browser, if it is still running, make sure all processed are 
 ### Update log location
 
 Once you did all mentioned steps above, you can see a new file under `C:\ProgramData\BraveSoftware\Update\Log\`, it is called `BraveUpdate.log`.
+
+
+### Additional Debugging flags
+
+Those flas are usually inactive because they depend on other things or disabled by default and need to be manually enabled in order to reveal more debugging information.
+
+- [#conversion-measurement-debug-mode](chrome://flags/#conversion-measurement-debug-mode) | Conversion Measurement Debug Mode | ❌ Disabled by default
+- [#debug-packed-apps](chrome://flags/#debug-packed-apps) | Debugging for packed apps | ❌ Disabled by default
+- [#enable-debug-for-secure-payment-confirmation](chrome://flags/#enable-debug-for-secure-payment-confirmation) | Secure Payment Confirmation Debug Mode | ✔️ default but inactive
+- [#enable-debug-for-store-billing](chrome://flags/#enable-debug-for-store-billing) | Web Payments App Store Billing Debug Mode | ✔️ default but inactive
+- [#record-web-app-debug-info](chrome://flags/#record-web-app-debug-info) | Record web app debug info | ✔️ default but inactive
+- [#ui-debug-tools](chrome://flags/#ui-debug-tools) | Debugging tools for UI | ❌ Disabled by default
+
+
+
+
+
+
+
+
