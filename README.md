@@ -77,6 +77,8 @@ Please keep in mind that just because there are open issues tickets that this is
 - [ ] [DRAWN APART : A Device Identification Technique based on Remote GPU Fingerprinting](https://orenlab.sise.bgu.ac.il/p/DrawnApart), pretty much every Browser is affected by the new attack.
 - [ ] [There is currently no master password available for saved passwords](https://github.com/brave/brave-browser/issues/13350), which can lead to security and privacy related issues.
 - [x] Some [AV products using and inspecting your camera and your lockscreen](https://support.kaspersky.com/15408#cameras) - This is a wontfix because this is how AVs and their security features work. You manually need to allow Brave to use the camera permission or block/allow the AV to use/not it.
+- [ ] [Retrieving your browsing history through a CAPTCHAs](https://varun.ch/history), see [here](https://github.com/w3c/csswg-drafts/issues/3012). On Firefox this can be prevented with toggling `layout.css.visited_links_enabled` while on Chrome you need to manually clear your Browsing history after the session ended. Mozilla has an article regarding such protection mechanism over [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector).
+
 
 ----------------------------------------------------------
 
