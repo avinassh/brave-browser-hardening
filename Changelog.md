@@ -1,6 +1,7 @@
 ## [Project History](#project-history)
 - 07.03.2022
     - Release: [Brave Brave 1.36.111](https://github.com/brave/brave-browser/pull/21508/files)
+    - News: [Announcing Brave Swap-stakes: Use Brave Wallet for a chance to win up to $500K in daily prizes, including a Bored Ape NFT](https://brave.com/nft-sweepstakes/)
 - 06.03.2022
     - Changed: Browseraudit.com removed, the [source code](https://github.com/browseraudit/) is from 2015 and is heavily outdated, there is practical no activity anymore.
     - Ad Block: `#brave-adblock-redirect-url`
