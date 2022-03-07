@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 07.03.2022
+    - Release: [Brave Brave 1.36.111](https://github.com/brave/brave-browser/pull/21508/files)
 - 06.03.2022
     - Changed: Browseraudit.com removed, the [source code](https://github.com/browseraudit/) is from 2015 and is heavily outdated, there is practical no activity anymore.
     - Ad Block: `#brave-adblock-redirect-url`
