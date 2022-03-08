@@ -1,5 +1,7 @@
 ## [Brave Rewards FAQ](#brave-rewards-faq)
 
+![New and improved Brave Reward Popup to claim Rewards](https://i.ibb.co/bgB0BKL/Reward-claim.png)
+
 - Brave Rewards, depending on your country count as income, which means it is [NOT tax free (koinly.io)](https://koinly.io/blog/crypto-airdrop-tax/).
 - Claiming Rewards on Mobile [requires SafetyNet to pass (ruqqus.com)](https://ruqqus.com/+BraveBrowser/post/bk8n/android-if-your-phone-fails-safetynet) and depends on Google Play Services. If you never pass SafetyNet you will not be able to claim your BAT and you might be flagged by the system which means you will never see any ads.
 - I got some BAT and cannot verify my wallet (country not supported etc.). Create a publisher's account and connect your YouTube, Reddit or a website. Then tip yourself. You'll lose 10% of your BAT in the process, but it's better than losing everything.
