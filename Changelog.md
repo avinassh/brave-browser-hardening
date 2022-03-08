@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 08.03.2022
+    - News:  ["Unlinkable Bouncing" for more protection against bounce tracking](https://brave.com/privacy-updates/16-unlinkable-bouncing/)
 - 07.03.2022
     - News: Android Brave Version 1.35.103+ (alias Chromium 98.0.4758.102+) from Google Play Store now fully supports and works with [U2F](https://github.com/brave/brave-browser/issues/7756), this means hardware like Yubikey Security Key through NFC is fully supported. Brave for Android is the only working mobile Browser that fully supports U2F that actually works. Keep in mind that [U2F will soon be deprecated](https://developer.chrome.com/blog/deps-rems-95/) and replaced with [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). Chromiums implementation for WebAuthn will support FIDO2 and FIDO keys but not U2F based keys. It only supports FIDO based keys.
     - Release: [Brave Brave 1.36.111](https://github.com/brave/brave-browser/pull/21508/files)
