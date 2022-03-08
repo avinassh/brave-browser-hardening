@@ -124,19 +124,6 @@ Brave will not sync those newly set permission defaults. Backup your profile man
 
 ----------------------------------------------------------
 
-## [Using JS-Restrictor with Brave](#using-js-restrictor-with-brave)
-
-JavaScript Restrictor or [JShelter](https://polcak.github.io/jsrestrictor/) extension is normally not needed with Brave Browser, however you can  use it to fine control some specific settings if you want to. Changing those options can make you more unique and is the reason why this is not suggested unless you know exactly what you are dealing with.
-
-
-JShelter uses, depending on your chosen profile, [twice as much CPU power](https://github.com/polcak/jsrestrictor/issues/151) than uBlock Origin or other solutions which you can check with the integrated Task Manager and internal debugging tools. This is the main reason why I not suggest using it on a daily basis. It is better to wait until Brave addresses all above listed privacy risks.
-
-
-![Import the configuration file.](https://i.ibb.co/fDMMySB/JSRC.png)
-
-Importing the configuration file is quickly done. Just import the configuration and click override. After that relead the website and check the configuration to ensure that settings are fully working. I includes some example pages for reference.
-
-----------------------------------------------------------
 
 ## [Utilizing Brave Ad Block, the right-way](#utilizing-brave-ad-block-the-right-way)
 
@@ -219,18 +206,6 @@ In the dynamic (or high [entropy](https://en.wikipedia.org/wiki/Entropy)) way, y
 In the real-world we have limited amount of possibilities to fingerprint users, this means most stuff heavily relies on JavaScript, CSS and so on. Developing counter-measures for this is possible, but since we enforce by default to disable JavaScript which already lower attacks by around 98%, the rest are some small tricks that abuses some weaknesses that are fixable more or less easily. There might be considerable small stuff which cannot be fixed but that never leads to leaks that can identify you, your browsing habits or connect other dots.
 
 The most important stuff is listed above and is on the to-do regarding fingerprinting. None of the open issues are enough to truly expose you even if someone gets all of the remaining entropy that is currently not covered by Braves Shield. Most people just use the [fingerprinting argument to bypass restrictions](https://github.com/niespodd/browser-fingerprinting).
-
-----------------------------------------------------------
-
-## [Unofficial Brave Browser Build on F-Droid](#unofficial-brave-browser-build-on-f-droid)
-
-Brave Browser is not (yet) listed in any official F-Droid repository or has their own because there are some leftovers in the Brave source code as well as some other thing that need to be addressed first. Another point is that the app uses Google Push which is by default disabled. Brave Team said that they trust the Android eco-system and this is the main reason why they implemented Googles Push solution. However, time passed by and in the meantime [reliable and more privacy friendly push solution emerged](https://medevel.com/15-os-push-notification/) which might be implemented in the near future.
-
-![Alefvanoon's Repository QR-Code](https://repo.alefvanoon.xyz/img/qr.png)
-
-However, there is an unofficial Repository - [Alefvanoon's Repository](https://repo.alefvanoon.xyz/fdroid/repo/?fingerprint=04DF198F553069C7BE60F057AE12000E99F7700DA895CC1CE2EB11DC871581F1) - which delivers Brave Browser with 2 Anti-Features, you can add the repository via QR-Code in F-Droid, Aurora Droid or enable the repository in the Droidify app.
-
-Please keep in mind that [using F-Droid has its own downsides](https://wonderfall.dev/fdroid-issues/) and that Alefvanoon repository is usually far behind in releasing new stable builds.
 
 ----------------------------------------------------------
 
