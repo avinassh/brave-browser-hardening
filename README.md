@@ -10,7 +10,7 @@ I'll try to keep this hardening guidance updated as much as I can. The below lis
 
 ## [Introduction](#introduction)
 
-*Hardening does not start at choosing the right tools or networks, hardening begins with gathering information to informing yourself, and others in order to stay up-to-date so that you can deal with current and upcomign threats. Tools, extensions and co. are just a workaround until someone build the right system, which starts by voting and supporting the right organisations.* – Statement CHEF-KOCH, 1997
+*Hardening does not start at choosing the right tools or networks, hardening begins with gathering information to inform yourself and others in order to stay up-to-date so that you can deal with current and upcoming threats. Tools, extensions and Co. are just a workaround until someone build the right system, that starts by voting and supporting the right politicians and organisations.* – Statement CHEF-KOCH, 1997
 
 
 The main purpose of this guidance is to inform people about possibilities to enhance Brave Browser without depending on other tools or the Brave Team. You also do not need too rely on other quickly outdated guides on the Internet and hopefully even get a learning effect.
