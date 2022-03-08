@@ -516,6 +516,6 @@ There is currently no way to disable font anti-aliasing/font smoothing.
 - [How to find the most secure browsers (onlinesecurityworld.com)](https://onlinesecurityworld.com/how-to-find-the-most-secure-browsers/)
 - [Mozilla's position on specific web standards (mozilla.github.io)](https://mozilla.github.io/standards-positions/)
 - [The Security Architecture of the Chromium Browser (seclab.stanford.edu)](https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
-- [Update on Brave’s Ongoing Direct Mail Marketing Campaign](https://old.reddit.com/r/brave_browser/comments/t4gzuw/update_on_braves_ongoing_direct_mail_marketing/)
+- [Update on Brave’s Ongoing Direct Mail Marketing Campaign (reddit.com)](https://old.reddit.com/r/brave_browser/comments/t4gzuw/update_on_braves_ongoing_direct_mail_marketing/)
 
 [🔝 Back to top 🔝](#)
