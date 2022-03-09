@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 09.03.2022
+    - Desktop/Mobile Privacy: We are going to disable `#autofill-parse-merchant-promo-code-fields` and `#autofill-fill-merchant-promo-code-fields` to avoid endpoint connections.
 - 08.03.2022
     - News:  ["Unlinkable Bouncing" for more protection against bounce tracking](https://brave.com/privacy-updates/16-unlinkable-bouncing/) + [The Register Nutshell Article](https://www.theregister.com/2022/03/09/brave_bounce_tracking/)
 - 07.03.2022

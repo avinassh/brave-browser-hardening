@@ -258,6 +258,8 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 ### [Desktop Privacy](#desktop-privacy)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
+[#autofill-fill-merchant-promo-code-fields](chrome://flags/#autofill-fill-merchant-promo-code-fields) | Enable Autofill of promo code fields in forms | ❌
+[#autofill-parse-merchant-promo-code-fields](chrome://flags/#autofill-parse-merchant-promo-code-fields) | Parse promo code fields in forms | ❌
 [#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode.
 [#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️
 [#brave-domain-block-1pes](chrome://flags/#brave-domain-block-1pes) | Enable domain blocking using First Party Ephemeral Storage | ✔️
@@ -392,6 +394,8 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 ### [Mobile Privacy](#mobile-privacy)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
+[#autofill-fill-merchant-promo-code-fields](chrome://flags/#autofill-fill-merchant-promo-code-fields) | Enable Autofill of promo code fields in forms | ❌
+[#autofill-parse-merchant-promo-code-fields](chrome://flags/#autofill-parse-merchant-promo-code-fields) | Parse promo code fields in forms | ❌
 [#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode.
 [#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️
 [#brave-domain-block-1pes](chrome://flags/#brave-domain-block-1pes) | Enable domain blocking using First Party Ephemeral Storage | ✔️
