@@ -10,7 +10,11 @@
 # About Brave Browser Startup connections
 # https://brave.com/popular-browsers-first-run/
 #
-# Version:  1.0.0
+# It should be noted that disabling Rewards - by default disabled - does not cause any additional
+# endpoint connections. 
+#
+#
+# Version:  1.0.1
 # ASN:      AS16509, AS13335, AS15169
 # IP:       Behind CL + Amazon
 # IPV6:     Behind CL + Amazon
