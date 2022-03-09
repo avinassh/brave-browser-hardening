@@ -1,0 +1,79 @@
+# Brave Browser blocking HOSTS
+#
+# Author: CHEF-KOCH
+# Link: https://gitlab.com/CHEF-KOCH/brave-browser-hardening/HOSTS.txt
+# License: ISC
+# License Note: Commercial usage such as NextDNS and other services like that is NOT permitted.
+#
+# Description: Blocks all unneeded Brave Browser connections, assuming you do not want Rewards.
+#
+# About Brave Browser Startup connections
+# https://brave.com/popular-browsers-first-run/
+#
+# Version:  1.0.0
+# ASN:      AS16509, AS13335, AS15169
+# IP:       Behind CL + Amazon
+# IPV6:     Behind CL + Amazon
+#
+# Homepage
+# brave.com
+# brave.co.uk
+# brave.org.uk
+# brave.software
+# static.brave.com
+#
+# Updater for Builds and Extensions
+# brave-core-ext.s3.brave.com
+# componentupdater.brave.com
+# crlsets.brave.com
+# go-updater.brave.com
+# laptop-updates.brave.com
+# variations.brave.com
+#
+# Rewards and Ads-System
+ads.ac.uk
+ads.adstream.com.ro
+ads.am
+ads.bigbom.com
+ads.colombiaonline.com
+ads.comeon.com
+ads.elcarado.com
+ads.google.com
+ads.harvard.edu
+ads.lapalingo.com
+ads.lordlucky.com
+ads.mobilebet.com
+ads.msstate.edu
+ads.nc
+ads.nimses.com
+ads.quasaraffiliates.com
+ads.red
+ads.route.cc
+ads.sk
+ads.socialtheater.com
+ads.toplayaffiliates.com
+ads.viksa
+ads.watson.ch
+ads.xtribeapp.com
+badassembly.com
+caravansforsale.co.uk
+ffiliates.com
+fusac.fr
+memo2.nl
+reempresa.org
+seriouswheels.com
+#
+# SafeBrowsing
+# https://safebrowsing.google.com/
+# safebrowsing.brave.com
+# ogs.google.com
+#
+# Social Media
+# brave.cafe
+#
+# Telemetry and Statistics
+# https://github.com/brave/brave-browser/wiki/P3A
+# https://github.com/brave/brave-core/blob/v1.21.73/browser/brave_stats/brave_stats_updater.cc#L52
+# p3a.brave.com
+# privacy-preserving telemetry.com
+# static1.brave.com
