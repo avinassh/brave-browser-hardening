@@ -32,19 +32,20 @@ Extension | Comment
 [Copy Guard](https://github.com/roedesh/copyguard) | A browser extension to prevent copy hijacking. It can be useful if you want a feedback.
 [Enhancer for YouTube](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle) | Improve some YouTube features.
 [Export links of all extensions](https://chrome.google.com/webstore/detail/export-links-of-all-exten/cmeckkgeamghjhkepejgjockldoblhcb) | Export your list of extensions.
-[External Application Button](https://chrome.google.com/webstore/detail/external-application-butt/bifmfjgpgndemajpeeoiopbeilbaifdo) | Useful if you want to add [youtube-dl](https://github.com/ytdl-org/youtube-dl) to right-click!
+[External Application Button](https://chrome.google.com/webstore/detail/external-application-butt/bifmfjgpgndemajpeeoiopbeilbaifdo) | Useful if you want to add [YouTube-DL](https://github.com/ytdl-org/youtube-dl) to your right-click menu.
 [Fake news debunker by InVID & WeVerify](https://chrome.google.com/webstore/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe) | AI to detect fake news.
 [FastForward](https://github.com/FastForwardTeam/FastForward) | Don't waste your time with compliance. FastForward automatically skips annoying link shorteners.
 [Grammar and Spell Checker — LanguageTool](https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji) | Spellchecking is integrated into the Brave Browser (might not work on all websites.
 [Header Editor](https://github.com/FirefoxBar/HeaderEditor) | An extension which can modify the request, include request headers, response headers, redirect requests, and cancel requests.
 [JShelter](https://jshelter.org/) | Browser extension to mitigate potential threats from JavaScript.
 [Kee - Password Manager](https://chrome.google.com/webstore/detail/kee-password-manager/mmhlniccooihdimnnjhamobppdhaolme) | Helper extension for KeePass.
+[Metamask](https://github.com/MetaMask/metamask-extension) | The MetaMask browser extension enables browsing Ethereum blockchain enabled websites.
 [MyJDownloader Browser Extension](https://chrome.google.com/webstore/detail/myjdownloader-browser-ext/fbcohnmimjicjdomonkcbcpbpnhggkip) | Only relevant if you use/work with [JDownloader2](https://jdownloader.org/jdownloader2).
 [Reddit Enhancement Suite](https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb) | Some Reddit tweaks.
 [Search by Image](https://chrome.google.com/webstore/detail/search-by-image/cnojnbdhbhnkbcieeekonklommdnndci) | reverse Image Search utility.
 [Shodan](https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap) alternative [(Open Source) Country Flag & Website Info](https://chrome.google.com/webstore/detail/open-source-country-flag/peofjmjcfkokkfmffphnhcmnkakdlghm) | IP info, Whois and more for visited domain (website).
 [SponsorBlock for YouTube](https://chrome.google.com/webstore/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone) | Skip sponsor ads on YouTube.
-[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) | Make sure to opt-out of telemetry! There are [alternatives](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) but they do not work as well as TM. TM needs `enable-javascript-harmony` & `enable-experimental-web-platform-features` for some features (default disabled in Brave), only activate it if absolutely necessary.
+[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) | Make sure to opt-out of telemetry! There are [alternatives](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) but they do not work as well as TM. TM needs `#enable-javascript-harmony` & `#enable-experimental-web-platform-features` for some features (default disabled in Brave), only activate it if absolutely necessary.
 [The Commenter](https://chrome.google.com/webstore/detail/the-commenter/glhpoenomnnhjddjloedbjoeeianflod) | Check for comments on the web.
 [Tomato Clock](https://chrome.google.com/webstore/detail/tomato-clock/enemipdanmallpjakiehedcgjmibjihj) | Egg timer for your Browser.
 [VectorDraw - Paint on Tab](https://chrome.google.com/webstore/detail/vectordraw-paint-on-tab/ncffpnjojecpmbbejgficgcphjijfigc) | Pain on tabs, useful if you do some videos and want to show something.
