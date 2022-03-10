@@ -122,7 +122,7 @@
 - 11.12.2021
     - [Brave is not affected by CVE-2021-44228 Apache Log4j Remote Code Execution Vulnerability](https://security.googleblog.com/2021/12/apache-log4j-vulnerability.html?m=1), same like every other Chromium based Browser.
     - Microsoft steals Braves Ads idea and calls it [Transparent Ads](https://techcommunity.microsoft.com/t5/articles/introducing-transparent-ads-in-microsoft-edge-preview/m-p/3035970#M6283) without even mentioning Brave Browser, after that they take over [Xander](https://www.wsj.com/articles/at-t-to-sell-digital-ad-tech-platform-xandr-to-microsoft-11640101193), an ad platform.
-    - [CSS-Exfil-Protection](https://github.com/mlgualtieri/CSS-Exfil-Protection) will be declared obsolete with Chromium 98+.
+    - [CSS-Exfil-Protection](https://github.com/mlgualtieri/CSS-Exfil-Protection) will be declared obsolete with Chromium 102+.
     - The attack on uBlock is fixed, as [per discussion](https://github.com/brave/brave-browser/issues/20043). It will be integrated in the next stable bugfix release. Rust fixed it with v0.4.2+.
 - 08.12.2021
     - Next flags update will be for the major 97x Chromium version.

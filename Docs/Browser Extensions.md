@@ -6,7 +6,7 @@ Extension | Comment
 -- | --
 [Behave!](https://github.com/mindedsecurity/behave) | Monitors and warns if a web page performs DNS Rebinding attacks to Private IPs, accesses Private IPs and allows Port Scans (among other features).
 [Bypass Paywalls](https://github.com/iamadamdev/bypass-paywalls-chrome) alternative [Bypass Paywalls for Chrome Clean](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean) | Bypass annoying article [PayWalls](https://en.wikipedia.org/wiki/Paywall).
-[CSS Exfil Protection](https://github.com/mlgualtieri/CSS-Exfil-Protection) | Guard your browser against CSS Exfil attacks (_will be obsolete with Chrome 98+!_).
+[CSS Exfil Protection](https://github.com/mlgualtieri/CSS-Exfil-Protection) | Guard your browser against CSS Exfil attacks (_will be obsolete with Chrome 102+_).
 [Demodal](https://github.com/AliasIO/demodal) | A browser extension that blocks modals and overlays. It can be used in additional to uBlock or Braves Ad-Block to bypass eg. Paywalls and other modals which are hard to block via uBO or heavily rely on static filterlists.
 [Extension source viewer](https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin) | View source code of Chrome extensions, Firefox addons or Opera extensions (crx/nex/xpi) from the Chrome web store and elsewhere.
 [JShelter alias JS-Restrictor](https://polcak.github.io/jsrestrictor/) | Extension for increasing security and privacy level of the user.
