@@ -36,4 +36,5 @@ Example `chrome-flags.conf` below:
 - On Ubuntu based Distros I personally use the following combination for pass-through  `--ignore-gpu-blocklist`, `--enable-gpu-rasterization`, `--enable-zero-copy`, `--disable-gpu-driver-bug-workarounds` and `--use-gl=desktop`. Keep in mind that rasterization and zero-copy are highly unstable (depends on the OS/distro).
 - [Font rendering can be a PITA (lonesysadmin.net)](https://lonesysadmin.net/2011/09/12/how-to-fix-google-chrome-font-rendering-issues/), Settings --> Advanced --> System --> Hardware Acceleration is your first starter here.
 - `#enable-gpu-rasterization` + `#enable-zero-copy` + `#canvas-oop-rasterization` combined can boost the performance on Linux by solid 10 percent, do not enable those flags on other platforms.
+- `#enable-skia-renderer`gets rid of log spam on Intel iGPUs.
 
