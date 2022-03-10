@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 10.03.2023
+    - News: [DuckDuckGo under fire for the ranking scandal](https://twitter.com/Cernovich/status/1501922103418769408?t=5Fqaa2-KMZwHRNkYKjCVKA). It is relevant because DDG is - for now - the default choice for most countries, until Brave Search becomes fully stable.
     - Mobile Performance: `#enable-drdc`, + `#canvas-oop-rasterization` and `#enable-gpu-rasterization` do not causing tabs to crash anymore. Debugging on Android remains a PITA because missing DEV-UI extension.
     - Linux Tip: `#enable-skia-renderer` gets rid of Intel iGPU log spam under `brave://gpu/`. You can also enable it on AMD systems without any problem, there are no drawbacks. However this is a Linux specific tip since Windows handles OpenGL differently and there is no skia composition as renderer so Chromium will ignore it anyway.
     - Desktop Performance: Enforce Vulkan via Flag instead of cmdline toggle. On Android it is too unstable and causes some additional problems, such as battery drain as well as graphic glitches. On newer Android versions this is less a problem but on older ones like Android 8+ it causes some issues. This was reported already and it might finally gets fixed in v101.
