@@ -5,7 +5,6 @@ You can create a file called `chrome-flags.conf` and put it into `$HOME/.config/
 Example `chrome-flags.conf` below:
 
 ```sh
--use-vulkan
 --disable-features=UseChromeOSDirectVideoDecoder
 --disable-gpu-driver-bug-workarounds
 --enable-accelerated-2d-canvas

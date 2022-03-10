@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 10.03.2023
+    - Desktop Performance: Enforce Vulkan via Flag instead of cmdline toggle. On Android it is too unstable and causes some additional problems, such as battery drain as well as graphic glitches. On newer Android versions this is less a problem but on older ones like Android 8+ it causes some issues. This was reported already and it might finally gets fixed in v101.
     - Bugfix Release: [Brave Browser 1.36.112](https://github.com/brave/brave-browser/pull/21582/files)
 - 09.03.2022
     - Desktop/Mobile Privacy: We are going to disable `#autofill-parse-merchant-promo-code-fields` and `#autofill-fill-merchant-promo-code-fields` to avoid endpoint connections.
