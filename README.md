@@ -441,10 +441,13 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 -- | -- | --
 [#back-forward-cache](chrome://flags/#back-forward-cache) | Back and forward Cache | ✔️
 [#brave-adblock-cookie-list-default](chrome://flags/#brave-adblock-cookie-list-default) | Treat 'Easylist-Cookie List' as a default list source | ✔️
+[#canvas-oop-rasterization](chrome://flags/#canvas-oop-rasterization) | Out-of-process 2D canvas rasterization. | ✔️ enable it on Android 10+
 [#chrome-share-long-screenshot](chrome://flags/#chrome-share-long-screenshot) | N/A | ❌
 [#contextual-search-debug](chrome://flags/#contextual-search-debug) | Contextual Search Debug | ❌
 [#contextual-search-longpress-resolve](chrome://flags/#contextual-search-longpress-resolve) | N/A | ❌
 [#contextual-search-translation](chrome://flags/#contextual-search-translation) | N/A | ❌
+[#enable-drdc](chrome://flags/#enable-drdc) | Enables Display Compositor to use a new gpu thread. | ✔️ enable it on Android 10+
+[#enable-gpu-rasterization](chrome://flags/#enable-gpu-rasterization) | GPU rasterization | ✔️ enable it on Android 10+
 [#enable-instant-start](chrome://flags/#enable-instant-start) | Instant start | ✔️
 [#enable-parallel-downloading](chrome://flags/#enable-parallel-downloading) | Parallel downloading | ✔️
 [#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+)
