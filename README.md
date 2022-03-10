@@ -120,7 +120,12 @@ We change mentioned default settings to [improve the default behavior in order t
 
 On mobile we can theoretically do the same but there are some downsides, as you can see on the last screenshot, if your screen resolution is below x or you are on a smartphone with limited screen size you cannot see all options, which makes it impossible for you to change or reveal some settings or information. Brave as well as Chrome is aware that this modal dialogue is currently not optimal. That said, I - for now - only suggest doing this on Desktop and on Mobile only enforce the stronger Shield defaults only see first (screenshot).
 
-Brave will not sync those newly set permission defaults. Backup your profile manually, this is still the best way to deal with profile corruptions or in case you want to copy your settings to another profile or PC.
+Brave will not sync those newly set permission defaults. You need to backup your profile manually, this is still the best way to deal with profile corruptions or in case you want to copy your settings to another profile or PC. Permission sync is planned feature.
+
+
+**Why enforce some settings that depending on your global Shields settings**
+
+We enforce some settings as defaults for various reasons however, some flags and features depending on your global Shield settings for example by default Unlinkable Bouncing is only enable when you set your global Shield setting to aggressive. We override this behavior in case there are some website breakages but and temporarily lowering the shield setting for an specific website without loosing some protection mechanism.
 
 ----------------------------------------------------------
 
