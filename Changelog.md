@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 10.03.2023
+    - Bugfix Release: [Brave Brave 1.36.112](https://github.com/brave/brave-browser/pull/21582/files)
 - 09.03.2022
     - Desktop/Mobile Privacy: We are going to disable `#autofill-parse-merchant-promo-code-fields` and `#autofill-fill-merchant-promo-code-fields` to avoid endpoint connections.
 - 08.03.2022
