@@ -28,6 +28,7 @@ Extension | Comment
 [Acid Tabs](https://chrome.google.com/webstore/detail/acid-tabs/hgceopemmcmigbmhphbcgkeffommpjfc) | Auto-Grouping your Tabs easily.
 [CheaperThan. Amazon](https://chrome.google.com/webstore/detail/cheaperthan-amazon/dgoicbnaoajknfnkijgjdelfdihpicie) | Snipe Amazon deals.
 [ClearURLs](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk) | [Until](https://github.com/brave/brave-browser/issues/11250) [merged](https://github.com/brave/adblock-rust/issues/166) with [Brave adblock](https://github.com/brave/brave-browser/issues/16118) (needs [syntax changes](https://github.com/brave/adblock-rust/issues/166) in Braves AdBlock). Merged in [1.30.84](https://github.com/brave/brave-browser/releases/tag/v1.30.84).
+[Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic) | Automatic handling of GDPR consent forms.
 [Copy Guard](https://github.com/roedesh/copyguard) | A browser extension to prevent copy hijacking. It can be useful if you want a feedback.
 [Enhancer for YouTube](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle) | Improve some YouTube features.
 [Export links of all extensions](https://chrome.google.com/webstore/detail/export-links-of-all-exten/cmeckkgeamghjhkepejgjockldoblhcb) | Export your list of extensions.
