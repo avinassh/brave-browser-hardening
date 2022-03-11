@@ -7,7 +7,7 @@ Brave needs to fix mentioned points otherwise I cannot suggest using it as priva
 
 
 - [Brave Search Premium is 3$ a month (account.brave.com)](https://account.brave.com/?intent=checkout&product=search), Brave intends to implement Brave Rewards into Brave Search sometime in mid 2022. If you pay premium you "Get a cleaner view on all results pages", which means those that don't won't get cleaner page results.
-- [Brave Search censorship (web.archive.org)](https://web.archive.org/web/20211202152804/https://imgur.com/a/lkPTFC1) - [original source (imgur.com)](https://imgur.com/a/lkPTFC1) - is even worse than [Google Search censorship (en.wikipedia.org)](https://en.wikipedia.org/wiki/Censorship_by_Google).
+- [Brave Search censorship](https://web.archive.org/web/20211202152804/https://imgur.com/a/lkPTFC1) - [original source](https://imgur.com/a/lkPTFC1) - is even worse than [Google Search censorship](https://en.wikipedia.org/wiki/Censorship_by_Google). Months later [Brendan Eich says that thy do not censor](https://twitter.com/brendaneich/status/1501978997860683776), It should be noted that Brave Search is still in Beta stage as time of writing this.
 - [Brave Search requires you to solve a Captcha behind a VPN or Tor (imgur.com)](https://imgur.com/8RUS3Vu)
 - Amazon is used as their Certificate Authority.
 - Brave access your IP address upon your visit to determine your location and better serve you ads. While they claim to not store IP addresses, unlike DDG and Startpage, they do read your full IP address which is not private.
