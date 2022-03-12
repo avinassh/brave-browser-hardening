@@ -11,73 +11,76 @@
 # https://brave.com/popular-browsers-first-run/
 #
 # It should be noted that disabling Rewards - by default disabled - does not cause any additional
-# endpoint connections. 
+# endpoint connections.
 #
 #
-# Version:  1.0.1
+# Version:  1.0.2
 # ASN:      AS16509, AS13335, AS15169
 # IP:       Behind CL + Amazon
 # IPV6:     Behind CL + Amazon
 #
 # Homepage
-# brave.com
-# brave.co.uk
-# brave.org.uk
-# brave.software
-# static.brave.com
+#0.0.0.0 brave.com
+#0.0.0.0 brave.co.uk
+#0.0.0.0 brave.org.uk
+#0.0.0.0 static.brave.com
+#
+# Account - Jitis - Brave Talk
+#0.0.0.0 account.brave.com
 #
 # Updater for Builds and Extensions
-# brave-core-ext.s3.brave.com
-# componentupdater.brave.com
-# crlsets.brave.com
-# go-updater.brave.com
-# laptop-updates.brave.com
-# variations.brave.com
+#0.0.0.0 brave-core-ext.s3.brave.com
+#0.0.0.0 componentupdater.brave.com
+#0.0.0.0 crlsets.brave.com
+#0.0.0.0 go-updater.brave.com
+#0.0.0.0 laptop-updates.brave.com
+#0.0.0.0 variations.brave.com
 #
 # Rewards and Ads-System
-ads.ac.uk
-ads.adstream.com.ro
-ads.am
-ads.bigbom.com
-ads.colombiaonline.com
-ads.comeon.com
-ads.elcarado.com
-ads.google.com
-ads.harvard.edu
-ads.lapalingo.com
-ads.lordlucky.com
-ads.mobilebet.com
-ads.msstate.edu
-ads.nc
-ads.nimses.com
-ads.quasaraffiliates.com
-ads.red
-ads.route.cc
-ads.sk
-ads.socialtheater.com
-ads.toplayaffiliates.com
-ads.viksa
-ads.watson.ch
-ads.xtribeapp.com
-badassembly.com
-caravansforsale.co.uk
-ffiliates.com
-fusac.fr
-memo2.nl
-reempresa.org
-seriouswheels.com
+#0.0.0.0 ads.ac.uk
+#0.0.0.0 ads.adstream.com.ro
+#0.0.0.0 ads.am
+#0.0.0.0 ads.bigbom.com
+#0.0.0.0 ads.colombiaonline.com
+#0.0.0.0 ads.comeon.com
+#0.0.0.0 ads.elcarado.com
+#0.0.0.0 ads.google.com
+#0.0.0.0 ads.harvard.edu
+#0.0.0.0 ads.lapalingo.com
+#0.0.0.0 ads.lordlucky.com
+#0.0.0.0 ads.mobilebet.com
+#0.0.0.0 ads.msstate.edu
+#0.0.0.0 ads.nc
+#0.0.0.0 ads.nimses.com
+#0.0.0.0 ads.quasaraffiliates.com
+#0.0.0.0 ads.red
+#0.0.0.0 ads.route.cc
+#0.0.0.0 ads.sk
+#0.0.0.0 ads.socialtheater.com
+#0.0.0.0 ads.toplayaffiliates.com
+#0.0.0.0 ads.viksa
+#0.0.0.0 ads.watson.ch
+#0.0.0.0 ads.xtribeapp.com
+#0.0.0.0 badassembly.com
+#0.0.0.0 caravansforsale.co.uk
+#0.0.0.0 ffiliates.com
+#0.0.0.0 fusac.fr
+#0.0.0.0 memo2.nl
+#0.0.0.0 reempresa.org
+#0.0.0.0 seriouswheels.com
 #
 # SafeBrowsing
 # https://safebrowsing.google.com/
-# safebrowsing.brave.com
-# ogs.google.com
+#0.0.0.0 safebrowsing.brave.com
+#0.0.0.0 ogs.google.com
 #
 # Social Media
-# brave.cafe
+#0.0.0.0 brave.cafe
 #
 # Telemetry and Statistics
 # https://github.com/brave/brave-browser/wiki/P3A
 # https://github.com/brave/brave-core/blob/v1.21.73/browser/brave_stats/brave_stats_updater.cc#L52
-# p3a.brave.com
-# privacy-preserving telemetry.com
-# static1.brave.com
+#0.0.0.0 p3a.brave.com
+#0.0.0.0 privacy-preserving telemetry.com
+#0.0.0.0 static1.brave.com
+#
