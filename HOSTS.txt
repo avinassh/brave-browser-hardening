@@ -14,19 +14,21 @@
 # endpoint connections.
 #
 #
-# Version:  1.0.4
+# Version:  1.0.5
 # ASN:      AS16509, AS13335, AS15169
 # IP:       Behind CL + Amazon
 # IPV6:     Behind CL + Amazon
 #
 # Account - Jitis - Brave Talk
 #0.0.0.0 account.brave.com
+#0.0.0.0 talk.brave.com
 #
 # Brave BAT Statistics
 #0.0.0.0 bravebat.info
 #
-# Community
+# Community and Support
 #0.0.0.0 community.brave.com
+#0.0.0.0 support.brave.com
 #
 # Homepage
 #0.0.0.0 brave.com
@@ -61,11 +63,15 @@
 #0.0.0.0 ads.xtribeapp.com
 #0.0.0.0 badassembly.com
 #0.0.0.0 caravansforsale.co.uk
+#0.0.0.0 exchange.gemini.com
 #0.0.0.0 ffiliates.com
+#0.0.0.0 filecoin.io
+#0.0.0.0 gemini.com
 #0.0.0.0 fusac.fr
 #0.0.0.0 memo2.nl
 #0.0.0.0 reempresa.org
 #0.0.0.0 seriouswheels.com
+#0.0.0.0 uphold.com
 #
 # SafeBrowsing
 # https://safebrowsing.google.com/
