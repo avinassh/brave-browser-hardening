@@ -36,6 +36,14 @@
 #0.0.0.0 brave.org.uk
 #0.0.0.0 static.brave.com
 #
+# IPFS
+# The gateway address can be set manually, 
+# assuming you use the gateway option.
+# Default 
+#0.0.0.0 dweb.link
+# Overview of all Gateways
+# https://ipfs.github.io/public-gateway-checker/
+#
 # Rewards and Ads-System
 #0.0.0.0 ads.ac.uk
 #0.0.0.0 ads.adstream.com.ro
