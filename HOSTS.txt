@@ -1,4 +1,4 @@
-# Brave Browser blocking HOSTS
+# Brave Browser connection blocking HOSTS
 #
 # Author: CHEF-KOCH
 # Link: https://gitlab.com/CHEF-KOCH/brave-browser-hardening/HOSTS.txt
@@ -14,27 +14,25 @@
 # endpoint connections.
 #
 #
-# Version:  1.0.2
+# Version:  1.0.4
 # ASN:      AS16509, AS13335, AS15169
 # IP:       Behind CL + Amazon
 # IPV6:     Behind CL + Amazon
+#
+# Account - Jitis - Brave Talk
+#0.0.0.0 account.brave.com
+#
+# Brave BAT Statistics
+#0.0.0.0 bravebat.info
+#
+# Community
+#0.0.0.0 community.brave.com
 #
 # Homepage
 #0.0.0.0 brave.com
 #0.0.0.0 brave.co.uk
 #0.0.0.0 brave.org.uk
 #0.0.0.0 static.brave.com
-#
-# Account - Jitis - Brave Talk
-#0.0.0.0 account.brave.com
-#
-# Updater for Builds and Extensions
-#0.0.0.0 brave-core-ext.s3.brave.com
-#0.0.0.0 componentupdater.brave.com
-#0.0.0.0 crlsets.brave.com
-#0.0.0.0 go-updater.brave.com
-#0.0.0.0 laptop-updates.brave.com
-#0.0.0.0 variations.brave.com
 #
 # Rewards and Ads-System
 #0.0.0.0 ads.ac.uk
@@ -83,4 +81,12 @@
 #0.0.0.0 p3a.brave.com
 #0.0.0.0 privacy-preserving telemetry.com
 #0.0.0.0 static1.brave.com
+#
+# Updater for Builds and Extensions
+#0.0.0.0 brave-core-ext.s3.brave.com
+#0.0.0.0 componentupdater.brave.com
+#0.0.0.0 crlsets.brave.com
+#0.0.0.0 go-updater.brave.com
+#0.0.0.0 laptop-updates.brave.com
+#0.0.0.0 variations.brave.com
 #
