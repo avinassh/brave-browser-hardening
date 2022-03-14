@@ -74,9 +74,10 @@ Flag | Name | Disabled since or comment
 ### [Mobile outdated, removed or integrated/replaced](#mobile-outdated-removed-or-integratedreplaced)
 Flag | Name | Disabled since or comment
 -- | -- | --
-`#brave-sync-v2` | Enable Brave Sync v2 | Depends on user choice (opt-in) you manually can set under `Settings`.
-`#global-media-controls-for-chromeos` | Global Media Controls for ChromeOS | Depends on your Platform, only avbl. in ChromeOS
-`#Enable-sharing-page-via-qr-code` | Enable sharing page via QR Code | Merged into the Browser (stable).
+[#enable-tab-grid-layout](chrome://flags/#enable-tab-grid-layout)  | Tab Grid Layout | This flag is a leftover, the function was [removed from the source code](https://github.com/brave/brave-browser/issues/21005). If you want Grid you need to use [1.35.104](https://github.com/brave/brave-browser/releases/tag/v1.35.104) 
+[#brave-sync-v2](chrome://flags/#brave-sync-v2) | Enable Brave Sync v2 | Depends on user choice (opt-in) you manually can set under `Settings`.
+[#global-media-controls-for-chromeos](chrome://flags/#global-media-controls-for-chromeos) | Global Media Controls for ChromeOS | Depends on your Platform, only avbl. in ChromeOS
+[#enable-sharing-page-via-qr-code](chrome://flags/#enable-sharing-page-via-qr-code) | Enable sharing page via QR Code | Merged into the Browser (stable).
 [#enable-tls13-early-data](chrome://flags/#enable-tls13-early-data) | TLS 1.3 Early Data | ✔️
 [#enable-ftp](chrome://flags/#enable-ftp) | Enable FTP | Removed from the source code
 [#brave-adblock-default-1p-blocking](chrome://flags/#brave-adblock-default-1p-blocking) | Shields first-party network blocking (1.30.27+) | ✔️
