@@ -393,11 +393,11 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#brave-ephemeral-storage](chrome://flags/#brave-ephemeral-storage) | Enable Ephemeral Storage | ✔️
 [#brave-vpn](chrome://flags/#brave-vpn) | Enable experimental Brave VPN (1.30.27+), the flag got removed but it will return | ✔️
 [#disallow-doc-written-script-loads](chrome://flags/#disallow-doc-written-script-loads) | Block scripts loaded via document.write |  ✔️
-[#enable-site-isolation-for-password-sites](chrome://flags/#enable-site-isolation-for-password-sites) | N/A | ✔️
-[#post-quantum-cecpq2](chrome://flags/#post-quantum-cecpq2) | N/A | ✔️
-[#strict-origin-isolation](chrome://flags/#strict-origin-isolation) | N/A | ❌
+[#enable-site-isolation-for-password-sites](chrome://flags/#enable-site-isolation-for-password-sites) | Enable site Isolation for Password Sites | ✔️
+[#enable-site-per-process](chrome://flags/#enable-site-per-process) | [Part of Site isolation](https://www.chromium.org/Home/chromium-security/site-isolation/) | ✔️
+[#post-quantum-cecpq2](chrome://flags/#post-quantum-cecpq2) | TLS Post-Quantum Confidentiality | ✔️
+[#strict-origin-isolation](chrome://flags/#strict-origin-isolation) | Strict-Origin-Isolation | ❌
 [#sync-trusted-vault-passphrase-recovery](chrome://flags/#sync-trusted-vault-passphrase-recovery) | Enable sync trusted vault passphrase with improved recovery | ❌
-[enable-site-per-process](chrome://flags/#enable-site-per-process) | N/A | ✔️
 
 [🔝 Back to top 🔝](#)
 
