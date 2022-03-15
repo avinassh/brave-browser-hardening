@@ -314,6 +314,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+)
 [#enable-vulkan](chrome://flags/#enable-vulkan) | Use Vulkan as the graphics backend. | ✔️ On Linux either Vulkan or raw draw, if you enable both it will prefer raw draw to avoid compatibility issues.
 [#restrict-websockets-pool](chrome://flags/#restrict-websockets-pool) | Restrict WebSockets pool | ✔️ (97.x+)
+[#throttle-foreground-timers](chrome://flags/#throttle-foreground-timers) | Throttle Foreground Timers to 30 Hz | ✔️
 
 [🔝 Back to top 🔝](#)
 
@@ -456,6 +457,8 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+)
 [#restrict-websockets-pool](chrome://flags/#restrict-websockets-pool) | Restrict WebSockets pool | ✔️ (97.x+)
 [#smooth-scrolling](chrome://flags/#smooth-scrolling) | Smooth Scrolling | ✔️
+[#throttle-foreground-timers](chrome://flags/#throttle-foreground-timers) | Throttle Foreground Timers to 30 Hz | ✔️
+
 
 [🔝 Back to top 🔝](#)
 
@@ -467,22 +470,26 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#brave-adblock-cname-uncloaking](chrome://flags/#brave-adblock-cname-uncloaking) | Enable CNAME uncloaking | ✔️ 91.1.27.36 (This will become obsolete and enabled by default once fully stable and merged into shields directly)
 [#brave-adblock-redirect-url](chrome://flags/#brave-adblock-redirect-url) | Enable support for $redirect-url filter option for adblock rules | ✔️
 [#brave-cosmetic-filtering-sync-load)](chrome://flags/#brave-cosmetic-filtering-sync-load) | Enable sync loading of cosmetic filter rules | ✔️
+[#context-menu-google-lens-chip](chrome://flags/#context-menu-google-lens-chip) | Google Lens powered image search for surfaced as a chip below the context menu. | ❌
+[#context-menu-search-with-google-lens](chrome://flags/#context-menu-search-with-google-lens) | Google Lens powered image search in the context menu. | ❌
+[#context-menu-shop-with-google-lens](chrome://flags/#context-menu-shop-with-google-lens) | Google Lens powered image search for shoppable images in the context menu. | ❌
+[#context-menu-translate-with-google-lens](chrome://flags/#context-menu-translate-with-google-lens) | Google Lens powered image search for translatable images surfaced as a chip under the context menu. | ❌
 [#continuous-search](chrome://flags/#continuous-search) | Continuous Search | ✔️
 [#darken-websites-checkbox-in-themes-setting](chrome://flags/#darken-websites-checkbox-in-themes-setting) | Darken Websites checkbox in Theme settings | ✔️
 [#enable-force-dark](chrome://flags/#enable-force-dark) | Force Dark Mode for Web Contents | ✔️ `increase text contrast`
 [#enable-jxl](chrome://flags/#enable-jxl) | Enable [JXL image format ](https://jpeg.org/jpegxl/) | ✔️ (Chrome 91.1.x+)
 [#enable-quick-action-search-widget-android](chrome://flags/#enable-quick-action-search-widget-android) | [Quick Search Widget](https://www.androidpolice.com/2021/06/29/chrome-for-android-is-rediscovering-widgets-now-that-apple-made-them-hot-again/) | ✔️
+[#google-lens-sdk-intent](chrome://flags/#google-lens-sdk-intent) | Enable the use of the Lens SDK when starting intent into Lens. | ❌
 [#media-session-webrtc](chrome://flags/#media-session-webrtc) | Enable WebRTC actions in Media Session (93.x+) | ✔️
 [#messages-for-android-ads-blocked](chrome://flags/#messages-for-android-ads-blocked) | Ads Blocked Messages UI | ✔️
 [#messages-for-android-permission-update](chrome://flags/#messages-for-android-permission-update) | Permission Update Messages UI | ✔️
 [#messages-for-android-reader-mode](chrome://flags/#messages-for-android-reader-mode) | Reader Mode Messages UI | ✔️
 [#page-info-about-this-site](chrome://flags/#page-info-about-this-site) | About this Site in Page Info | ✔️
-[#playback-speed-button](chrome://flags/#playback-speed-button) | Playback Speed Button | ✔️
 [#photo-picker-video-support](chrome://flags/#photo-picker-video-support) | Photo Picker Video Support | ✔️ (with animated thumbnails)
+[#playback-speed-button](chrome://flags/#playback-speed-button) | Playback Speed Button | ✔️
 [#shared-highlighting-v2](chrome://flags/#shared-highlighting-v2) | Shared Highlighting 2.0 | ✔️ (Chrome 90.x+)
 [#shopping-list](chrome://flags/#shopping-list) | Shopping List | ❌ can create problems with Sync and working with Bookmarks is a PITA in Chrome in general, hopefully Brave gets a Widget for this one day.
 [#voice-button-in-top-toolbar](chrome://flags/#voice-button-in-top-toolbar) | Voice Button in Top Toolbar | ❌ The reason why Voice function will never work is that Google prevents using alternative services, so we disable it.
-
 
 [🔝 Back to top 🔝](#)
 

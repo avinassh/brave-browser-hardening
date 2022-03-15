@@ -1,4 +1,7 @@
 ## [Project History](#project-history)
+- 15.03.2022
+    - Desktop/Mobile Energy:`#throttle-foreground-timers`
+    - Mobile Usability: `#google-lens-sdk-intent` , `#context-menu-translate-with-google-lens`, `#context-menu-shop-with-google-lens`, `#context-menu-search-with-google-lens`, `#context-menu-google-lens-chip`
 - 10.03.2023
     - News: [DuckDuckGo under fire for the ranking scandal](https://twitter.com/Cernovich/status/1501922103418769408?t=5Fqaa2-KMZwHRNkYKjCVKA). It is relevant because DDG is - for now - the default choice for most countries, until Brave Search becomes fully stable.
     - Mobile Performance: `#enable-drdc`, + `#canvas-oop-rasterization` and `#enable-gpu-rasterization` do not causing tabs to crash anymore. Debugging on Android remains a PITA because missing DEV-UI extension.
@@ -16,7 +19,7 @@
 - 06.03.2022
     - Changed: Browseraudit.com removed, the [source code](https://github.com/browseraudit/) is from 2015 and is heavily outdated, there is practical no activity anymore.
     - Ad Block: `#brave-adblock-redirect-url`
-    - Mobile Security: `#biometric-reauth-password-filling`, this depends on if you use biometric auth or not, keep in mind that we disable and enforce all autofills in general. The flag is not mentioned below as this is a personal decision and use-case scenario.
+    - Mobile Security: `#biometric-reauth-password-filling`, this depends on if you use biometric auth or not, keep in mind that we disable all autofills forms in general. The flag is not mentioned below as this is a personal decision and use-case scenario.
     - Mobile PWA: `#messages-for-android-pwa-install`
     - Desktop Usability: `#page-info-about-this-site`
     - Desktop Privacy: `#enable-payment-request-basic-card`, `#enable-generic-sensor-extra-classes`, `#device-posture`, `#partitioned-cookies`, `#brave-dark-mode-block`, `#brave-domain-block-1pes`
