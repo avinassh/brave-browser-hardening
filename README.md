@@ -220,7 +220,7 @@ The most important stuff is listed above and is on the to-do regarding fingerpri
 
 Using portable Browsers has lots of security and privacy implications.
 
-- In most cases the official Browser developer does not provide any officially build, because of that people tend to use unofficial portable Browser repacks. Not often those repacks are done by fans and not experts and can possible contain tracking ads, Trojans, IP-grabbers etc.
+- In most cases the official Browser developer(s) do not provide any officially build, because of that people tend to use unofficial portable Browser repacks. Not often those repacks are done by fans and not experts and can possible contain tracking ads, Trojans, IP-grabbers etc.
 - There is no verification, since you use unofficial Browser repacked versions you cannot verify anything yourself. Even if you use some repacks that are open source, you cannot verify something because the installer or the browser itself might be signed with different signatures that does not match the ones from the original manufacturer.
 - No support, unofficial repack versions might not be approved nor directly supported from official site. This means they can be outdated after a short while, you already download an outdated version or the integrated update mechanism will fail because the updater depends on a service who check and delivers the actual update. Epic, MS etc Store will also not updating any portable versions.
 - Running your Browser and profile on an unprotected drive that everyone can freely access is a privacy and security nightmare. There exist tools to quickly read out your Cookies, [passwords](https://www.nirsoft.net/utils/chromepass.html) and more, usually those tool need admin rights to access protected folders but if the profile folder is unprotected you can even read our or steal the database or the entire profile without admin rights. The internal protection regarding database passwords is weak and easy to crack in seconds, the Browser typically has no master password for the database as well as a Browser startup password check.
@@ -416,7 +416,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#enable-commerce-price-tracking](chrome://flags/#enable-commerce-price-tracking) | Price Tracking | ❌ Connections to Google and partners + market influence and manipulation. It is better and more privacy-friendly to trust independent retailers and engine-crawlers such as Geizhals, Mindfactory etc.
 [#enable-fenced-frames](chrome://flags/#enable-fenced-frames) | Enable the <fencedframe> element. | ✔️ with ShadowDOM, on older Android versions prior 9 set this to Enabled otherwise you might get Browser crashes.
 [#enable-generic-sensor-extra-classes](chrome://flags/#enable-generic-sensor-extra-classes) | Generic Sensor Extra Classes | ❌
-[#enable-quic](chrome://flags/#enable-quic) | Enable QUIC Protocol | ✔️(Brave filters controversial APIs)
+[#enable-quic](chrome://flags/#enable-quic) | Enable QUIC Protocol | ✔️ (Brave filters controversial APIs)
 [#enable-payment-request-basic-card](chrome://flags/#enable-payment-request-basic-card) | PaymentRequest API 'basic-card' method | ❌
 [#force-major-version-to-100](chrome://flags/#force-major-version-to-100) | [#force-major-version-to-100](https://blog.chromium.org/2021/10/chrome-96-beta-conditional-focus.html) | ❌
 [#font-access](chrome://flags/#font-access) | Font Access APIs | ❌
@@ -511,7 +511,7 @@ Flag | Name | Comment
 
 ## [Default Fonts](#default-fonts)
 
-By default Brave Browser uses Poppins and Muli for the content you see around the web, those mentioned fonts are not the default fonts to render the actual content. 
+By default Brave Browser uses `Poppins` and `Muli` for the content you see around the web, those mentioned fonts are not the default fonts to render the actual content. 
 
 The [actual fonts](https://brave.com/brave-branding-assets/) are
 - Standard font: Liberation Serif / Times New Roman 16
