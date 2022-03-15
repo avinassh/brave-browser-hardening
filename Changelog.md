@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 15.03.2022
+    - Desktop/Mobile Privacy: `#font-access`
     - Desktop/Mobile Energy:`#throttle-foreground-timers` + `#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes`
     - Mobile Usability: `#google-lens-sdk-intent` , `#context-menu-translate-with-google-lens`, `#context-menu-shop-with-google-lens`, `#context-menu-search-with-google-lens`, `#context-menu-google-lens-chip`
 - 10.03.2022

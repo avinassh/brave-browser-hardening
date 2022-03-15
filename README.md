@@ -280,6 +280,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#enable-payment-request-basic-card](chrome://flags/#enable-payment-request-basic-card) | PaymentRequest API 'basic-card' method | ❌
 [#enable-quic](chrome://flags/#enable-quic) | Experimental QUIC protocol | ✔️ Needed for HTTP3/DoQ, now known as [RFC 9000](https://www.fastly.com/blog/quic-is-now-rfc-9000)
 [#extensions-menu-access-control](chrome://flags/#extensions-menu-access-control) | Extensions Menu Access Control | ✔️
+[#font-access](chrome://flags/#font-access) | Font Access APIs | ❌
 [#force-major-version-to-100](chrome://flags/#force-major-version-to-100) | [#force-major-version-to-100](https://blog.chromium.org/2021/10/chrome-96-beta-conditional-focus.html) | ❌
 [#ntp-cache-one-google-bar](chrome://flags/#ntp-cache-one-google-bar) | Cache OneGoogleBar | ❌
 [#omnibox-dynamic-max-autocomplete](chrome://flags/#omnibox-dynamic-max-autocomplete) | Omnibox Dynamic Max Autocomplete | ❌ (_causes lags if enabled / 5+_)
@@ -413,11 +414,12 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#device-posture](chrome://flags/#device-posture) | Device Posture API | ❌
 [#enable-autofill-credit-card-authentication](chrome://flags/#enable-autofill-credit-card-authentication) | Allow using platform authenticators to retrieve server cards | ❌ (87.x+)
 [#enable-commerce-price-tracking](chrome://flags/#enable-commerce-price-tracking) | Price Tracking | ❌ Connections to Google and partners + market influence and manipulation. It is better and more privacy-friendly to trust independent retailers and engine-crawlers such as Geizhals, Mindfactory etc.
-[#enable-fenced-frames](chrome://flags/#enable-fenced-frames) | Enable the <fencedframe> element. | ✔️ with ShadowDOM, on older Android versions prior 9 set this to Enabled otherwise you get Browser crashes.
+[#enable-fenced-frames](chrome://flags/#enable-fenced-frames) | Enable the <fencedframe> element. | ✔️ with ShadowDOM, on older Android versions prior 9 set this to Enabled otherwise you might get Browser crashes.
 [#enable-generic-sensor-extra-classes](chrome://flags/#enable-generic-sensor-extra-classes) | Generic Sensor Extra Classes | ❌
 [#enable-quic](chrome://flags/#enable-quic) | Enable QUIC Protocol | ✔️(Brave filters controversial APIs)
 [#enable-payment-request-basic-card](chrome://flags/#enable-payment-request-basic-card) | PaymentRequest API 'basic-card' method | ❌
 [#force-major-version-to-100](chrome://flags/#force-major-version-to-100) | [#force-major-version-to-100](https://blog.chromium.org/2021/10/chrome-96-beta-conditional-focus.html) | ❌
+[#font-access](chrome://flags/#font-access) | Font Access APIs | ❌
 [#google-mobile-services-passwords](chrome://flags/#google-mobile-services-passwords) | Google Mobile Services for Passwords | ❌
 [#incognito-screenshot](chrome://flags/#incognito-screenshot) | Allow Incognito Screenshots | ❌
 [#large-favicon-from-google](chrome://flags/#large-favicon-from-google) | Large favicons from Google | ❌
