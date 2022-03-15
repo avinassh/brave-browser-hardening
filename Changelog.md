@@ -1,8 +1,8 @@
 ## [Project History](#project-history)
 - 15.03.2022
-    - Desktop/Mobile Energy:`#throttle-foreground-timers`
+    - Desktop/Mobile Energy:`#throttle-foreground-timers` + `#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes`
     - Mobile Usability: `#google-lens-sdk-intent` , `#context-menu-translate-with-google-lens`, `#context-menu-shop-with-google-lens`, `#context-menu-search-with-google-lens`, `#context-menu-google-lens-chip`
-- 10.03.2023
+- 10.03.2022
     - News: [DuckDuckGo under fire for the ranking scandal](https://twitter.com/Cernovich/status/1501922103418769408?t=5Fqaa2-KMZwHRNkYKjCVKA). It is relevant because DDG is - for now - the default choice for most countries, until Brave Search becomes fully stable.
     - Mobile Performance: `#enable-drdc`, + `#canvas-oop-rasterization` and `#enable-gpu-rasterization` do not causing tabs to crash anymore. Debugging on Android remains a PITA because missing DEV-UI extension.
     - Linux Tip: `#enable-skia-renderer` gets rid of Intel iGPU log spam under `brave://gpu/`. You can also enable it on AMD systems without any problem, there are no drawbacks. However this is a Linux specific tip since Windows handles OpenGL differently and there is no skia composition as renderer so Chromium will ignore it anyway.

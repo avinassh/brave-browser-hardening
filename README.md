@@ -312,6 +312,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#brave-rewards-verbose-logging](chrome://flags/#brave-rewards-verbose-logging) | Enable Brave Rewards verbose logging | ❌ enabled by default since 1.25.68+
 [#enable-parallel-downloading](chrome://flags/#enable-parallel-downloading) | Parallel downloading | ✔️
 [#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+)
+[#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes](chrome://flags/#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes) | Throttle non-visible cross-origin iframes | ✔️
 [#enable-vulkan](chrome://flags/#enable-vulkan) | Use Vulkan as the graphics backend. | ✔️ On Linux either Vulkan or raw draw, if you enable both it will prefer raw draw to avoid compatibility issues.
 [#restrict-websockets-pool](chrome://flags/#restrict-websockets-pool) | Restrict WebSockets pool | ✔️ (97.x+)
 [#throttle-foreground-timers](chrome://flags/#throttle-foreground-timers) | Throttle Foreground Timers to 30 Hz | ✔️
@@ -455,10 +456,10 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#enable-instant-start](chrome://flags/#enable-instant-start) | Instant start | ✔️
 [#enable-parallel-downloading](chrome://flags/#enable-parallel-downloading) | Parallel downloading | ✔️
 [#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+)
+[#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes](chrome://flags/#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes) | Throttle non-visible cross-origin iframes | ✔️
 [#restrict-websockets-pool](chrome://flags/#restrict-websockets-pool) | Restrict WebSockets pool | ✔️ (97.x+)
 [#smooth-scrolling](chrome://flags/#smooth-scrolling) | Smooth Scrolling | ✔️
 [#throttle-foreground-timers](chrome://flags/#throttle-foreground-timers) | Throttle Foreground Timers to 30 Hz | ✔️
-
 
 [🔝 Back to top 🔝](#)
 
