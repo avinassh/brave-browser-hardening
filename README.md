@@ -74,7 +74,6 @@ Please keep in mind that just because there are open issues tickets that this is
 - [ ] [TLS session resumption tracking](https://github.com/brave/brave-browser/issues/1852)
 - [ ] [There is currently no master password available for saved passwords](https://github.com/brave/brave-browser/issues/13350), which can lead to security and privacy related issues.
 - [ ] [Trackability of QUIC connections](https://github.com/brave/brave-browser/issues/3855)
-- [ ] [Tracking via Progressive Web Application Manifests](https://github.com/brave/brave-browser/issues/4237)
 - [ ] [WebGL Extension farbling](https://github.com/brave/brave-browser/issues/15904)
 - [ ] [Window dimension based fingerprinting](https://github.com/brave/brave-browser/issues/720)
 - [ ] [Zoom Levels tracking](https://github.com/brave/brave-browser/issues/541)
