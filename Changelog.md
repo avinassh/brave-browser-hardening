@@ -1,7 +1,8 @@
 ## [Project History](#project-history)
 - 15.03.2022
     - Release: [Google Chrome 99.0.4844.74](https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html)
-    - Release: [Brave Browser 1.36.112 v3 for Android + v2 Desktop](https://github.com/brave/brave-browser/pull/21657/files)
+    - Release: [Brave Browser 1.36.116 Desktop](https://github.com/brave/brave-browser/pull/21706/files)
+    - Release: [Brave Browser 1.36.112 Android](https://github.com/brave/brave-browser/pull/21657/files)
     - Desktop/Mobile Privacy: `#font-access`
     - Desktop/Mobile Energy:`#throttle-foreground-timers` + `#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes`
     - Mobile Usability: `#google-lens-sdk-intent` , `#context-menu-translate-with-google-lens`, `#context-menu-shop-with-google-lens`, `#context-menu-search-with-google-lens`, `#context-menu-google-lens-chip`
