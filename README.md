@@ -276,7 +276,6 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#enable-autofill-credit-card-authentication](chrome://flags/#enable-autofill-credit-card-authentication) | Allow using platform authenticators to retrieve server cards | ❌ (87.x+)
 [#enable-fenced-frames](chrome://flags/#enable-fenced-frames) | Enable the <fencedframe> element. | ✔️ with ShadowDOM
 [#enable-generic-sensor-extra-classes](chrome://flags/#enable-generic-sensor-extra-classes) | Generic Sensor Extra Classes | ❌
-[#enable-lens-region-search](chrome://flags/#enable-lens-region-search) | Search your screen with Google Lens (93.1.31.39+) | ❌
 [#enable-payment-request-basic-card](chrome://flags/#enable-payment-request-basic-card) | PaymentRequest API 'basic-card' method | ❌
 [#enable-quic](chrome://flags/#enable-quic) | Experimental QUIC protocol | ✔️ Needed for HTTP3/DoQ, now known as [RFC 9000](https://www.fastly.com/blog/quic-is-now-rfc-9000)
 [#extensions-menu-access-control](chrome://flags/#extensions-menu-access-control) | Extensions Menu Access Control | ✔️
@@ -504,6 +503,7 @@ Flag | Name | Comment
 [#brave-ads-allowed-to-fallback-to-custom-push-notification-ads](chrome://flags/#brave-ads-allowed-to-fallback-to-custom-push-notification-ads) | Allow Brave Ads to fallback from native to custom push notifications | This is OS specific and in the future will be obsolete since Brave will detect the OS and then automatically fallback to the legacy system.
 [#brave-decentralized-dns](chrome://flags/#brave-decentralized-dns) | Enable Decentralized DNS | ✔️ This is now a settings point under Browser Settings since v95+ which you can easily switch.
 [#brave-news](chrome://flags/#brave-news) | Enable Brave News | Your own decision to enable it or not, it is a global switch.
+[#enable-lens-region-search](chrome://flags/#enable-lens-region-search) | Search your screen with Google Lens (93.1.31.39+), since 1.36.112 it is disabled by default. | ❌
 [#enable-webrtc-hide-local-ips-with-mdns](chrome://flags/#enable-webrtc-hide-local-ips-with-mdns) | This is not Brave only specific but there are two ways how Brave handles it, [via Shields or Setting](https://avoidthehack.com/webrtc-leaks-how-to-fix) | Do not enforce it via flag
 
 [🔝 Back to top 🔝](#)
