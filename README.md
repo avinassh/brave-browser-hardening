@@ -129,6 +129,13 @@ Brave will not sync those newly set permission defaults. You need to backup your
 
 We enforce some settings as defaults for various reasons however, some flags and features depending on your global Shield settings for example by default Unlinkable Bouncing is only enable when you set your global Shield setting to aggressive. We override this behavior in case there are some website breakages but and temporarily lowering the shield setting for an specific website without loosing some protection mechanism.
 
+In a nutshell
+- [GPU information is removed in strict mode](https://community.brave.com/t/we-need-anti-fingerprinting-for-webgl-specifically/109819/6), in general [fingerprint protect depends on several factorse](https://github.com/brave/brave-browser/issues/17755#issuecomment-985750614) which is the reason why we enforce the strongest settings as new defaults.
+- [Canvas](https://github.com/brave/brave-browser/issues/9186) and [WebAudio](https://github.com/brave/brave-browser/issues/9187) are randomized
+- [Shield turned off means no protection at all](https://brave.com/privacy-updates/9-web-compat-blocking/)
+- [The tor approach to make every user look the same has some issues](https://github.com/brave/brave-browser/issues/20268#issuecomment-1003189602), which is the reason why we [fight website breakages with randomization instead](https://github.com/brave/brave-browser/wiki/Fingerprinting-Protections#why-does-panopticlickefforg-or-some-other-site-say-that-i-am-fingerprintable). The approach is [explained in-depth over here](https://brave.com/privacy-updates/3-fingerprint-randomization/)
+- [Other Browser promise a lot but have weak protections against known fingerprinting attacks](https://dl.acm.org/doi/10.1145/3308558.3313703)
+
 ----------------------------------------------------------
 
 

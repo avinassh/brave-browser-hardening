@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 17.03.2022
+    - Release: Brave Browser 1.36.116 Android
 - 15.03.2022
     - Release: [Google Chrome 99.0.4844.74](https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html)
     - Release: [Brave Browser 1.36.116 Desktop](https://github.com/brave/brave-browser/pull/21706/files)
