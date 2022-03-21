@@ -14,7 +14,7 @@
 # endpoint connections.
 #
 #
-# Version:  1.0.5
+# Version:  1.0.6
 # ASN:      AS16509, AS13335, AS15169
 # IP:       Behind CL + Amazon
 # IPV6:     Behind CL + Amazon
@@ -28,6 +28,7 @@
 #
 # Community and Support
 #0.0.0.0 community.brave.com
+#0.0.0.0 bravesoftware.slack.com
 #0.0.0.0 support.brave.com
 #
 # Homepage
