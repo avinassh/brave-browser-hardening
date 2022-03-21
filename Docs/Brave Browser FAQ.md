@@ -14,3 +14,10 @@
 - You can reduce the overall memory footprint by disabling hardware acceleration and disable to let run Brave in the background. Both options are enabled by default. You find the options under `brave://settings/system`. Disabling Brave News also reduces the memory usage.
 - The Brave Team as well as the Chrome team constantly working on lowering the overall memory footprint, however while adding more and more features and dependencies this is a challenging task.
 - On some systems Brave comes preinstalled with an extension called Plasma Integration, it is enabled by default. If you do not use the GTK+ theme + search for e.g. Kwin or KRunner you can disable or uninstall it.
+
+
+## [Using Brave's “Private Window with Tor” could get you fired](#using-brave-s--private-window-with-tor--could-get-you-fired)
+
+[There are several stories that you can get fired if you use Tor](https://old.reddit.com/r/cscareerquestions/comments/rsdg0r/til_pressing_altshiftn_in_brave_browser_will/) the problem is that there are industries where compliance requires all work-related communications be [logged and monitored](https://www.cnbc.com/2021/12/17/jpmorgan-agrees-to-125-million-fine-for-letting-employees-use-whatsapp-to-evade-regulators.html).
+
+This is a general problem and not related to Tor or Brave Browser, it is about what you agreed with in your employment contract. Make sure you check this before you attempt using Tor in general.
