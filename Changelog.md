@@ -1,6 +1,8 @@
 ## [Project History](#project-history)
+- 22.03.2022
+    - Release: [Brave Browser 1.36.116 for Android](https://github.com/brave/brave-browser/pull/21806/files)
 - 21.03.2022
-    - Release: [Brave Browser 1.36.119 based on Chromium 99.0.4844.83 for all platforms](https://github.com/brave/brave-browser/issues/21778)
+    - Release: [Brave Browser 1.36.119 based on Chromium 99.0.4844.83 for Desktop](https://github.com/brave/brave-browser/issues/21778)
 - 17.03.2022
     - Release: Brave Browser 1.36.116 Android
 - 15.03.2022
