@@ -275,10 +275,11 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#autofill-fill-merchant-promo-code-fields](chrome://flags/#autofill-fill-merchant-promo-code-fields) | Enable Autofill of promo code fields in forms | ❌
 [#autofill-parse-merchant-promo-code-fields](chrome://flags/#autofill-parse-merchant-promo-code-fields) | Parse promo code fields in forms | ❌
 [#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode.
-[#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️
+[#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️ we enforce it
 [#brave-domain-block-1pes](chrome://flags/#brave-domain-block-1pes) | Enable domain blocking using First Party Ephemeral Storage | ✔️
 [#brave-extension-network-blocking](chrome://flags/#brave-extension-network-blocking) | Enable extension network blocking | ✔️ (91+)
 [#device-posture](chrome://flags/#device-posture) | Device Posture API | ❌
+[#disable-process-reuse](chrome://flags/#disable-process-reuse) | Disable subframe process reuse | ✔️
 [#enable-accessibility-live-caption](chrome://flags/#enable-accessibility-live-caption) | Live Caption |❌ (90.x+) ⚠️[borked](https://github.com/brave/brave-browser/issues/15640)
 [#enable-autofill-credit-card-authentication](chrome://flags/#enable-autofill-credit-card-authentication) | Allow using platform authenticators to retrieve server cards | ❌ (87.x+)
 [#enable-fenced-frames](chrome://flags/#enable-fenced-frames) | Enable the <fencedframe> element. | ✔️ with ShadowDOM
@@ -295,6 +296,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#partitioned-cookies](chrome://flags/#partitioned-cookies) | Partitioned Cookies | ✔️
 [#privacy-review](chrome://flags/#privacy-review) | Privacy Review (93.1.31.39+) | ✔️
 [#reduce-user-agent](chrome://flags/#reduce-user-agent) | Reduce User-Agent request header | ✔️
+[#subframe-shutdown-delay](chrome://flags/#subframe-shutdown-delay) | Add delay to subframe renderer process shutdown | ❌
 [#system-keyboard-lock](chrome://flags/#system-keyboard-lock) | Experimental system keyboard lock | ❌ (89.x+)
 [#webxr-incubations](chrome://flags/#webxr-incubations) | WebXR Incubations | ❌ (92.0+)
 
