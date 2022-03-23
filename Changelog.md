@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 23.03.2022
+    - News: [Naomi Brockwell, known privacy advocate, recommends Brave Browser in her presentation (19:25)](https://www.youtube.com/watch?v=V6yu0JNNtRw).
 - 22.03.2022
     - Release: [Brave Browser 1.36.116 for Android](https://github.com/brave/brave-browser/pull/21806/files)
 - 21.03.2022
