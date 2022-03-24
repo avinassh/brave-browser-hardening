@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 24.03.2022
+    - News: Brave gets [de-AMP feature](https://github.com/brave/brave-browser/issues/20458) on Android it is by default off until the problems are resolved.
 - 23.03.2022
     - Desktop Privacy: `#disable-process-reuse` + `#subframe-shutdown-delay`
     - News: [Naomi Brockwell, known privacy advocate, recommends Brave Browser in her presentation (19:25)](https://www.youtube.com/watch?v=V6yu0JNNtRw).
