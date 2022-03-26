@@ -1,4 +1,7 @@
 ## [Project History](#project-history)
+- 26.03.2022
+    - Release: [Brave Browser 1.36.122 for Desktop](https://github.com/brave/brave-browser/releases/tag/v1.36.122)
+    - News: ["The Brave browser and Basic Attention Token (BAT) are pioneering how advertising might work in Web 3.0."](https://www.cmswire.com/digital-marketing/how-web3-changes-the-content-model/)
 - 24.03.2022
     - News: Brave gets [de-AMP feature](https://github.com/brave/brave-browser/issues/20458) on Android it is by default off until the problems are resolved.
 - 23.03.2022
