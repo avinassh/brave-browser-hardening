@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 28.03.2022
+    - News: [Trackers Bounce Back: Measuring Evasion of Partitioned Storage in the Wild](https://arxiv.org/abs/2203.10188).
 - 26.03.2022
     - Release: [Brave Browser 1.36.122 for all Desktop and Android](https://github.com/brave/brave-browser/releases/tag/v1.36.122)
     - News: ["The Brave browser and Basic Attention Token (BAT) are pioneering how advertising might work in Web 3.0."](https://www.cmswire.com/digital-marketing/how-web3-changes-the-content-model/)
