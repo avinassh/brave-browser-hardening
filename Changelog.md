@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 30.03.2022
+    - Release: [Brave Browser 1.37.109 for Desktop](https://github.com/brave/brave-browser/issues/21982)
 - 28.03.2022
     - News: [Trackers Bounce Back: Measuring Evasion of Partitioned Storage in the Wild](https://arxiv.org/abs/2203.10188).
 - 26.03.2022
