@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 31.03.2022
+    - News: [What to Expect from Privacy Sandbox Testing](https://blog.chromium.org/2022/03/what-to-expect-from-ps-testing.html)
 - 30.03.2022
     - Release: [Brave Browser 1.37.109 for Desktop](https://github.com/brave/brave-browser/issues/21982)
 - 28.03.2022
