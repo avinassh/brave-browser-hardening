@@ -1,6 +1,7 @@
 ## [Project History](#project-history)
 - 31.03.2022
     - News: [What to Expect from Privacy Sandbox Testing](https://blog.chromium.org/2022/03/what-to-expect-from-ps-testing.html)
+    - News: [Upgrade to Brave v1.37 Now: Browser sidebar for easy nav & bookmarking; Custom tab backgrounds; Shields update, night mode, & password sync (iOS); Multi-chain swaps in Brave Wallet, & more!](https://brave.com/1.37-release/)
 - 30.03.2022
     - Release: [Brave Browser 1.37.109 for Desktop](https://github.com/brave/brave-browser/issues/21982)
 - 28.03.2022
