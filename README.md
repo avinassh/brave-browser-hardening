@@ -259,6 +259,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#brave-ephemeral-storage](chrome://flags/#brave-ephemeral-storage) | Enable Ephemeral Storage | ✔️
 [#brave-vpn](chrome://flags/#brave-vpn) | Enable experimental Brave VPN (1.30.27+), the flag got removed but it will return | ✔️
 [#disallow-doc-written-script-loads](chrome://flags/#disallow-doc-written-script-loads) | Block scripts loaded via document.write |  ✔️
+[#enable-isolated-sandboxed-iframes](chrome://flags/#enable-isolated-sandboxed-iframes) | Isolated sandboxed iframes |  ✔️
 [#enable-tls13-early-data](chrome://flags/#enable-tls13-early-data) | TLS 1.3 Early Data | ✔️
 [#post-quantum-cecpq2](chrome://flags/#post-quantum-cecpq2) | TLS Post-Quantum Confidentiality |  ✔️
 [#strict-extension-isolation](chrome://flags/#strict-extension-isolation) | Strict Extension Isolation | ✔️
