@@ -286,6 +286,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#enable-generic-sensor-extra-classes](chrome://flags/#enable-generic-sensor-extra-classes) | Generic Sensor Extra Classes | ❌
 [#enable-payment-request-basic-card](chrome://flags/#enable-payment-request-basic-card) | PaymentRequest API 'basic-card' method | ❌
 [#enable-quic](chrome://flags/#enable-quic) | Experimental QUIC protocol | ✔️ Needed for HTTP3/DoQ, now known as [RFC 9000](https://www.fastly.com/blog/quic-is-now-rfc-9000)
+[#enable-webusb-device-detection](chrome://flags/#enable-webusb-device-detection) | Automatic detection of WebUSB-compatible devices | ❌ we already disable WebUSB but the detection still sends a beacon
 [#extensions-menu-access-control](chrome://flags/#extensions-menu-access-control) | Extensions Menu Access Control | ✔️
 [#font-access](chrome://flags/#font-access) | Font Access APIs | ❌
 [#force-major-version-to-100](chrome://flags/#force-major-version-to-100) | [#force-major-version-to-100](https://blog.chromium.org/2021/10/chrome-96-beta-conditional-focus.html) | ❌
@@ -319,7 +320,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#back-forward-cache](chrome://flags/#back-forward-cache) | Back and forward Cache | ❌
 [#brave-adblock-cookie-list-default](chrome://flags/#brave-adblock-cookie-list-default) | Treat 'Easylist-Cookie List' as a default list source | ✔️
 [#brave-rewards-verbose-logging](chrome://flags/#brave-rewards-verbose-logging) | Enable Brave Rewards verbose logging | ❌ enabled by default since 1.25.68+
-[#durable-client-hints-cache](chrome://flags/#durable-client-hints-cache) | Persistent client hints | ❌
+[#durable-client-hints-cache](chrome://flags/#durable-client-hints-cache) | [Persistent client hints](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/client-hints) | ❌
 [#enable-parallel-downloading](chrome://flags/#enable-parallel-downloading) | Parallel downloading | ✔️
 [#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+)
 [#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes](chrome://flags/#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes) | Throttle non-visible cross-origin iframes | ✔️
@@ -462,7 +463,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 [#contextual-search-debug](chrome://flags/#contextual-search-debug) | Contextual Search Debug | ❌
 [#contextual-search-longpress-resolve](chrome://flags/#contextual-search-longpress-resolve) | N/A | ❌
 [#contextual-search-translation](chrome://flags/#contextual-search-translation) | N/A | ❌
-[#durable-client-hints-cache](chrome://flags/#durable-client-hints-cache) | Persistent client hints | ❌
+[#durable-client-hints-cache](chrome://flags/#durable-client-hints-cache) | [Persistent client hints](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/client-hints) | ❌
 [#enable-drdc](chrome://flags/#enable-drdc) | Enables Display Compositor to use a new gpu thread. | ✔️ enable it on Android 10+
 [#enable-gpu-rasterization](chrome://flags/#enable-gpu-rasterization) | GPU rasterization | ✔️ enable it on Android 10+
 [#enable-instant-start](chrome://flags/#enable-instant-start) | Instant start | ✔️

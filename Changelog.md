@@ -1,6 +1,7 @@
 ## [Project History](#project-history)
 - 01.04.2022
-    - Desktop/Mobile Performance: Back-forward cache causes, still some problems so we disable it, same like `#durable-client-hints-cache`. In general we try to avoid any cache, not only because performance and lags but also because fingerprinting reasons.
+    - Desktop/Mobile Performance: Back-forward cache causes, still some problems so we disable it, same like `#durable-client-hints-cache`. In general we try to avoid any cache, not only because performance and lags but also because fingerprinting reasons. Keep in mind that in general prefetch requests will not follow redirects, not send a Referer header, not send credentials for cross-origin requests, and do not pass through service workers. However, they still can be abused to fingerprint coming from extensions and PWAs.
+    - Desktop Privacy: `#enable-webusb-device-detection` enforced to disabled.
 - 31.03.2022
     - News: [What to Expect from Privacy Sandbox Testing](https://blog.chromium.org/2022/03/what-to-expect-from-ps-testing.html)
     - News: [Upgrade to Brave v1.37 Now: Browser sidebar for easy nav & bookmarking; Custom tab backgrounds; Shields update, night mode, & password sync (iOS); Multi-chain swaps in Brave Wallet, & more!](https://brave.com/1.37-release/)
