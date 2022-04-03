@@ -26,6 +26,7 @@ Extension | Comment
 Extension | Comment
 -- | --
 [Acid Tabs](https://chrome.google.com/webstore/detail/acid-tabs/hgceopemmcmigbmhphbcgkeffommpjfc) | Auto-Grouping your Tabs easily.
+[Old Brave Dark Theme](https://chrome.google.com/webstore/detail/old-brave-dark-theme/gmccmdephfhnbbfopoobfnfajhmkjbob) | Workaround some dark mode issues.
 [CheaperThan. Amazon](https://chrome.google.com/webstore/detail/cheaperthan-amazon/dgoicbnaoajknfnkijgjdelfdihpicie) | Snipe Amazon deals.
 [ClearURLs](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk) | [Until](https://github.com/brave/brave-browser/issues/11250) [merged](https://github.com/brave/adblock-rust/issues/166) with [Brave adblock](https://github.com/brave/brave-browser/issues/16118) (needs [syntax changes](https://github.com/brave/adblock-rust/issues/166) in Braves AdBlock). Merged in [1.30.84](https://github.com/brave/brave-browser/releases/tag/v1.30.84).
 [Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic) | Automatic handling of GDPR consent forms.
