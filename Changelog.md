@@ -2,6 +2,7 @@
 - 05.04.2022
     - Release: [Brave Browser 1.37.111 for Desktop and Android](https://github.com/brave/brave-browser/issues/22089)
 - 01.04.2022
+    - Release: [Brave Browser 1.37.110 for Android](https://github.com/brave/brave-browser/pull/22096/files)
     - Desktop/Mobile Performance: Back-forward cache causes, still some problems so we disable it, same like `#durable-client-hints-cache`. In general we try to avoid any cache, not only because performance and lags but also because fingerprinting reasons. Keep in mind that in general prefetch requests will not follow redirects, not send a Referer header, not send credentials for cross-origin requests, and do not pass through service workers. However, they still can be abused to fingerprint coming from extensions and PWAs.
     - Desktop Privacy: `#enable-webusb-device-detection` enforced to disabled.
     - Desktop Security: `#enable-isolated-sandboxed-iframes` will be enforced to enabled.
