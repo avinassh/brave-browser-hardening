@@ -1,4 +1,7 @@
 ## [Project History](#project-history)
+- 06.04.2022
+    - Article: [Google's Topics API: Rebranding FLoC Without Addressing Key Privacy Issues (brave.com)](https://brave.com/web-standards-at-brave/7-googles-topics-api/)
+    - Article: [Google’s Third-Party Cookie Replacement Is Flawed, Experts Say (lifewire.com)](https://www.lifewire.com/googles-third-party-cookie-replacement-is-flawed-experts-say-5217882)
 - 05.04.2022
     - Release: [Brave Browser 1.37.111 for Desktop and Android](https://github.com/brave/brave-browser/issues/22089)
 - 01.04.2022
