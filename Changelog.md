@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 08.04.2022
+    - Release: [Brave Browser 1.37.112 for Android](https://github.com/brave/brave-browser/pull/22171)
 - 06.04.2022
     - Article: [Use Brave Browser For Passive Income and Better Privacy - The complete guide to using Brave and BAT (medium.com)](https://medium.com/yardcouch-com/use-brave-browser-for-passive-income-and-better-privacy-b67c94793b4d)
     - Article: [Google's Topics API: Rebranding FLoC Without Addressing Key Privacy Issues (brave.com)](https://brave.com/web-standards-at-brave/7-googles-topics-api/)
