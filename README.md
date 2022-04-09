@@ -41,8 +41,8 @@ Just because there are some flag who _promise_ X does not necessarily mean you s
 - Omnibox functionality is limited due to multiple [privacy concerns](https://www.cnet.com/news/eff-were-concerned-about-googles-omnibox/). See [here](http://blogoscoped.com/archive/2008-09-04-n10.html) for more info.
 - Google's [Safe Browsing](https://safebrowsing.google.com/) and other security checks and connections are NOT wanted. The OS has its its own protection mechanism (OS security model + hardening).
 - [FLoC is disabled](https://brave.com/why-brave-disables-floc/) by default in Brave. Chrome users can use uBlock or change it manually via [flags](https://twitter.com/CKsTechNews/status/1399422582588383242).
-- How we [compare the network behavior of popular browsers on first-run](https://brave.com/popular-browsers-first-run/).
-- All credential checks are disabled since we do not store passwords in Brave, instead we use KeePass or other password managers of your choice.
+- All credential checks are disabled since we do not store passwords within the Brave Browser, instead we use sophisticated tools like KeePass or in general other password managers of your choice.
+- Animations can be slower or entirely fail to load properly due to isolation flags which means the Reward system might be affected and causes you to do several attempts to complete the Reward challenge in order to claim your BATs.
 
 ----------------------------------------------------------
 
