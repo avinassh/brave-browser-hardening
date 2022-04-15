@@ -248,7 +248,10 @@ Brave Browser is very well documented. Besides the source code and the wiki entr
 
 ## [Desktop Flags](#desktop-flags)
 
-The official Brave release schedule can be found over [here](https://github.com/brave/brave-browser/wiki/Brave-Release-Schedule), the [archive is here](https://github.com/brave/brave-browser/wiki/Brave-Release-Schedule-Archive). There is currently no plan to release a Brave Browser version for SmartTV.
+The official Brave release schedule can be found over [here](https://github.com/brave/brave-browser/wiki/Brave-Release-Schedule), the [archive is here](https://github.com/brave/brave-browser/wiki/Brave-Release-Schedule-Archive).
+
+- There is currently no plan to release a Brave Browser version for SmartTV, which means there is nothing to change or optimize on such platforms.
+- Below enabled / disabled flags recommendation means you should, if you like to harden Brave Browser further, use the advise to change the default flag state.
 
 
 ### [Desktop Security](#desktop-security)
