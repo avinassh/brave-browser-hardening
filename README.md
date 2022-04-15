@@ -252,56 +252,56 @@ The official Brave release schedule can be found over [here](https://github.com/
 
 
 ### [Desktop Security](#desktop-security)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#block-insecure-private-network-requests](chrome://flags/#block-insecure-private-network-requests) | Block insecure private network requests |  ✔️
-[#brave-domain-block](chrome://flags/#brave-domain-block) | Enable domain blocking | ✔️
-[#brave-ephemeral-storage](chrome://flags/#brave-ephemeral-storage) | Enable Ephemeral Storage | ✔️
-[#brave-vpn](chrome://flags/#brave-vpn) | Enable experimental Brave VPN (1.30.27+), the flag got removed but it will return | ✔️
-[#disallow-doc-written-script-loads](chrome://flags/#disallow-doc-written-script-loads) | Block scripts loaded via document.write |  ✔️
-[#enable-isolated-sandboxed-iframes](chrome://flags/#enable-isolated-sandboxed-iframes) | Isolated sandboxed iframes |  ✔️
-[#enable-tls13-early-data](chrome://flags/#enable-tls13-early-data) | TLS 1.3 Early Data | ✔️
-[#post-quantum-cecpq2](chrome://flags/#post-quantum-cecpq2) | TLS Post-Quantum Confidentiality |  ✔️
-[#strict-extension-isolation](chrome://flags/#strict-extension-isolation) | Strict Extension Isolation | ✔️
-[#strict-origin-isolation](chrome://flags/#strict-origin-isolation) | Strict-Origin-Isolation | ❌
-[#sync-trusted-vault-passphrase-recovery](chrome://flags/#sync-trusted-vault-passphrase-recovery) | Enable sync trusted vault passphrase with improved recovery. | ❌
-[#u2f-security-key-api](chrome://flags/#u2f-security-key-api) | Enable the U2F Security Key API | ❌
+[#block-insecure-private-network-requests](chrome://flags/#block-insecure-private-network-requests) | Block insecure private network requests | ✔️ | unknown
+[#brave-domain-block](chrome://flags/#brave-domain-block) | Enable domain blocking | ✔️ | unknown
+[#brave-ephemeral-storage](chrome://flags/#brave-ephemeral-storage) | Enable Ephemeral Storage | ✔️ | unknown
+[#brave-vpn](chrome://flags/#brave-vpn) | Enable experimental Brave VPN (1.30.27+), the flag got removed but it will return | ✔️ | unknown
+[#disallow-doc-written-script-loads](chrome://flags/#disallow-doc-written-script-loads) | Block scripts loaded via document.write |  ✔️ | unknown
+[#enable-isolated-sandboxed-iframes](chrome://flags/#enable-isolated-sandboxed-iframes) | Isolated sandboxed iframes |  ✔️ | unknown
+[#enable-tls13-early-data](chrome://flags/#enable-tls13-early-data) | TLS 1.3 Early Data | ✔️ | unknown
+[#post-quantum-cecpq2](chrome://flags/#post-quantum-cecpq2) | TLS Post-Quantum Confidentiality |  ✔️ | unknown
+[#strict-extension-isolation](chrome://flags/#strict-extension-isolation) | Strict Extension Isolation | ✔️ | unknown
+[#strict-origin-isolation](chrome://flags/#strict-origin-isolation) | Strict-Origin-Isolation | ❌ | unknown
+[#sync-trusted-vault-passphrase-recovery](chrome://flags/#sync-trusted-vault-passphrase-recovery) | Enable sync trusted vault passphrase with improved recovery. | ❌ | unknown
+[#u2f-security-key-api](chrome://flags/#u2f-security-key-api) | Enable the U2F Security Key API | ❌ | unknown
 
 [🔝 Back to top 🔝](#)
 
 
 ### [Desktop Privacy](#desktop-privacy)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#autofill-fill-merchant-promo-code-fields](chrome://flags/#autofill-fill-merchant-promo-code-fields) | Enable Autofill of promo code fields in forms | ❌
-[#autofill-parse-merchant-promo-code-fields](chrome://flags/#autofill-parse-merchant-promo-code-fields) | Parse promo code fields in forms | ❌
-[#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode.
-[#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️ we enforce it
-[#brave-domain-block-1pes](chrome://flags/#brave-domain-block-1pes) | Enable domain blocking using First Party Ephemeral Storage | ✔️
-[#brave-extension-network-blocking](chrome://flags/#brave-extension-network-blocking) | Enable extension network blocking | ✔️ (91+)
-[#device-posture](chrome://flags/#device-posture) | Device Posture API | ❌
-[#disable-process-reuse](chrome://flags/#disable-process-reuse) | Disable subframe process reuse | ✔️
-[#edit-context](chrome://flags/#edit-context) | EditContext API | ❌ (100.0+)
-[#enable-accessibility-live-caption](chrome://flags/#enable-accessibility-live-caption) | Live Caption |❌ (90.x+) ⚠️[borked](https://github.com/brave/brave-browser/issues/15640)
-[#enable-autofill-credit-card-authentication](chrome://flags/#enable-autofill-credit-card-authentication) | Allow using platform authenticators to retrieve server cards | ❌ (87.x+)
-[#enable-fenced-frames](chrome://flags/#enable-fenced-frames) | Enable the <fencedframe> element. | ✔️ with ShadowDOM
-[#enable-generic-sensor-extra-classes](chrome://flags/#enable-generic-sensor-extra-classes) | Generic Sensor Extra Classes | ❌
-[#enable-payment-request-basic-card](chrome://flags/#enable-payment-request-basic-card) | PaymentRequest API 'basic-card' method | ❌
-[#enable-quic](chrome://flags/#enable-quic) | Experimental QUIC protocol | ✔️ Needed for HTTP3/DoQ, now known as [RFC 9000](https://www.fastly.com/blog/quic-is-now-rfc-9000)
-[#enable-webusb-device-detection](chrome://flags/#enable-webusb-device-detection) | Automatic detection of WebUSB-compatible devices | ❌ we already disable WebUSB but the detection still sends a beacon
-[#extensions-menu-access-control](chrome://flags/#extensions-menu-access-control) | Extensions Menu Access Control | ✔️
-[#font-access](chrome://flags/#font-access) | Font Access APIs | ❌
-[#force-major-version-to-100](chrome://flags/#force-major-version-to-100) | [#force-major-version-to-100](https://blog.chromium.org/2021/10/chrome-96-beta-conditional-focus.html) | ❌
-[#ntp-cache-one-google-bar](chrome://flags/#ntp-cache-one-google-bar) | Cache OneGoogleBar | ❌
-[#omnibox-dynamic-max-autocomplete](chrome://flags/#omnibox-dynamic-max-autocomplete) | Omnibox Dynamic Max Autocomplete | ❌ (_causes lags if enabled / 5+_)
-[#omnibox-pedals-batch2](chrome://flags/#omnibox-pedals-batch2) | Omnibox Pedals batch 2 | ❌
-[#omnibox-rich-autocompletion-promisin](chrome://flags/#omnibox-rich-autocompletion-promisin) | Omnibox Rich Autocompletion Promising | ❌
-[#partitioned-cookies](chrome://flags/#partitioned-cookies) | Partitioned Cookies | ✔️
-[#privacy-review](chrome://flags/#privacy-review) | Privacy Review (93.1.31.39+) | ✔️
-[#reduce-user-agent](chrome://flags/#reduce-user-agent) | Reduce User-Agent request header | ✔️
-[#subframe-shutdown-delay](chrome://flags/#subframe-shutdown-delay) | Add delay to subframe renderer process shutdown | ❌
-[#system-keyboard-lock](chrome://flags/#system-keyboard-lock) | Experimental system keyboard lock | ❌ (89.x+)
-[#webxr-incubations](chrome://flags/#webxr-incubations) | WebXR Incubations | ❌ (92.0+)
+[#autofill-fill-merchant-promo-code-fields](chrome://flags/#autofill-fill-merchant-promo-code-fields) | Enable Autofill of promo code fields in forms | ❌ | unknown
+[#autofill-parse-merchant-promo-code-fields](chrome://flags/#autofill-parse-merchant-promo-code-fields) | Parse promo code fields in forms | ❌ | unknown
+[#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode. | unknown
+[#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️ we enforce it | unknown
+[#brave-domain-block-1pes](chrome://flags/#brave-domain-block-1pes) | Enable domain blocking using First Party Ephemeral Storage | ✔️ | unknown
+[#brave-extension-network-blocking](chrome://flags/#brave-extension-network-blocking) | Enable extension network blocking | ✔️ (91+) | unknown
+[#device-posture](chrome://flags/#device-posture) | Device Posture API | ❌ | unknown
+[#disable-process-reuse](chrome://flags/#disable-process-reuse) | Disable subframe process reuse | ✔️ | unknown
+[#edit-context](chrome://flags/#edit-context) | EditContext API | ❌ (100.0+) | unknown
+[#enable-accessibility-live-caption](chrome://flags/#enable-accessibility-live-caption) | Live Caption |❌ (90.x+) ⚠️[borked](https://github.com/brave/brave-browser/issues/15640) | unknown
+[#enable-autofill-credit-card-authentication](chrome://flags/#enable-autofill-credit-card-authentication) | Allow using platform authenticators to retrieve server cards | ❌ (87.x+) | unknown
+[#enable-fenced-frames](chrome://flags/#enable-fenced-frames) | Enable the <fencedframe> element. | ✔️ with ShadowDOM | unknown
+[#enable-generic-sensor-extra-classes](chrome://flags/#enable-generic-sensor-extra-classes) | Generic Sensor Extra Classes | ❌ | unknown
+[#enable-payment-request-basic-card](chrome://flags/#enable-payment-request-basic-card) | PaymentRequest API 'basic-card' method | ❌ | unknown
+[#enable-quic](chrome://flags/#enable-quic) | Experimental QUIC protocol | ✔️ Needed for HTTP3/DoQ, now known as [RFC 9000](https://www.fastly.com/blog/quic-is-now-rfc-9000) | unknown
+[#enable-webusb-device-detection](chrome://flags/#enable-webusb-device-detection) | Automatic detection of WebUSB-compatible devices | ❌ we already disable WebUSB but the detection still sends a beacon | unknown
+[#extensions-menu-access-control](chrome://flags/#extensions-menu-access-control) | Extensions Menu Access Control | ✔️ | unknown
+[#font-access](chrome://flags/#font-access) | Font Access APIs | ❌ | unknown
+[#force-major-version-to-100](chrome://flags/#force-major-version-to-100) | [#force-major-version-to-100](https://blog.chromium.org/2021/10/chrome-96-beta-conditional-focus.html) | ❌ | unknown
+[#ntp-cache-one-google-bar](chrome://flags/#ntp-cache-one-google-bar) | Cache OneGoogleBar | ❌ | unknown
+[#omnibox-dynamic-max-autocomplete](chrome://flags/#omnibox-dynamic-max-autocomplete) | Omnibox Dynamic Max Autocomplete | ❌ (_causes lags if enabled / 5+_) | unknown
+[#omnibox-pedals-batch2](chrome://flags/#omnibox-pedals-batch2) | Omnibox Pedals batch 2 | ❌ | unknown
+[#omnibox-rich-autocompletion-promisin](chrome://flags/#omnibox-rich-autocompletion-promisin) | Omnibox Rich Autocompletion Promising | ❌ | unknown
+[#partitioned-cookies](chrome://flags/#partitioned-cookies) | Partitioned Cookies | ✔️ | unknown
+[#privacy-review](chrome://flags/#privacy-review) | Privacy Review (93.1.31.39+) | ✔️ | unknown
+[#reduce-user-agent](chrome://flags/#reduce-user-agent) | Reduce User-Agent request header | ✔️ | unknown
+[#subframe-shutdown-delay](chrome://flags/#subframe-shutdown-delay) | Add delay to subframe renderer process shutdown | ❌ | unknown
+[#system-keyboard-lock](chrome://flags/#system-keyboard-lock) | Experimental system keyboard lock | ❌ (89.x+) | unknown
+[#webxr-incubations](chrome://flags/#webxr-incubations) | WebXR Incubations | ❌ (92.0+) | unknown
 
 [🔝 Back to top 🔝](#)
 
@@ -317,81 +317,81 @@ Benchmarks against Edge and Firefox are pretty much useless. There are multiple 
 - [Benchmarks, are often outdated pretty fast](https://old.reddit.com/r/Android/comments/kxg8gh/android_browser_benchmark_tests/). At best this is a snapshot of the current state but every Browser evolves, fixes stuff etc.
 
 
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#back-forward-cache](chrome://flags/#back-forward-cache) | Back and forward Cache | ❌
-[#brave-adblock-cookie-list-default](chrome://flags/#brave-adblock-cookie-list-default) | Treat 'Easylist-Cookie List' as a default list source | ✔️
-[#brave-rewards-verbose-logging](chrome://flags/#brave-rewards-verbose-logging) | Enable Brave Rewards verbose logging | ❌ enabled by default since 1.25.68+
-[#durable-client-hints-cache](chrome://flags/#durable-client-hints-cache) | [Persistent client hints](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/client-hints) | ❌
-[#enable-parallel-downloading](chrome://flags/#enable-parallel-downloading) | Parallel downloading | ✔️
-[#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+)
-[#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes](chrome://flags/#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes) | Throttle non-visible cross-origin iframes | ✔️
-[#enable-vulkan](chrome://flags/#enable-vulkan) | Use Vulkan as the graphics backend. | ✔️ On Linux either Vulkan or raw draw, if you enable both it will prefer raw draw to avoid compatibility issues.
-[#restrict-websockets-pool](chrome://flags/#restrict-websockets-pool) | Restrict WebSockets pool | ✔️ (97.x+)
-[#throttle-foreground-timers](chrome://flags/#throttle-foreground-timers) | Throttle Foreground Timers to 30 Hz | ✔️
+[#back-forward-cache](chrome://flags/#back-forward-cache) | Back and forward Cache | ❌ | unknown
+[#brave-adblock-cookie-list-default](chrome://flags/#brave-adblock-cookie-list-default) | Treat 'Easylist-Cookie List' as a default list source | ✔️ | unknown
+[#brave-rewards-verbose-logging](chrome://flags/#brave-rewards-verbose-logging) | Enable Brave Rewards verbose logging | ❌ enabled by default since 1.25.68+ | unknown
+[#durable-client-hints-cache](chrome://flags/#durable-client-hints-cache) | [Persistent client hints](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/client-hints) | ❌ | unknown
+[#enable-parallel-downloading](chrome://flags/#enable-parallel-downloading) | Parallel downloading | ✔️ | unknown
+[#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+) | unknown
+[#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes](chrome://flags/#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes) | Throttle non-visible cross-origin iframes | ✔️ | unknown
+[#enable-vulkan](chrome://flags/#enable-vulkan) | Use Vulkan as the graphics backend. | ✔️ On Linux either Vulkan or raw draw, if you enable both it will prefer raw draw to avoid compatibility issues. | unknown
+[#restrict-websockets-pool](chrome://flags/#restrict-websockets-pool) | Restrict WebSockets pool | ✔️ (97.x+) | unknown
+[#throttle-foreground-timers](chrome://flags/#throttle-foreground-timers) | Throttle Foreground Timers to 30 Hz | ✔️ | unknown
 
 [🔝 Back to top 🔝](#)
 
 
 ### [Desktop Functionality / Usability](#desktop-functionality--usability)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#brave-adblock-cname-uncloaking](chrome://flags/#brave-adblock-cname-uncloaking) | Enable CNAME uncloaking | ✔️ 91.1.27.36 (This will become obsolete and enabled by default once fully stable and merged into shields directly)
-[#brave-adblock-redirect-url](chrome://flags/#brave-adblock-redirect-url) | Enable support for $redirect-url filter option for adblock rules | ✔️
-[#brave-cosmetic-filtering-sync-load)](chrome://flags/#brave-cosmetic-filtering-sync-load) | Enable sync loading of cosmetic filter rules | ✔️
-[#brave-talk](chrome://flags/#brave-talk) | Enable Brave Talk | ✔️
-[#chrome-whats-new-ui](chrome://flags/#chrome-whats-new-ui) | Show Chrome What's New page at `chrome://whats-new` (93.x+) | ❌
-[#colr-v1-fonts](chrome://flags/#colr-v1-fonts) | COLR v1 Fonts | ✔️
-[#enable-force-dark](chrome://flags/#enable-force-dark) | Force Dark Mode for Web Contents | ✔️ `increase text contrast`
-[#enable-jxl](chrome://flags/#enable-jxl) | Enable [JXL image format ](https://jpeg.org/jpegxl/) | ✔️ (Chrome 91.1.x+)
-[#extension-workflow-justification](chrome://flags/#extension-workflow-justification) | Extension request justification (93.x+) | ✔️
-[#force-color-profile](chrome://flags/#force-color-profile) | Force color profile | ✔️[scRBG](https://en.wikipedia.org/wiki/ScRGB) or [HDR](https://en.wikipedia.org/wiki/High_Dynamic_Range_(display_and_formats)#Description) (if your Monitor supports HDR enable the HDR option)
-[#forced-colors](chrome://flags/#forced-colors) | Forced Colors | ✔️
-[#history-journeys-omnibox-action](chrome://flags/#history-journeys-omnibox-action) | History Journeys Omnibox Action | ✔️ (Chrome 97+)
-[#history-journeys](chrome://flags/#history-journeys) | History Journeys | ✔️ (Chrome 98+)
-[#media-session-webrtc](chrome://flags/#media-session-webrtc) | Enable WebRTC actions in Media Session (93.x+) | ✔️
-[#omnibox-keyword-space-triggering-setting](chrome://flags/#omnibox-keyword-space-triggering-setting) | Omnibox Keyword Space Triggering Setting | ✔️
-[#page-info-about-this-site](chrome://flags/#page-info-about-this-site) | About this Site in Page Info | ✔️
-[#page-info-history-desktop](chrome://flags/#page-info-history-desktop) | Page info history | ✔️ (Chrome 97+)
-[#playback-speed-button](chrome://flags/#playback-speed-button) | Playback Speed Button | ✔️
-[#scrollable-tabstrip](chrome://flags/#scrollable-tabstrip) | Tab Scrolling | ✔️ (tabs shrink to a medium width)
-[#shared-highlighting-v2](chrome://flags/#shared-highlighting-v2) | Shared Highlighting 2.0 | ✔️ (Chrome 90.x+)
-[#sharing-hub-desktop-app-menu](chrome://flags/#sharing-hub-desktop-app-menu) | Desktop Sharing Hub in App Menu | ✔️ (Chrome 91+)
-[#sharing-hub-desktop-omnibox](chrome://flags/#sharing-hub-desktop-omnibox) | Desktop Sharing Hub in Omnibox | ✔️ (Chrome 91+)
+[#brave-adblock-cname-uncloaking](chrome://flags/#brave-adblock-cname-uncloaking) | Enable CNAME uncloaking | ✔️ 91.1.27.36 (This will become obsolete and enabled by default once fully stable and merged into shields directly) | unknown
+[#brave-adblock-redirect-url](chrome://flags/#brave-adblock-redirect-url) | Enable support for $redirect-url filter option for adblock rules | ✔️ | unknown
+[#brave-cosmetic-filtering-sync-load)](chrome://flags/#brave-cosmetic-filtering-sync-load) | Enable sync loading of cosmetic filter rules | ✔️ | unknown
+[#brave-talk](chrome://flags/#brave-talk) | Enable Brave Talk | ✔️ | unknown
+[#chrome-whats-new-ui](chrome://flags/#chrome-whats-new-ui) | Show Chrome What's New page at `chrome://whats-new` (93.x+) | ❌ | unknown
+[#colr-v1-fonts](chrome://flags/#colr-v1-fonts) | COLR v1 Fonts | ✔️ | unknown
+[#enable-force-dark](chrome://flags/#enable-force-dark) | Force Dark Mode for Web Contents | ✔️ `increase text contrast` | unknown
+[#enable-jxl](chrome://flags/#enable-jxl) | Enable [JXL image format ](https://jpeg.org/jpegxl/) | ✔️ (Chrome 91.1.x+) | unknown
+[#extension-workflow-justification](chrome://flags/#extension-workflow-justification) | Extension request justification (93.x+) | ✔️ | unknown
+[#force-color-profile](chrome://flags/#force-color-profile) | Force color profile | ✔️[scRBG](https://en.wikipedia.org/wiki/ScRGB) or [HDR](https://en.wikipedia.org/wiki/High_Dynamic_Range_(display_and_formats)#Description) (if your Monitor supports HDR enable the HDR option) | unknown
+[#forced-colors](chrome://flags/#forced-colors) | Forced Colors | ✔️ | unknown
+[#history-journeys-omnibox-action](chrome://flags/#history-journeys-omnibox-action) | History Journeys Omnibox Action | ✔️ (Chrome 97+) | unknown
+[#history-journeys](chrome://flags/#history-journeys) | History Journeys | ✔️ (Chrome 98+) | unknown
+[#media-session-webrtc](chrome://flags/#media-session-webrtc) | Enable WebRTC actions in Media Session (93.x+) | ✔️ | unknown
+[#omnibox-keyword-space-triggering-setting](chrome://flags/#omnibox-keyword-space-triggering-setting) | Omnibox Keyword Space Triggering Setting | ✔️ | unknown
+[#page-info-about-this-site](chrome://flags/#page-info-about-this-site) | About this Site in Page Info | ✔️ | unknown
+[#page-info-history-desktop](chrome://flags/#page-info-history-desktop) | Page info history | ✔️ (Chrome 97+) | unknown
+[#playback-speed-button](chrome://flags/#playback-speed-button) | Playback Speed Button | ✔️ | unknown
+[#scrollable-tabstrip](chrome://flags/#scrollable-tabstrip) | Tab Scrolling | ✔️ (tabs shrink to a medium width) | unknown
+[#shared-highlighting-v2](chrome://flags/#shared-highlighting-v2) | Shared Highlighting 2.0 | ✔️ (Chrome 90.x+) | unknown
+[#sharing-hub-desktop-app-menu](chrome://flags/#sharing-hub-desktop-app-menu) | Desktop Sharing Hub in App Menu | ✔️ (Chrome 91+) | unknown
+[#sharing-hub-desktop-omnibox](chrome://flags/#sharing-hub-desktop-omnibox) | Desktop Sharing Hub in Omnibox | ✔️ (Chrome 91+) | unknown
 
 [🔝 Back to top 🔝](#)
 
 
 ### [Desktop Scrolling](#desktop-scrolling)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#percent-based-scrolling](chrome://flags/#percent-based-scrolling) | Percent-based Scrolling | ✔️
-[#smooth-scrolling](chrome://flags/#smooth-scrolling) | Smooth Scrolling | ✔️
+[#percent-based-scrolling](chrome://flags/#percent-based-scrolling) | Percent-based Scrolling | ✔️ | unknown
+[#smooth-scrolling](chrome://flags/#smooth-scrolling) | Smooth Scrolling | ✔️ | unknown
 
 [🔝 Back to top 🔝](#)
 
 
 ### [Desktop PWA](#desktop-pwa)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#enable-desktop-pwas-elided-extensions-menu](chrome://flags/#enable-desktop-pwas-elided-extensions-menu) | Desktop PWAs elided extensions menu | ✔️
-[#enable-desktop-pwas-launch-handler](chrome://flags/#enable-desktop-pwas-launch-handler) | Desktop PWA launch handler | ✔️
-[#enable-desktop-pwas-notification-icon-and-title](chrome://flags/#enable-desktop-pwas-notification-icon-and-title) | Desktop PWAs improvements in notification icon and title | ✔️
-[#enable-desktop-pwas-prefix-app-name-in-window-title](chrome://flags/#enable-desktop-pwas-prefix-app-name-in-window-title) | Desktop PWAs prefix window title with app name. | ✔️
-[#enable-desktop-pwas-remove-status-bar](chrome://flags/#impulse-scroll-animations) | Desktop PWAs remove status bar | ✔️
-[#enable-desktop-pwas-sub-apps](chrome://flags/#enable-desktop-pwas-sub-apps) | Desktop PWA Sub Apps | ✔️
-[#enable-desktop-pwas-tab-strip-settings](chrome://flags/#enable-desktop-pwas-tab-strip-settings) | Desktop PWA tab strips settings | ✔️
-[#enable-desktop-pwas-web-bundles](chrome://flags/#enable-desktop-pwas-web-bundles) | Desktop PWAs Web Bundles | ✔️
-[#enable-desktop-pwas-window-controls-overlay](chrome://flags/#enable-desktop-pwas-window-controls-overlay) | Desktop PWA Window Controls Overlay | ✔️
-[#pwa-update-dialog-for-name-and-icon](chrome://flags/#pwa-update-dialog-for-name-and-icon) | Enable PWA install update dialog for name/icon changes | ✔️
+[#enable-desktop-pwas-elided-extensions-menu](chrome://flags/#enable-desktop-pwas-elided-extensions-menu) | Desktop PWAs elided extensions menu | ✔️ | disabled
+[#enable-desktop-pwas-launch-handler](chrome://flags/#enable-desktop-pwas-launch-handler) | Desktop PWA launch handler | ✔️ | disabled
+[#enable-desktop-pwas-notification-icon-and-title](chrome://flags/#enable-desktop-pwas-notification-icon-and-title) | Desktop PWAs improvements in notification icon and title | ✔️ | disabled
+[#enable-desktop-pwas-prefix-app-name-in-window-title](chrome://flags/#enable-desktop-pwas-prefix-app-name-in-window-title) | Desktop PWAs prefix window title with app name. | ✔️ | disabled
+[#enable-desktop-pwas-remove-status-bar](chrome://flags/#impulse-scroll-animations) | Desktop PWAs remove status bar | ✔️ | disabled
+[#enable-desktop-pwas-sub-apps](chrome://flags/#enable-desktop-pwas-sub-apps) | Desktop PWA Sub Apps | ✔️ | disabled
+[#enable-desktop-pwas-tab-strip-settings](chrome://flags/#enable-desktop-pwas-tab-strip-settings) | Desktop PWA tab strips settings | ✔️ | disabled
+[#enable-desktop-pwas-web-bundles](chrome://flags/#enable-desktop-pwas-web-bundles) | Desktop PWAs Web Bundles | ✔️ | disabled
+[#enable-desktop-pwas-window-controls-overlay](chrome://flags/#enable-desktop-pwas-window-controls-overlay) | Desktop PWA Window Controls Overlay | ✔️ | disabled
+[#pwa-update-dialog-for-name-and-icon](chrome://flags/#pwa-update-dialog-for-name-and-icon) | Enable PWA install update dialog for name/icon changes | ✔️ | disabled
 
 [🔝 Back to top 🔝](#)
 
 
 ### [Desktop Brave Reader Mode / Speedreader](#desktop-brave-reader-mode--speedreader)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#enable-reader-mode](chrome://flags/#enable-reader-mode) | Enable Reader Mode | ✔️ Enabled available in settings (_we enforce it_, optional)
+[#enable-reader-mode](chrome://flags/#enable-reader-mode) | Enable Reader Mode | ✔️ Enabled available in settings (_we enforce it_, optional) | disabled
 
 [🔝 Back to top 🔝](#)
 
@@ -400,128 +400,128 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
 ## [Android (mobile) Flags](#android-mobile-flags)
 
 ### [Mobile Security](#mobile-security)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#block-insecure-private-network-requests](chrome://flags/#block-insecure-private-network-requestst) | Block insecure private network requests. | ✔️
-[#brave-ephemeral-storage](chrome://flags/#brave-ephemeral-storage) | Enable Ephemeral Storage | ✔️
-[#brave-vpn](chrome://flags/#brave-vpn) | Enable experimental Brave VPN (1.30.27+), the flag got removed but it will return | ✔️
-[#disallow-doc-written-script-loads](chrome://flags/#disallow-doc-written-script-loads) | Block scripts loaded via document.write |  ✔️
-[#enable-site-isolation-for-password-sites](chrome://flags/#enable-site-isolation-for-password-sites) | Enable site Isolation for Password Sites | ✔️
-[#enable-site-per-process](chrome://flags/#enable-site-per-process) | [Part of Site isolation](https://www.chromium.org/Home/chromium-security/site-isolation/) | ✔️
-[#post-quantum-cecpq2](chrome://flags/#post-quantum-cecpq2) | TLS Post-Quantum Confidentiality | ✔️
-[#strict-origin-isolation](chrome://flags/#strict-origin-isolation) | Strict-Origin-Isolation | ❌
-[#sync-trusted-vault-passphrase-recovery](chrome://flags/#sync-trusted-vault-passphrase-recovery) | Enable sync trusted vault passphrase with improved recovery | ❌
+[#block-insecure-private-network-requests](chrome://flags/#block-insecure-private-network-requestst) | Block insecure private network requests. | ✔️ | disabled
+[#brave-ephemeral-storage](chrome://flags/#brave-ephemeral-storage) | Enable Ephemeral Storage | ✔️ | depends on Shields setting
+[#brave-vpn](chrome://flags/#brave-vpn) | Enable experimental Brave VPN (1.30.27+), the flag got removed but it will return, as this is for now iOS only | ✔️ | disabled
+[#disallow-doc-written-script-loads](chrome://flags/#disallow-doc-written-script-loads) | Block scripts loaded via document.write |  ✔️ | disabled
+[#enable-site-isolation-for-password-sites](chrome://flags/#enable-site-isolation-for-password-sites) | Enable site Isolation for Password Sites | ✔️ | disabled
+[#enable-site-per-process](chrome://flags/#enable-site-per-process) | [Part of Site isolation](https://www.chromium.org/Home/chromium-security/site-isolation/) | ✔️ | disabled
+[#post-quantum-cecpq2](chrome://flags/#post-quantum-cecpq2) | TLS Post-Quantum Confidentiality | ✔️ | disabled
+[#strict-origin-isolation](chrome://flags/#strict-origin-isolation) | Strict-Origin-Isolation | ❌ | unknown
+[#sync-trusted-vault-passphrase-recovery](chrome://flags/#sync-trusted-vault-passphrase-recovery) | Enable sync trusted vault passphrase with improved recovery | ❌ | unknown
 
 [🔝 Back to top 🔝](#)
 
 
 ### [Mobile Privacy](#mobile-privacy)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#autofill-fill-merchant-promo-code-fields](chrome://flags/#autofill-fill-merchant-promo-code-fields) | Enable Autofill of promo code fields in forms | ❌
-[#autofill-parse-merchant-promo-code-fields](chrome://flags/#autofill-parse-merchant-promo-code-fields) | Parse promo code fields in forms | ❌
-[#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode.
-[#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️
-[#brave-domain-block-1pes](chrome://flags/#brave-domain-block-1pes) | Enable domain blocking using First Party Ephemeral Storage | ✔️
-[#continuous-search](chrome://flags/#continuous-search) | Continues Search | ❌
-[#device-posture](chrome://flags/#device-posture) | Device Posture API | ❌
-[#edit-context](chrome://flags/#edit-context) | EditContext API | ❌ (100.0+)
-[#enable-autofill-credit-card-authentication](chrome://flags/#enable-autofill-credit-card-authentication) | Allow using platform authenticators to retrieve server cards | ❌ (87.x+)
-[#enable-commerce-price-tracking](chrome://flags/#enable-commerce-price-tracking) | Price Tracking | ❌ Connections to Google and partners + market influence and manipulation. It is better and more privacy-friendly to trust independent retailers and engine-crawlers such as Geizhals, Mindfactory etc.
-[#enable-fenced-frames](chrome://flags/#enable-fenced-frames) | Enable the <fencedframe> element. | ✔️ with ShadowDOM, on older Android versions prior 9 set this to Enabled otherwise you might get Browser crashes.
-[#enable-generic-sensor-extra-classes](chrome://flags/#enable-generic-sensor-extra-classes) | Generic Sensor Extra Classes | ❌
-[#enable-payment-request-basic-card](chrome://flags/#enable-payment-request-basic-card) | PaymentRequest API 'basic-card' method | ❌
-[#enable-quic](chrome://flags/#enable-quic) | Enable QUIC Protocol | ✔️ (Brave filters controversial APIs)
-[#font-access](chrome://flags/#font-access) | Font Access APIs | ❌
-[#force-major-version-to-100](chrome://flags/#force-major-version-to-100) | [#force-major-version-to-100](https://blog.chromium.org/2021/10/chrome-96-beta-conditional-focus.html) | ❌
-[#google-mobile-services-passwords](chrome://flags/#google-mobile-services-passwords) | Google Mobile Services for Passwords | ❌
-[#incognito-screenshot](chrome://flags/#incognito-screenshot) | Allow Incognito Screenshots | ❌
-[#large-favicon-from-google](chrome://flags/#large-favicon-from-google) | Large favicons from Google | ❌
-[#omnibox-assistant-voice-search](chrome://flags/#omnibox-assistant-voice-search) | Omnibox Voice Search Assistant | ❌
-[#partitioned-cookies](chrome://flags/#partitioned-cookies) | Partitioned Cookies | ✔️
-[#reduce-user-agent](chrome://flags/#reduce-user-agent) | Reduce User-Agent request header | ✔️
-[#related-searches-in-bar](chrome://flags/#related-searches-in-bar) | Enables showing Related Searches in the peeking bar. | ❌ disabled to avoid search engine ping backs
-[#wallet-service-use-sandbox](chrome://flags/#wallet-service-use-sandbox) | Wallet Services uses Google's Sandbox | ❌Connects to some Google Endpoints.
-[#webxr-incubations](chrome://flags/#webxr-incubations) | WebXR Incubations | ❌ (92.0+)
+[#autofill-fill-merchant-promo-code-fields](chrome://flags/#autofill-fill-merchant-promo-code-fields) | Enable Autofill of promo code fields in forms | ❌ | unknown
+[#autofill-parse-merchant-promo-code-fields](chrome://flags/#autofill-parse-merchant-promo-code-fields) | Parse promo code fields in forms | ❌ | unknown
+[#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode. | unknown
+[#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️ | unknown
+[#brave-domain-block-1pes](chrome://flags/#brave-domain-block-1pes) | Enable domain blocking using First Party Ephemeral Storage | ✔️ | unknown
+[#continuous-search](chrome://flags/#continuous-search) | Continues Search | ❌ | unknown
+[#device-posture](chrome://flags/#device-posture) | Device Posture API | ❌ | unknown
+[#edit-context](chrome://flags/#edit-context) | EditContext API | ❌ (100.0+) | unknown
+[#enable-autofill-credit-card-authentication](chrome://flags/#enable-autofill-credit-card-authentication) | Allow using platform authenticators to retrieve server cards | ❌ (87.x+) | unknown
+[#enable-commerce-price-tracking](chrome://flags/#enable-commerce-price-tracking) | Price Tracking | ❌ Connections to Google and partners + market influence and manipulation. It is better and more privacy-friendly to trust independent retailers and engine-crawlers such as Geizhals, Mindfactory etc. | unknown
+[#enable-fenced-frames](chrome://flags/#enable-fenced-frames) | Enable the <fencedframe> element. | ✔️ with ShadowDOM, on older Android versions prior 9 set this to Enabled otherwise you might get Browser crashes. | unknown
+[#enable-generic-sensor-extra-classes](chrome://flags/#enable-generic-sensor-extra-classes) | Generic Sensor Extra Classes | ❌ | unknown
+[#enable-payment-request-basic-card](chrome://flags/#enable-payment-request-basic-card) | PaymentRequest API 'basic-card' method | ❌ | unknown
+[#enable-quic](chrome://flags/#enable-quic) | Enable QUIC Protocol | ✔️ (Brave filters controversial APIs) | unknown
+[#font-access](chrome://flags/#font-access) | Font Access APIs | ❌ | unknown
+[#force-major-version-to-100](chrome://flags/#force-major-version-to-100) | [#force-major-version-to-100](https://blog.chromium.org/2021/10/chrome-96-beta-conditional-focus.html) | ❌ | unknown
+[#google-mobile-services-passwords](chrome://flags/#google-mobile-services-passwords) | Google Mobile Services for Passwords | ❌ | unknown
+[#incognito-screenshot](chrome://flags/#incognito-screenshot) | Allow Incognito Screenshots | ❌ | unknown
+[#large-favicon-from-google](chrome://flags/#large-favicon-from-google) | Large favicons from Google | ❌ | unknown
+[#omnibox-assistant-voice-search](chrome://flags/#omnibox-assistant-voice-search) | Omnibox Voice Search Assistant | ❌ | unknown
+[#partitioned-cookies](chrome://flags/#partitioned-cookies) | Partitioned Cookies | ✔️ | unknown
+[#reduce-user-agent](chrome://flags/#reduce-user-agent) | Reduce User-Agent request header | ✔️ | unknown
+[#related-searches-in-bar](chrome://flags/#related-searches-in-bar) | Enables showing Related Searches in the peeking bar. | ❌ disabled to avoid search engine ping backs | unknown
+[#wallet-service-use-sandbox](chrome://flags/#wallet-service-use-sandbox) | Wallet Services uses Google's Sandbox | ❌Connects to some Google Endpoints. | unknown
+[#webxr-incubations](chrome://flags/#webxr-incubations) | WebXR Incubations | ❌ (92.0+) | unknown
 
 [🔝 Back to top 🔝](#)
 
 
 ### [Mobile PWA](mobile-pwa)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#messages-for-android-pwa-install](chrome://flags/#messages-for-android-pwa-install) | PWA Installation Messages UI | ✔️
-[#pwa-update-dialog-for-name-and-icon](chrome://flags/#pwa-update-dialog-for-name-and-icon) | Enable PWA install update dialog for name/icon changes | ✔️
+[#messages-for-android-pwa-install](chrome://flags/#messages-for-android-pwa-install) | PWA Installation Messages UI | ✔️ | Default
+[#pwa-update-dialog-for-name-and-icon](chrome://flags/#pwa-update-dialog-for-name-and-icon) | Enable PWA install update dialog for name/icon changes | ✔️ | Default
 
 [🔝 Back to top 🔝](#)
 
 
 ### [Mobile Performance](#mobile-performance)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#back-forward-cache](chrome://flags/#back-forward-cache) | Back and forward Cache | ❌
-[#brave-adblock-cookie-list-default](chrome://flags/#brave-adblock-cookie-list-default) | Treat 'Easylist-Cookie List' as a default list source | ✔️
-[#canvas-oop-rasterization](chrome://flags/#canvas-oop-rasterization) | Out-of-process 2D canvas rasterization. | ✔️ enable it on Android 10+
-[#chrome-share-long-screenshot](chrome://flags/#chrome-share-long-screenshot) | N/A | ❌
-[#contextual-search-debug](chrome://flags/#contextual-search-debug) | Contextual Search Debug | ❌
-[#contextual-search-longpress-resolve](chrome://flags/#contextual-search-longpress-resolve) | N/A | ❌
-[#contextual-search-translation](chrome://flags/#contextual-search-translation) | N/A | ❌
-[#durable-client-hints-cache](chrome://flags/#durable-client-hints-cache) | [Persistent client hints](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/client-hints) | ❌
-[#enable-drdc](chrome://flags/#enable-drdc) | Enables Display Compositor to use a new gpu thread. | ✔️ enable it on Android 10+
-[#enable-gpu-rasterization](chrome://flags/#enable-gpu-rasterization) | GPU rasterization | ✔️ enable it on Android 10+
-[#enable-instant-start](chrome://flags/#enable-instant-start) | Instant start | ✔️
-[#enable-parallel-downloading](chrome://flags/#enable-parallel-downloading) | Parallel downloading | ✔️
-[#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+)
-[#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes](chrome://flags/#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes) | Throttle non-visible cross-origin iframes | ✔️
-[#restrict-websockets-pool](chrome://flags/#restrict-websockets-pool) | Restrict WebSockets pool | ✔️ (97.x+)
-[#smooth-scrolling](chrome://flags/#smooth-scrolling) | Smooth Scrolling | ✔️
-[#throttle-foreground-timers](chrome://flags/#throttle-foreground-timers) | Throttle Foreground Timers to 30 Hz | ✔️
+[#back-forward-cache](chrome://flags/#back-forward-cache) | Back and forward Cache | ❌ | unknown
+[#brave-adblock-cookie-list-default](chrome://flags/#brave-adblock-cookie-list-default) | Treat 'Easylist-Cookie List' as a default list source | ✔️ | unknown
+[#canvas-oop-rasterization](chrome://flags/#canvas-oop-rasterization) | Out-of-process 2D canvas rasterization. | ✔️ enable it on Android 10+ | unknown
+[#chrome-share-long-screenshot](chrome://flags/#chrome-share-long-screenshot) | N/A | ❌ | unknown
+[#contextual-search-debug](chrome://flags/#contextual-search-debug) | Contextual Search Debug | ❌ | unknown
+[#contextual-search-longpress-resolve](chrome://flags/#contextual-search-longpress-resolve) | N/A | ❌ | unknown
+[#contextual-search-translation](chrome://flags/#contextual-search-translation) | N/A | ❌ | unknown
+[#durable-client-hints-cache](chrome://flags/#durable-client-hints-cache) | [Persistent client hints](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/client-hints) | ❌ | unknown
+[#enable-drdc](chrome://flags/#enable-drdc) | Enables Display Compositor to use a new gpu thread. | ✔️ enable it on Android 10+ | unknown
+[#enable-gpu-rasterization](chrome://flags/#enable-gpu-rasterization) | GPU rasterization | ✔️ enable it on Android 10+ | unknown
+[#enable-instant-start](chrome://flags/#enable-instant-start) | Instant start | ✔️ | unknown
+[#enable-parallel-downloading](chrome://flags/#enable-parallel-downloading) | Parallel downloading | ✔️ | unknown
+[#enable-prerender2](chrome://flags/#enable-prerender2) | Prerender2 | ✔️ (90.x+) | unknown
+[#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes](chrome://flags/#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes) | Throttle non-visible cross-origin iframes | ✔️ | unknown
+[#restrict-websockets-pool](chrome://flags/#restrict-websockets-pool) | Restrict WebSockets pool | ✔️ (97.x+) | unknown
+[#smooth-scrolling](chrome://flags/#smooth-scrolling) | Smooth Scrolling | ✔️ | unknown
+[#throttle-foreground-timers](chrome://flags/#throttle-foreground-timers) | Throttle Foreground Timers to 30 Hz | ✔️ | unknown
 
 [🔝 Back to top 🔝](#)
 
 
 ### [Mobile Functionality / Usability](#mobile-functionality--usability)
-Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment
+Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | --
-[#android-picture-in-picture-api](chrome://flags/#android-picture-in-picture-api) | Picture in Picture Web API for Android | ✔️
-[#brave-adblock-cname-uncloaking](chrome://flags/#brave-adblock-cname-uncloaking) | Enable CNAME uncloaking | ✔️ 91.1.27.36 (This will become obsolete and enabled by default once fully stable and merged into shields directly)
-[#brave-adblock-redirect-url](chrome://flags/#brave-adblock-redirect-url) | Enable support for $redirect-url filter option for adblock rules | ✔️
-[#brave-cosmetic-filtering-sync-load)](chrome://flags/#brave-cosmetic-filtering-sync-load) | Enable sync loading of cosmetic filter rules | ✔️
-[#context-menu-google-lens-chip](chrome://flags/#context-menu-google-lens-chip) | Google Lens powered image search for surfaced as a chip below the context menu. | ❌
-[#context-menu-search-with-google-lens](chrome://flags/#context-menu-search-with-google-lens) | Google Lens powered image search in the context menu. | ❌
-[#context-menu-shop-with-google-lens](chrome://flags/#context-menu-shop-with-google-lens) | Google Lens powered image search for shoppable images in the context menu. | ❌
-[#context-menu-translate-with-google-lens](chrome://flags/#context-menu-translate-with-google-lens) | Google Lens powered image search for translatable images surfaced as a chip under the context menu. | ❌
-[#continuous-search](chrome://flags/#continuous-search) | Continuous Search | ✔️
-[#darken-websites-checkbox-in-themes-setting](chrome://flags/#darken-websites-checkbox-in-themes-setting) | Darken Websites checkbox in Theme settings | ✔️
-[#enable-force-dark](chrome://flags/#enable-force-dark) | Force Dark Mode for Web Contents | ✔️ `increase text contrast`
-[#enable-jxl](chrome://flags/#enable-jxl) | Enable [JXL image format ](https://jpeg.org/jpegxl/) | ✔️ (Chrome 91.1.x+)
-[#enable-quick-action-search-widget-android](chrome://flags/#enable-quick-action-search-widget-android) | [Quick Search Widget](https://www.androidpolice.com/2021/06/29/chrome-for-android-is-rediscovering-widgets-now-that-apple-made-them-hot-again/) | ✔️
-[#google-lens-sdk-intent](chrome://flags/#google-lens-sdk-intent) | Enable the use of the Lens SDK when starting intent into Lens. | ❌
-[#media-session-webrtc](chrome://flags/#media-session-webrtc) | Enable WebRTC actions in Media Session (93.x+) | ✔️
-[#messages-for-android-ads-blocked](chrome://flags/#messages-for-android-ads-blocked) | Ads Blocked Messages UI | ✔️
-[#messages-for-android-permission-update](chrome://flags/#messages-for-android-permission-update) | Permission Update Messages UI | ✔️
-[#messages-for-android-reader-mode](chrome://flags/#messages-for-android-reader-mode) | Reader Mode Messages UI | ✔️
-[#page-info-about-this-site](chrome://flags/#page-info-about-this-site) | About this Site in Page Info | ✔️
-[#photo-picker-video-support](chrome://flags/#photo-picker-video-support) | Photo Picker Video Support | ✔️ (with animated thumbnails)
-[#playback-speed-button](chrome://flags/#playback-speed-button) | Playback Speed Button | ✔️
-[#shared-highlighting-v2](chrome://flags/#shared-highlighting-v2) | Shared Highlighting 2.0 | ✔️ (Chrome 90.x+)
-[#shopping-list](chrome://flags/#shopping-list) | Shopping List | ❌ can create problems with Sync and working with Bookmarks is a PITA in Chrome in general, hopefully Brave gets a Widget for this one day.
-[#voice-button-in-top-toolbar](chrome://flags/#voice-button-in-top-toolbar) | Voice Button in Top Toolbar | ❌ The reason why Voice function will never work is that Google prevents using alternative services, so we disable it.
+[#android-picture-in-picture-api](chrome://flags/#android-picture-in-picture-api) | Picture in Picture Web API for Android | ✔️ | unknown
+[#brave-adblock-cname-uncloaking](chrome://flags/#brave-adblock-cname-uncloaking) | Enable CNAME uncloaking | ✔️ 91.1.27.36 (This will become obsolete and enabled by default once fully stable and merged into shields directly) | unknown
+[#brave-adblock-redirect-url](chrome://flags/#brave-adblock-redirect-url) | Enable support for $redirect-url filter option for adblock rules | ✔️ | unknown
+[#brave-cosmetic-filtering-sync-load)](chrome://flags/#brave-cosmetic-filtering-sync-load) | Enable sync loading of cosmetic filter rules | ✔️ | unknown
+[#context-menu-google-lens-chip](chrome://flags/#context-menu-google-lens-chip) | Google Lens powered image search for surfaced as a chip below the context menu. | ❌ | unknown
+[#context-menu-search-with-google-lens](chrome://flags/#context-menu-search-with-google-lens) | Google Lens powered image search in the context menu. | ❌ | unknown
+[#context-menu-shop-with-google-lens](chrome://flags/#context-menu-shop-with-google-lens) | Google Lens powered image search for shoppable images in the context menu. | ❌ | unknown
+[#context-menu-translate-with-google-lens](chrome://flags/#context-menu-translate-with-google-lens) | Google Lens powered image search for translatable images surfaced as a chip under the context menu. | ❌ | unknown
+[#continuous-search](chrome://flags/#continuous-search) | Continuous Search | ✔️ | unknown
+[#darken-websites-checkbox-in-themes-setting](chrome://flags/#darken-websites-checkbox-in-themes-setting) | Darken Websites checkbox in Theme settings | ✔️ | unknown
+[#enable-force-dark](chrome://flags/#enable-force-dark) | Force Dark Mode for Web Contents | ✔️ `increase text contrast` | unknown
+[#enable-jxl](chrome://flags/#enable-jxl) | Enable [JXL image format ](https://jpeg.org/jpegxl/) | ✔️ (Chrome 91.1.x+) | unknown
+[#enable-quick-action-search-widget-android](chrome://flags/#enable-quick-action-search-widget-android) | [Quick Search Widget](https://www.androidpolice.com/2021/06/29/chrome-for-android-is-rediscovering-widgets-now-that-apple-made-them-hot-again/) | ✔️ | unknown
+[#google-lens-sdk-intent](chrome://flags/#google-lens-sdk-intent) | Enable the use of the Lens SDK when starting intent into Lens. | ❌ | unknown
+[#media-session-webrtc](chrome://flags/#media-session-webrtc) | Enable WebRTC actions in Media Session (93.x+) | ✔️ | unknown
+[#messages-for-android-ads-blocked](chrome://flags/#messages-for-android-ads-blocked) | Ads Blocked Messages UI | ✔️ | unknown
+[#messages-for-android-permission-update](chrome://flags/#messages-for-android-permission-update) | Permission Update Messages UI | ✔️ | unknown
+[#messages-for-android-reader-mode](chrome://flags/#messages-for-android-reader-mode) | Reader Mode Messages UI | ✔️ | unknown
+[#page-info-about-this-site](chrome://flags/#page-info-about-this-site) | About this Site in Page Info | ✔️ | unknown
+[#photo-picker-video-support](chrome://flags/#photo-picker-video-support) | Photo Picker Video Support | ✔️ (with animated thumbnails) | unknown
+[#playback-speed-button](chrome://flags/#playback-speed-button) | Playback Speed Button | ✔️ | unknown
+[#shared-highlighting-v2](chrome://flags/#shared-highlighting-v2) | Shared Highlighting 2.0 | ✔️ (Chrome 90.x+) | unknown
+[#shopping-list](chrome://flags/#shopping-list) | Shopping List | ❌ can create problems with Sync and working with Bookmarks is a PITA in Chrome in general, hopefully Brave gets a Widget for this one day. | unknown
+[#voice-button-in-top-toolbar](chrome://flags/#voice-button-in-top-toolbar) | Voice Button in Top Toolbar | ❌ The reason why Voice function will never work is that Google prevents using alternative services, so we disable it. | unknown
 
 [🔝 Back to top 🔝](#)
 
 
 ### [Brave only specific flags (not needed to be enforced)](#brave-only-specific-flags-not-needed-to-be-enforced)
-Flag | Name | Comment
+Flag | Name | Comment | Default flag state
 -- | -- | --
-[#brave-adblock-cosmetic-filtering](chrome://flags/#brave-adblock-cosmetic-filtering) | Enable cosmetic filtering | Enabled by default even if it only shows "default"
-[#brave-adblock-csp-rules](chrome://flags/#brave-adblock-csp-rules) | Enable support for CSP rules | Not need to be enforced (since 1.25.68+)
-[#brave-ads-allowed-to-fallback-to-custom-push-notification-ads](chrome://flags/#brave-ads-allowed-to-fallback-to-custom-push-notification-ads) | Allow Brave Ads to fallback from native to custom push notifications | This is OS specific and in the future will be obsolete since Brave will detect the OS and then automatically fallback to the legacy system.
-[#brave-de-amp](chrome://flags/#brave-de-amp) | Enable De-AMP | [Enabled by default](https://github.com/brave/brave-browser/issues/20458) on Desktop, [on Android it is by default off](https://github.com/brave/brave-browser/issues/21643), for now to avoid breakage but this will be resolved
-[#brave-decentralized-dns](chrome://flags/#brave-decentralized-dns) | Enable Decentralized DNS | ✔️ This is now a settings point under Browser Settings since v95+ which you can easily switch.
-[#brave-news](chrome://flags/#brave-news) | Enable Brave News | Your own decision to enable it or not, it is a global switch.
-[#enable-lens-region-search](chrome://flags/#enable-lens-region-search) | Search your screen with Google Lens (93.1.31.39+), since 1.36.112 it is disabled by default. | ❌
-[#enable-webrtc-hide-local-ips-with-mdns](chrome://flags/#enable-webrtc-hide-local-ips-with-mdns) | This is not Brave only specific but there are two ways how Brave handles it, [via Shields or Setting](https://avoidthehack.com/webrtc-leaks-how-to-fix) | Do not enforce it via flag
+[#brave-adblock-cosmetic-filtering](chrome://flags/#brave-adblock-cosmetic-filtering) | Enable cosmetic filtering | Enabled by default even if it only shows "default" | unknown
+[#brave-adblock-csp-rules](chrome://flags/#brave-adblock-csp-rules) | Enable support for CSP rules | Not need to be enforced (since 1.25.68+) | unknown
+[#brave-ads-allowed-to-fallback-to-custom-push-notification-ads](chrome://flags/#brave-ads-allowed-to-fallback-to-custom-push-notification-ads) | Allow Brave Ads to fallback from native to custom push notifications | This is OS specific and in the future will be obsolete since Brave will detect the OS and then automatically fallback to the legacy system. | unknown
+[#brave-de-amp](chrome://flags/#brave-de-amp) | Enable De-AMP | [Enabled by default](https://github.com/brave/brave-browser/issues/20458) on Desktop, [on Android it is by default off](https://github.com/brave/brave-browser/issues/21643), for now to avoid breakage but this will be resolved | unknown
+[#brave-decentralized-dns](chrome://flags/#brave-decentralized-dns) | Enable Decentralized DNS | ✔️ This is now a settings point under Browser Settings since v95+ which you can easily switch. | unknown
+[#brave-news](chrome://flags/#brave-news) | Enable Brave News | Your own decision to enable it or not, it is a global switch. | unknown
+[#enable-lens-region-search](chrome://flags/#enable-lens-region-search) | Search your screen with Google Lens (93.1.31.39+), since 1.36.112 it is disabled by default. | ❌ | unknown
+[#enable-webrtc-hide-local-ips-with-mdns](chrome://flags/#enable-webrtc-hide-local-ips-with-mdns) | This is not Brave only specific but there are two ways how Brave handles it, [via Shields or Setting](https://avoidthehack.com/webrtc-leaks-how-to-fix) | Do not enforce it via flag | unknown
 
 [🔝 Back to top 🔝](#)
 

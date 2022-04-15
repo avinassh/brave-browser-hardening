@@ -2,7 +2,7 @@
 
 
 ### [Desktop outdated, removed or integrated/replaced](#desktop-outdated-removed-or-integratedreplaced)
-Flag | Name | Disabled since or comment
+Flag | Name | Disabled since or/and Comment
 -- | -- | --
 [#brave-speedreader](chrome://flags/#brave-speedreader) | Enable SpeedReader | ✔️ This is now a settings point under Browser Settings since v95+ which you can easily switch.
 `N/A` | Enable Tab Search (the little arrow down icon to search trough tabs) | Chrome 90, to disable it you can use `-disable-features=TabSearch`, an option to disable it is [planned](https://github.com/brave/brave-browser/issues/16007).
@@ -72,7 +72,7 @@ Flag | Name | Disabled since or comment
 -------------------------
 
 ### [Mobile outdated, removed or integrated/replaced](#mobile-outdated-removed-or-integratedreplaced)
-Flag | Name | Disabled since or comment
+Flag | Name | Disabled since or/and Comment
 -- | -- | --
 [#enable-tab-grid-layout](chrome://flags/#enable-tab-grid-layout)  | Tab Grid Layout | This flag is a leftover, the function was [removed from the source code](https://github.com/brave/brave-browser/issues/21005). If you want Grid you need to use [1.35.104](https://github.com/brave/brave-browser/releases/tag/v1.35.104) 
 [#brave-sync-v2](chrome://flags/#brave-sync-v2) | Enable Brave Sync v2 | Depends on user choice (opt-in) you manually can set under `Settings`.

@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 14.04.2022
+    - Add a new indicator `Default flag state` in the chart to quickly see what the Browser uses as default settings, the ones that you see if you did not touched anything at all.
     - Release: [Brave Browser 1.37.116 for Desktop + Android](https://github.com/brave/brave-browser/pull/22333/files), link points to the Android version as the Desktop version only got an Chromium upgrade
 - 12.04.2022
     - Release: [Brave Browser 1.37.113 for Desktop](https://github.com/brave/brave-browser/issues/22243)
