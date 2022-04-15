@@ -253,7 +253,7 @@ The official Brave release schedule can be found over [here](https://github.com/
 
 ### [Desktop Security](#desktop-security)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#block-insecure-private-network-requests](chrome://flags/#block-insecure-private-network-requests) | Block insecure private network requests | ✔️ | unknown
 [#brave-domain-block](chrome://flags/#brave-domain-block) | Enable domain blocking | ✔️ | unknown
 [#brave-ephemeral-storage](chrome://flags/#brave-ephemeral-storage) | Enable Ephemeral Storage | ✔️ | unknown
@@ -272,7 +272,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 
 ### [Desktop Privacy](#desktop-privacy)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#autofill-fill-merchant-promo-code-fields](chrome://flags/#autofill-fill-merchant-promo-code-fields) | Enable Autofill of promo code fields in forms | ❌ | unknown
 [#autofill-parse-merchant-promo-code-fields](chrome://flags/#autofill-parse-merchant-promo-code-fields) | Parse promo code fields in forms | ❌ | unknown
 [#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode. | unknown
@@ -318,7 +318,7 @@ Benchmarks against Edge and Firefox are pretty much useless. There are multiple 
 
 
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#back-forward-cache](chrome://flags/#back-forward-cache) | Back and forward Cache | ❌ | unknown
 [#brave-adblock-cookie-list-default](chrome://flags/#brave-adblock-cookie-list-default) | Treat 'Easylist-Cookie List' as a default list source | ✔️ | unknown
 [#brave-rewards-verbose-logging](chrome://flags/#brave-rewards-verbose-logging) | Enable Brave Rewards verbose logging | ❌ enabled by default since 1.25.68+ | unknown
@@ -335,7 +335,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 
 ### [Desktop Functionality / Usability](#desktop-functionality--usability)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#brave-adblock-cname-uncloaking](chrome://flags/#brave-adblock-cname-uncloaking) | Enable CNAME uncloaking | ✔️ 91.1.27.36 (This will become obsolete and enabled by default once fully stable and merged into shields directly) | unknown
 [#brave-adblock-redirect-url](chrome://flags/#brave-adblock-redirect-url) | Enable support for $redirect-url filter option for adblock rules | ✔️ | unknown
 [#brave-cosmetic-filtering-sync-load)](chrome://flags/#brave-cosmetic-filtering-sync-load) | Enable sync loading of cosmetic filter rules | ✔️ | unknown
@@ -364,7 +364,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 
 ### [Desktop Scrolling](#desktop-scrolling)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#percent-based-scrolling](chrome://flags/#percent-based-scrolling) | Percent-based Scrolling | ✔️ | unknown
 [#smooth-scrolling](chrome://flags/#smooth-scrolling) | Smooth Scrolling | ✔️ | unknown
 
@@ -373,7 +373,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 
 ### [Desktop PWA](#desktop-pwa)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#enable-desktop-pwas-elided-extensions-menu](chrome://flags/#enable-desktop-pwas-elided-extensions-menu) | Desktop PWAs elided extensions menu | ✔️ | disabled
 [#enable-desktop-pwas-launch-handler](chrome://flags/#enable-desktop-pwas-launch-handler) | Desktop PWA launch handler | ✔️ | disabled
 [#enable-desktop-pwas-notification-icon-and-title](chrome://flags/#enable-desktop-pwas-notification-icon-and-title) | Desktop PWAs improvements in notification icon and title | ✔️ | disabled
@@ -390,7 +390,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 
 ### [Desktop Brave Reader Mode / Speedreader](#desktop-brave-reader-mode--speedreader)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#enable-reader-mode](chrome://flags/#enable-reader-mode) | Enable Reader Mode | ✔️ Enabled available in settings (_we enforce it_, optional) | disabled
 
 [🔝 Back to top 🔝](#)
@@ -401,7 +401,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 
 ### [Mobile Security](#mobile-security)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#block-insecure-private-network-requests](chrome://flags/#block-insecure-private-network-requestst) | Block insecure private network requests. | ✔️ | disabled
 [#brave-ephemeral-storage](chrome://flags/#brave-ephemeral-storage) | Enable Ephemeral Storage | ✔️ | depends on Shields setting
 [#brave-vpn](chrome://flags/#brave-vpn) | Enable experimental Brave VPN (1.30.27+), the flag got removed but it will return, as this is for now iOS only | ✔️ | disabled
@@ -417,7 +417,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 
 ### [Mobile Privacy](#mobile-privacy)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#autofill-fill-merchant-promo-code-fields](chrome://flags/#autofill-fill-merchant-promo-code-fields) | Enable Autofill of promo code fields in forms | ❌ | unknown
 [#autofill-parse-merchant-promo-code-fields](chrome://flags/#autofill-parse-merchant-promo-code-fields) | Parse promo code fields in forms | ❌ | unknown
 [#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode. | unknown
@@ -449,7 +449,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 
 ### [Mobile PWA](mobile-pwa)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#messages-for-android-pwa-install](chrome://flags/#messages-for-android-pwa-install) | PWA Installation Messages UI | ✔️ | Default
 [#pwa-update-dialog-for-name-and-icon](chrome://flags/#pwa-update-dialog-for-name-and-icon) | Enable PWA install update dialog for name/icon changes | ✔️ | Default
 
@@ -458,7 +458,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 
 ### [Mobile Performance](#mobile-performance)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#back-forward-cache](chrome://flags/#back-forward-cache) | Back and forward Cache | ❌ | unknown
 [#brave-adblock-cookie-list-default](chrome://flags/#brave-adblock-cookie-list-default) | Treat 'Easylist-Cookie List' as a default list source | ✔️ | unknown
 [#canvas-oop-rasterization](chrome://flags/#canvas-oop-rasterization) | Out-of-process 2D canvas rasterization. | ✔️ enable it on Android 10+ | unknown
@@ -482,7 +482,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 
 ### [Mobile Functionality / Usability](#mobile-functionality--usability)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#android-picture-in-picture-api](chrome://flags/#android-picture-in-picture-api) | Picture in Picture Web API for Android | ✔️ | unknown
 [#brave-adblock-cname-uncloaking](chrome://flags/#brave-adblock-cname-uncloaking) | Enable CNAME uncloaking | ✔️ 91.1.27.36 (This will become obsolete and enabled by default once fully stable and merged into shields directly) | unknown
 [#brave-adblock-redirect-url](chrome://flags/#brave-adblock-redirect-url) | Enable support for $redirect-url filter option for adblock rules | ✔️ | unknown
@@ -513,7 +513,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 
 ### [Brave only specific flags (not needed to be enforced)](#brave-only-specific-flags-not-needed-to-be-enforced)
 Flag | Name | Comment | Default flag state
--- | -- | --
+-- | -- | -- | --
 [#brave-adblock-cosmetic-filtering](chrome://flags/#brave-adblock-cosmetic-filtering) | Enable cosmetic filtering | Enabled by default even if it only shows "default" | unknown
 [#brave-adblock-csp-rules](chrome://flags/#brave-adblock-csp-rules) | Enable support for CSP rules | Not need to be enforced (since 1.25.68+) | unknown
 [#brave-ads-allowed-to-fallback-to-custom-push-notification-ads](chrome://flags/#brave-ads-allowed-to-fallback-to-custom-push-notification-ads) | Allow Brave Ads to fallback from native to custom push notifications | This is OS specific and in the future will be obsolete since Brave will detect the OS and then automatically fallback to the legacy system. | unknown
