@@ -276,6 +276,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 ### [Desktop Privacy](#desktop-privacy)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | -- | --
+[#autofill-enable-sending-bcn-in-get-upload-details](chrome://flags/#autofill-enable-sending-bcn-in-get-upload-details) | Enable sending billing customer number in GetUploadDetails | ❌ | Enabled if preflights are enabled.
 [#autofill-fill-merchant-promo-code-fields](chrome://flags/#autofill-fill-merchant-promo-code-fields) | Enable Autofill of promo code fields in forms | ❌ | unknown
 [#autofill-parse-merchant-promo-code-fields](chrome://flags/#autofill-parse-merchant-promo-code-fields) | Parse promo code fields in forms | ❌ | unknown
 [#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode. | unknown
@@ -421,6 +422,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 ### [Mobile Privacy](#mobile-privacy)
 Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag state
 -- | -- | -- | --
+[#autofill-enable-sending-bcn-in-get-upload-details](chrome://flags/#autofill-enable-sending-bcn-in-get-upload-details) | Enable sending billing customer number in GetUploadDetails | ❌ | Enabled if preflights are enabled.
 [#autofill-fill-merchant-promo-code-fields](chrome://flags/#autofill-fill-merchant-promo-code-fields) | Enable Autofill of promo code fields in forms | ❌ | unknown
 [#autofill-parse-merchant-promo-code-fields](chrome://flags/#autofill-parse-merchant-promo-code-fields) | Parse promo code fields in forms | ❌ | unknown
 [#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode. | unknown
