@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 19.04.2022
+    - Article: [De-AMP: Cutting out Google and enhancing privacy (brave.com)](https://brave.com/privacy-updates/18-de-amp/)
     - Desktop/Mobile Privacy: `#autofill-enable-sending-bcn-in-get-upload-details` disabled because we use `#private-network-access-respect-preflight-results` and `#private-network-access-send-preflights`.
 - 14.04.2022
     - Add a new indicator `Default flag state` in the chart to quickly see what the Browser uses as default settings, the ones that you see if you did not touched anything at all.
