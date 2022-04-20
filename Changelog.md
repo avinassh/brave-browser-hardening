@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 20.04.2022
+    - Article: [Discussions in Brave Search: real human answers in search results (brave.com)](https://brave.com/discussions-in-brave-search/)
 - 19.04.2022
     - Article: [De-AMP: Cutting out Google and enhancing privacy (brave.com)](https://brave.com/privacy-updates/18-de-amp/)
     - Article: [Brave’s De-AMP feature bypasses ‘harmful’ Google AMP pages (theverge.com)](https://www.theverge.com/2022/4/19/23032776/brave-de-amp-google-browser)
