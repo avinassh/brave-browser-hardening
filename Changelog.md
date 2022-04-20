@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 20.04.2022
+    - Article: [Goggles: Democracy dies in darkness, and so does the We [pdf] (brave.com)](https://brave.com/static-assets/files/goggles.pdf), this was published a while back but I forgot to add it.
     - Article: [Discussions in Brave Search: real human answers in search results (brave.com)](https://brave.com/discussions-in-brave-search/)
 - 19.04.2022
     - Article: [De-AMP: Cutting out Google and enhancing privacy (brave.com)](https://brave.com/privacy-updates/18-de-amp/)
