@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+21.04.2022
+    - Release: [Brave Browser 1.38.67 for Desktop + Android + MacOS](https://github.com/brave/brave-browser/issues/22458)
 - 20.04.2022
     - Article: [Goggles: Democracy dies in darkness, and so does the We [pdf] (brave.com)](https://brave.com/static-assets/files/goggles.pdf), this was published a while back but I forgot to add it.
     - Article: [Discussions in Brave Search: real human answers in search results (brave.com)](https://brave.com/discussions-in-brave-search/)
