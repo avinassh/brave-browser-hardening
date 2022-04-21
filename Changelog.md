@@ -1,6 +1,6 @@
 ## [Project History](#project-history)
-21.04.2022
-    - Release: [Brave Browser 1.38.67 for Desktop + Android + MacOS](https://github.com/brave/brave-browser/issues/22458)
+- 21.04.2022
+    - Release: [Brave Browser 1.38.67 for Desktop + Android + MacOS (github.com)](https://github.com/brave/brave-browser/issues/22458)
 - 20.04.2022
     - Article: [Goggles: Democracy dies in darkness, and so does the We [pdf] (brave.com)](https://brave.com/static-assets/files/goggles.pdf), this was published a while back but I forgot to add it.
     - Article: [Discussions in Brave Search: real human answers in search results (brave.com)](https://brave.com/discussions-in-brave-search/)
@@ -10,68 +10,64 @@
     - Desktop/Mobile Privacy: `#autofill-enable-sending-bcn-in-get-upload-details` disabled because we use `#private-network-access-respect-preflight-results` and `#private-network-access-send-preflights`.
 - 14.04.2022
     - Add a new indicator `Default flag state` in the chart to quickly see what the Browser uses as default settings, the ones that you see if you did not touched anything at all.
-    - Release: [Brave Browser 1.37.116 for Desktop + Android](https://github.com/brave/brave-browser/pull/22333/files), link points to the Android version as the Desktop version only got an Chromium upgrade
+    - Release: [Brave Browser 1.37.116 for Desktop + Android (github.com)](https://github.com/brave/brave-browser/pull/22333/files), link points to the Android version as the Desktop version only got an Chromium upgrade
 - 12.04.2022
-    - Release: [Brave Browser 1.37.113 for Desktop](https://github.com/brave/brave-browser/issues/22243)
-    - Release: [Brave Browser 1.37.113 for Android](https://github.com/brave/brave-browser/pull/22239/files)
-- 08.04.2022
-    - Release: [Brave Browser 1.37.112 for Android](https://github.com/brave/brave-browser/pull/22171)
+    - Release: [Brave Browser 1.37.113 for Desktop (github.com)](https://github.com/brave/brave-browser/issues/22243)
+    - Release: [Brave Browser 1.37.113 for Android (github.com)](https://github.com/brave/brave-browser/pull/22239/files)
 - 06.04.2022
     - Article: [Use Brave Browser For Passive Income and Better Privacy - The complete guide to using Brave and BAT (medium.com)](https://medium.com/yardcouch-com/use-brave-browser-for-passive-income-and-better-privacy-b67c94793b4d)
     - Article: [Google's Topics API: Rebranding FLoC Without Addressing Key Privacy Issues (brave.com)](https://brave.com/web-standards-at-brave/7-googles-topics-api/)
     - Article: [Google’s Third-Party Cookie Replacement Is Flawed, Experts Say (lifewire.com)](https://www.lifewire.com/googles-third-party-cookie-replacement-is-flawed-experts-say-5217882)
 - 05.04.2022
-    - Release: [Brave Browser 1.37.111 for Desktop and Android](https://github.com/brave/brave-browser/issues/22089)
+    - Release: [Brave Browser 1.37.111 for Desktop and Android (github.com)](https://github.com/brave/brave-browser/issues/22089)
 - 01.04.2022
-    - Release: [Brave Browser 1.37.110 for Android](https://github.com/brave/brave-browser/pull/22096/files)
+    - Release: [Brave Browser 1.37.110 for Android (github.com)](https://github.com/brave/brave-browser/pull/22096/files)
     - Desktop/Mobile Performance: Back-forward cache causes, still some problems so we disable it, same like `#durable-client-hints-cache`. In general we try to avoid any cache, not only because performance and lags but also because fingerprinting reasons. Keep in mind that in general prefetch requests will not follow redirects, not send a Referer header, not send credentials for cross-origin requests, and do not pass through service workers. However, they still can be abused to fingerprint coming from extensions and PWAs.
     - Desktop Privacy: `#enable-webusb-device-detection` enforced to disabled.
     - Desktop Security: `#enable-isolated-sandboxed-iframes` will be enforced to enabled.
     - Desktop/Mobile Privacy: `#edit-context` enforced to disabled.
 - 31.03.2022
-    - News: [What to Expect from Privacy Sandbox Testing](https://blog.chromium.org/2022/03/what-to-expect-from-ps-testing.html)
-    - News: [Upgrade to Brave v1.37 Now: Browser sidebar for easy nav & bookmarking; Custom tab backgrounds; Shields update, night mode, & password sync (iOS); Multi-chain swaps in Brave Wallet, & more!](https://brave.com/1.37-release/)
+    - News: [What to Expect from Privacy Sandbox Testing (blog.chromium.org)](https://blog.chromium.org/2022/03/what-to-expect-from-ps-testing.html)
+    - News: [Upgrade to Brave v1.37 Now: Browser sidebar for easy nav & bookmarking; Custom tab backgrounds; Shields update, night mode, & password sync (iOS); Multi-chain swaps in Brave Wallet, & more! (brave.com)](https://brave.com/1.37-release/)
 - 30.03.2022
-    - Release: [Brave Browser 1.37.109 for Desktop](https://github.com/brave/brave-browser/issues/21982)
-- 28.03.2022
-    - News: [Trackers Bounce Back: Measuring Evasion of Partitioned Storage in the Wild](https://arxiv.org/abs/2203.10188).
+    - Release: [Brave Browser 1.37.109 for Desktop (github.com)](https://github.com/brave/brave-browser/issues/21982)
 - 26.03.2022
-    - Release: [Brave Browser 1.36.122 for all Desktop and Android](https://github.com/brave/brave-browser/releases/tag/v1.36.122)
-    - News: ["The Brave browser and Basic Attention Token (BAT) are pioneering how advertising might work in Web 3.0."](https://www.cmswire.com/digital-marketing/how-web3-changes-the-content-model/)
+    - Release: [Brave Browser 1.36.122 for Desktop and Android (github.com)](https://github.com/brave/brave-browser/releases/tag/v1.36.122)
+    - News: ["The Brave browser and Basic Attention Token (BAT) are pioneering how advertising might work in Web 3.0." (cmswire.com)](https://www.cmswire.com/digital-marketing/how-web3-changes-the-content-model/)
 - 24.03.2022
-    - News: Brave gets [de-AMP feature](https://github.com/brave/brave-browser/issues/20458) on Android it is by default off until the problems are resolved.
+    - News: Brave gets [De-AMP feature (github.com)](https://github.com/brave/brave-browser/issues/20458) on Android it is by default off until the problems are resolved.
 - 23.03.2022
     - Desktop Privacy: `#disable-process-reuse` + `#subframe-shutdown-delay`
-    - News: [Naomi Brockwell, known privacy advocate, recommends Brave Browser in her presentation (19:25)](https://www.youtube.com/watch?v=V6yu0JNNtRw).
+    - News: [Naomi Brockwell, known privacy advocate, recommends Brave Browser in her presentation (19:25) (youtube.com)](https://www.youtube.com/watch?v=V6yu0JNNtRw).
 - 22.03.2022
-    - Release: [Brave Browser 1.36.116 for Android](https://github.com/brave/brave-browser/pull/21806/files)
+    - Release: [Brave Browser 1.36.116 for Android (github.com)](https://github.com/brave/brave-browser/pull/21806/files)
 - 21.03.2022
-    - Release: [Brave Browser 1.36.119 based on Chromium 99.0.4844.83 for Desktop](https://github.com/brave/brave-browser/issues/21778)
+    - Release: [Brave Browser 1.36.119 based on Chromium 99.0.4844.83 for Desktop (github.com)](https://github.com/brave/brave-browser/issues/21778)
 - 17.03.2022
     - Release: Brave Browser 1.36.116 Android
 - 15.03.2022
-    - Release: [Google Chrome 99.0.4844.74](https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html)
-    - Release: [Brave Browser 1.36.116 Desktop](https://github.com/brave/brave-browser/pull/21706/files)
-    - Release: [Brave Browser 1.36.112 Android](https://github.com/brave/brave-browser/pull/21657/files)
+    - Release: [Google Chrome 99.0.4844.74 (chromerelease.googleblog.com.com)](https://chromereleases.googleblog.com/2022/03/stable-channel-update-for-desktop_15.html)
+    - Release: [Brave Browser 1.36.116 Desktop (github.com)](https://github.com/brave/brave-browser/pull/21706/files)
+    - Release: [Brave Browser 1.36.112 Android (github.com)](https://github.com/brave/brave-browser/pull/21657/files)
     - Desktop/Mobile Privacy: `#font-access`
-    - Desktop/Mobile Energy:`#throttle-foreground-timers` + `#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes`
+    - Desktop/Mobile Energy: `#throttle-foreground-timers` + `#enable-throttle-display-none-and-visibility-hidden-cross-origin-iframes`
     - Mobile Usability: `#google-lens-sdk-intent` , `#context-menu-translate-with-google-lens`, `#context-menu-shop-with-google-lens`, `#context-menu-search-with-google-lens`, `#context-menu-google-lens-chip`
 - 10.03.2022
-    - News: [DuckDuckGo under fire for the ranking scandal](https://twitter.com/Cernovich/status/1501922103418769408?t=5Fqaa2-KMZwHRNkYKjCVKA). It is relevant because DDG is - for now - the default choice for most countries, until Brave Search becomes fully stable.
+    - News: [DuckDuckGo under fire for the ranking scandal (twitter.com)](https://twitter.com/Cernovich/status/1501922103418769408?t=5Fqaa2-KMZwHRNkYKjCVKA). It is relevant because DDG is - for now - the default choice for most countries, until Brave Search becomes fully stable.
     - Mobile Performance: `#enable-drdc`, + `#canvas-oop-rasterization` and `#enable-gpu-rasterization` do not causing tabs to crash anymore. Debugging on Android remains a PITA because missing DEV-UI extension.
     - Linux Tip: `#enable-skia-renderer` gets rid of Intel iGPU log spam under `brave://gpu/`. You can also enable it on AMD systems without any problem, there are no drawbacks. However this is a Linux specific tip since Windows handles OpenGL differently and there is no skia composition as renderer so Chromium will ignore it anyway.
     - Desktop Performance: Enforce Vulkan via Flag instead of cmdline toggle. On Android it is too unstable and causes some additional problems, such as battery drain as well as graphic glitches. On newer Android versions this is less a problem but on older ones like Android 8+ it causes some issues. This was reported already and it might finally gets fixed in v101.
-    - Bugfix Release: [Brave Browser 1.36.112](https://github.com/brave/brave-browser/pull/21582/files)
+    - Bugfix Release: [Brave Browser 1.36.112 (github.com)](https://github.com/brave/brave-browser/pull/21582/files)
 - 09.03.2022
     - Desktop/Mobile Privacy: We are going to disable `#autofill-parse-merchant-promo-code-fields` and `#autofill-fill-merchant-promo-code-fields` to avoid endpoint connections.
 - 08.03.2022
     - News: ["Unlinkable Bouncing" for more protection against bounce tracking (brave.com)](https://brave.com/privacy-updates/16-unlinkable-bouncing/) + [Brave Bounce Tracking (theregister.com)](https://www.theregister.com/2022/03/09/brave_bounce_tracking/) + [Brave Browser's Unlinkable Bouncing protection improves bounce tracking protection further (ghacks.net)](https://www.ghacks.net/2022/03/09/brave-browser-unlinkable-bouncing/) + [Brave takes on the creepy websites that override your privacy settings (arstechnica.com)](https://arstechnica.com/information-technology/2022/03/brave-has-a-plan-to-stymie-websites-that-override-your-privacy-settings/)
 - 07.03.2022
-    - News: Android Brave Version 1.35.103+ (alias Chromium 98.0.4758.102+) from Google Play Store now fully supports and works with [U2F](https://github.com/brave/brave-browser/issues/7756), this means hardware like Yubikey Security Key through NFC is fully supported. Brave for Android is the only working mobile Browser that fully supports U2F that actually works. Keep in mind that [U2F will soon be deprecated](https://developer.chrome.com/blog/deps-rems-95/) and replaced with [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). Chromiums implementation for WebAuthn will support FIDO2 and FIDO keys but not U2F based keys. It only supports FIDO based keys.
-    - Release: [Brave Brave 1.36.111](https://github.com/brave/brave-browser/pull/21508/files)
-    - News: [Announcing Brave Swap-stakes: Use Brave Wallet for a chance to win up to $500K in daily prizes, including a Bored Ape NFT](https://brave.com/nft-sweepstakes/)
+    - News: Android Brave Version 1.35.103+ (alias Chromium 98.0.4758.102+) from Google Play Store now fully supports and works with [U2F](https://github.com/brave/brave-browser/issues/7756), this means hardware like Yubikey Security Key through NFC is fully supported. Brave for Android is the only working mobile Browser that fully supports U2F that actually works. Keep in mind that [U2F will soon be deprecated (developer.chrome.com)](https://developer.chrome.com/blog/deps-rems-95/) and replaced with [WebAuthn (en.wikipedia.org)](https://en.wikipedia.org/wiki/WebAuthn). Chromiums implementation for WebAuthn will support FIDO2 and FIDO keys but not U2F based keys. It only supports FIDO based keys.
+    - Release: [Brave Brave 1.36.111 (github.com)](https://github.com/brave/brave-browser/pull/21508/files)
+    - News: [Announcing Brave Swap-stakes: Use Brave Wallet for a chance to win up to $500K in daily prizes, including a Bored Ape NFT (brave.com)](https://brave.com/nft-sweepstakes/)
 - 06.03.2022
-    - Changed: Browseraudit.com removed, the [source code](https://github.com/browseraudit/) is from 2015 and is heavily outdated, there is practical no activity anymore.
+    - Changed: Browseraudit.com removed, the [source code (github.com)](https://github.com/browseraudit/) is from 2015 and is heavily outdated, there is practical no activity anymore.
     - Ad Block: `#brave-adblock-redirect-url`
     - Mobile Security: `#biometric-reauth-password-filling`, this depends on if you use biometric auth or not, keep in mind that we disable all autofills forms in general. The flag is not mentioned below as this is a personal decision and use-case scenario.
     - Mobile PWA: `#messages-for-android-pwa-install`
@@ -85,69 +81,68 @@
 - 04.03.2022
     - Desktop/Usability: `History Journeys`, `History Journeys Omnibox Action` and `Page info history` enabled which makes it easier to work with search and tab history. The journeys are not collected in private browser mode and nothing is submitted. I see it as useful to use those flags since it makes it easier to search and use history without opening dozens of new tabs.
     - Desktop/Mobile Performance: Enable `#restrict-websockets-pool` by default, which limits the connections to 6 which is enough for most websites. There are some intense websites that possible require more but I never found some websites who entirely break because of this. This also has a security benefit and the reason why I want to enforce it.
-- 03.03.2022
+- 03.03.2002
     - Fixed: Starting with Chrome 99.0.4844.51+ you can again delete default search engine providers, this was actually by design, the story about this is that people started to remove all entries and had no visible option to restore the default list. The workaround to mess with profile settings and configuration files often ended up with profile corruptions and it was very hard foe beginners to deal with it. In the future Chrome will get an visible option and button to restore the default list.
-    - News: [Brave announces Brave Talk extension, bringing one-click scheduling to Google Calendar](https://brave.com/brave-talk-extension/)
+    - News: [Brave announces Brave Talk extension, bringing one-click scheduling to Google Calendar (brave.com)](https://brave.com/brave-talk-extension/)
 - 02.03.2022
-    - Release: [Brave Brave 1.36.109](https://github.com/brave/brave-browser/pull/21411/files)
+    - Release: [Brave Brave 1.36.109 (github.com)](https://github.com/brave/brave-browser/pull/21411/files)
     - Changed: Some minor improvements in the Readme, small updates nothing important.
-    - Release: [Google Chrome 99.0.4844.51](https://developer.chrome.com/blog/new-in-chrome-99/)
-    - Docs: Added small instructions how to work with Delta updates and debugging. 
+    - Release: [Google Chrome 99.0.4844.51 (developer.chrome.com)](https://developer.chrome.com/blog/new-in-chrome-99/)
+    - Docs: Added small instructions how to work with Delta updates and debugging.
 - 23.02.2022
-    - News: [Google kills Lite on Android](https://support.google.com/chrome/thread/151853370/sunsetting-chrome-lite-mode-in-m100-and-older?hl=en)
-    - Release: [Brave 1.35.104 macOS](https://github.com/brave/brave-browser/pull/21268/files)
+    - News: [Google kills Lite on Android (support.google.com)](https://support.google.com/chrome/thread/151853370/sunsetting-chrome-lite-mode-in-m100-and-older?hl=en)
+    - Release: [Brave 1.35.104 macOS (github.com)](https://github.com/brave/brave-browser/pull/21268/files)
 - 21.02.2022
-    - History: Dissenter and Braver Story explained. Nazi Fork + Trademark violation, besides it is a bad idea to imply that 2 people can compete against an entire Team. Stupid idea, Browser Development is too big to clown around with.
-    - News: [Withdraw your BAT Rewards from Uphold without High Gas Fees](https://www.publish0x.com/bitcoin-baby-day-3-crypto-is-fun/withdrawal-your-bat-rewards-from-uphold-without-high-gas-fee-xqmjpqz)
+    - News: [Withdraw your BAT Rewards from Uphold without High Gas Fees (publish0x.com)](https://www.publish0x.com/bitcoin-baby-day-3-crypto-is-fun/withdrawal-your-bat-rewards-from-uphold-without-high-gas-fee-xqmjpqz)
 - 20.02.2022
-    - Research: [Percival: Making In-Browser Perceptual Ad Blocking Practical With Deep Learning](https://brave.com/wp-content/uploads/2020/08/atc20-din.pdf)
-    - Research: [Who Filters the Filters: Understanding the Growth, Usefulness and Efficiency of Crowdsourced Ad Blocking](https://brave.com/static-assets/files/easylist-sigmetrics-2020.pdf)
-    - Research: [AdGraph: A Machine Learning Approach to Automatic and Effective Adblocking](https://arxiv.org/abs/1805.09155)
-    - Research: [SugarCoat: Programmatically Generating Privacy-Preserving, Web-Compatible Resource Replacements for Content Blocking](https://brave.com/static-assets/files/sugarcoat-ccs-2021.pdf)
+    - Research: [Percival: Making In-Browser Perceptual Ad Blocking Practical With Deep Learning (brave.com)](https://brave.com/wp-content/uploads/2020/08/atc20-din.pdf)
+    - Research: [Who Filters the Filters: Understanding the Growth, Usefulness and Efficiency of Crowdsourced Ad Blocking (brave.com)](https://brave.com/static-assets/files/easylist-sigmetrics-2020.pdf)
+    - Research: [AdGraph: A Machine Learning Approach to Automatic and Effective Adblocking (arxiv.org)](https://arxiv.org/abs/1805.09155)
+    - Research: [SugarCoat: Programmatically Generating Privacy-Preserving, Web-Compatible Resource Replacements for Content Blocking (brave.com)](https://brave.com/static-assets/files/sugarcoat-ccs-2021.pdf)
 - 19.02.2022
-    - News: [Why you should switch to Brave from Google Chrome](https://requestly.io/blog/switch-to-brave-from-chrome/)
+    - News: [Why you should switch to Brave from Google Chrome (requestly.io)](https://requestly.io/blog/switch-to-brave-from-chrome/)
 - 18.02.2022
-    - Release: [Brave 1.35.103 Mobile](https://github.com/brave/brave-browser/pull/21184/files)
+    - Release: [Brave 1.35.103 Mobile (github.com)](https://github.com/brave/brave-browser/pull/21184/files)
 - 17.02.2022
-    - Release: [Brave 1.35.103 Desktop](https://github.com/brave/brave-browser/pull/21146/files)
+    - Release: [Brave 1.35.103 Desktop (github.com)](https://github.com/brave/brave-browser/pull/21146/files)
 - 16.02.2022
     - Obsolete since 1.35.101 Desktop: `#intensive-wake-up-throttling`, `#https-only-mode-setting`, `#http-cache-partitioning`, `#sms-receiver-cross-device`, `#restrict-gamepad-access`, `#cross-origin-embedder-policy-credentialles`, `#omnibox-keyword-search-button`, `#webid`, `#omnibox-drive-suggestions`, `#enable-accessibility-live-caption-soda`, `#tab-hover-card-images`, `#debug-history-intervention-no-user-activation`, `#tab-groups-collapse-freezing`, `#installed-apps-in-cbd`, `#calculate-native-win-occlusion`, `#enable-desktop-pwas-app-icon-shortcuts-menu-ui`, `#speedreader-legacy-backend`
     - Obsolete since 1.35.101 Mobile: `#intensive-wake-up-throttling`, `#https-only-mode-setting`, `#http-cache-partitioning`, `#sms-receiver-cross-device`, `#restrict-gamepad-access`, `#cross-origin-embedder-policy-credentialless`, `#webid`, `#chrome-sharing--hub-v1-5`, `#omnibox-most-visited-tiles`, `#debug-history-intervention-no-user-activation`, `#download-auto-resumption-native`, `#enable-table-ng`, `#enable-lite-video`, `#webnotes-stylize`, `#page-info-discoverability`, `#page-info-version-2`
 - 14.02.2022
-    - Crash: [#enable-fenced-frames](https://bugs.chromium.org/p/chromium/issues/detail?id=1123606) with DOM enabled causes Browser crashes whenever you close a tab, on Android versions prior 9. A workaround is to put it on only `Enabled`, this is an OS specific limitation with older Android versions. The [fence frames designed docs are here](https://docs.google.com/document/d/1HAU9IiHZU4KBPC_rEk3BQYrWTK50PdNGg8CcHhVLXig/edit#heading=h.tdtvkmezm4u6).
-    - News: [How to Set Brave as Default Browser on iPhone or iPad](https://osxdaily.com/2022/02/12/how-to-set-brave-as-default-browser-on-iphone-or-ipad/)
+    - Crash: [#enable-fenced-frames (bugs.chromium.org)](https://bugs.chromium.org/p/chromium/issues/detail?id=1123606) with DOM enabled causes Browser crashes whenever you close a tab, on Android versions prior 9. A workaround is to put it on only `Enabled`, this is an OS specific limitation with older Android versions. The [fence frames designed docs are here (docs.google.com)](https://docs.google.com/document/d/1HAU9IiHZU4KBPC_rEk3BQYrWTK50PdNGg8CcHhVLXig/edit#heading=h.tdtvkmezm4u6).
+    - News: [How to Set Brave as Default Browser on iPhone or iPad (osxdaily.com)](https://osxdaily.com/2022/02/12/how-to-set-brave-as-default-browser-on-iphone-or-ipad/)
 - 13.02.2022
-    - Test: [Official Brave QA Test Pages](https://dev-pages.brave.software/index.html)
+    - Test: [Official Brave QA Test Pages (dev-pages.brave.com)](https://dev-pages.brave.software/index.html)
     - Privacy: How does Brave handles Cookies section added.
 - 10.02.2022
-    - Release: [Brave 1.35.101 Desktop](https://github.com/brave/brave-browser/pull/21009/files)
+    - Release: [Brave 1.35.101 Desktop (github.com)](https://github.com/brave/brave-browser/pull/21009/files)
 - 09.02.2022
-    - News: [Announcing bitFlyer integration for Brave Rewards Android Users in Japan, and major Brave Rewards UI/UX updates on Android](https://brave.com/bitflyer-on-android/)
+    - News: [Announcing bitFlyer integration for Brave Rewards Android Users in Japan, and major Brave Rewards UI/UX updates on Android (brave.com)](https://brave.com/bitflyer-on-android/)
 - 08.02.2022
     - Privacy: `#navigator-connection-attribute` flag does not need to be manually disabled anymore starting with 1.35.100.
-    - Release: [Brave 1.35.100 Mobile](https://github.com/brave/brave-browser/pull/20954/files)
+    - Release: [Brave 1.35.100 Mobile (github.com)](https://github.com/brave/brave-browser/pull/20954/files)
 - 07.02.2022
-    - Article: [The inside story of the browser wars, told by a veteran](https://www.techradar.com/news/the-story-of-the-browser-wars-told-from-the-frontlines)
+    - Article: [The inside story of the browser wars, told by a veteran (techradar.com)](https://www.techradar.com/news/the-story-of-the-browser-wars-told-from-the-frontlines)
 - 02.01.2022
-    - Release: [Brave 1.35.100 Desktop](https://github.com/brave/brave-browser/pull/20832/files)
-    - News: [Brave surpassed 54.5 million monthly active users & 16.0 million daily active users in January 2022](https://twitter.com/BAT_Community/status/1488625540890202115)
+    - Release: [Brave 1.35.100 Desktop (github.com)](https://github.com/brave/brave-browser/pull/20832/files)
+    - News: [Brave surpassed 54.5 million monthly active users & 16.0 million daily active users in January 2022 (twitter.com)](https://twitter.com/BAT_Community/status/1488625540890202115)
 - 31.01.2022
-    - Privacy: Issue [#4598](https://github.com/brave/brave-browser/issues/4598) resolved.
-    - Privacy: Issue [#18062](https://github.com/brave/brave-browser/issues/18062) resolved.
-    - Privacy: Issue [#3964](https://github.com/brave/brave-browser/issues/3964) resolved.
-    - Privacy: Issue [#19685](https://github.com/brave/brave-browser/issues/19685) resolved.
+    - Privacy: Issue [#4598 (github.com)](https://github.com/brave/brave-browser/issues/4598) resolved.
+    - Privacy: Issue [#18062 (github.com)](https://github.com/brave/brave-browser/issues/18062) resolved.
+    - Privacy: Issue [#3964 (github.com)](https://github.com/brave/brave-browser/issues/3964) resolved.
+    - Privacy: Issue [#19685 (github.com)](https://github.com/brave/brave-browser/issues/19685) resolved.
     - Privacy/Security: Add warning regarding the use of portable Browsers.
-    - Desktop/Mobile Privacy: [DRAWN APART : A Device Identification Technique based on Remote GPU Fingerprinting](https://orenlab.sise.bgu.ac.il/p/DrawnApart) affects basically every Browser.
+    - Desktop/Mobile Privacy: [DRAWN APART : A Device Identification Technique based on Remote GPU Fingerprinting (orenlab.site.bgu.ac.il)](https://orenlab.sise.bgu.ac.il/p/DrawnApart) affects basically every Browser.
 - 27.01.2022
-    - News: [Brave welcomes Annie Lee to its leadership team as its first Chief Marketing Officer](https://brave.com/welcome-annie/).
-    - News: [Reproducible build script is upcoming](https://github.com/brave/brave-browser/pull/20481).
+    - News: [Brave welcomes Annie Lee to its leadership team as its first Chief Marketing Officer (brave.com)](https://brave.com/welcome-annie/).
+    - News: [Reproducible build script is upcoming (github.com)](https://github.com/brave/brave-browser/pull/20481).
 - 25.01.2022
-    - News: [Google's Topics API: Rebranding FLoC Without Addressing Key Privacy Issues](https://brave.com/googles-topics-api/).
+    - News: [Google's Topics API: Rebranding FLoC Without Addressing Key Privacy Issues (brave.com)](https://brave.com/googles-topics-api/).
 - 22.01.2022
-    - Release: [Brave Browser Mobile 1.34.81](https://github.com/brave/brave-browser/pull/20622/files) released. The original internal name was 1.34.84. That said it can differ across other stores.
+    - Release: [Brave Browser Mobile 1.34.81 (github.com)](https://github.com/brave/brave-browser/pull/20622/files) released. The original internal name was 1.34.84. That said it can differ across other stores.
     - News: I am still trying to solve some issues caused by Chrome x97 release, there might not be any updates until Chrome 98 because I need tremendous amount of time testing things, my apologies here.
 - 21.01.2022
-    - Release: [Brave Browser Desktop 1.34.81](https://github.com/brave/brave-browser/pull/20622/files) released.
+    - Release: [Brave Browser Desktop 1.34.81 (github.com)](https://github.com/brave/brave-browser/pull/20622/files) released.
 - 19.01.2022
     - Desktop Performance: Explainer why synthetic benchmarks are practical useless and the comparison based on this factor alone is not enough to come to an conclusion.
 - 18.01.2022
@@ -157,42 +152,42 @@
     - Extensions: Updated the section a little bit.
     - Extensions: Mention Demodal extension, currently in early development.
 - 13.01.2022
-    - iOS only: According to Braves GitHub repository, the [Canvas Fingerprinting Protection is temporarily](https://github.com/brave/brave-ios/issues/4522) going to be [removed](https://github.com/brave/brave-ios/pull/4523) because of the following - `Currently, the canvas fingerprinting protection is breaking captchas for iOS users. Remove the canvas fingerprint protection for now and improve the fingerprint protection implementation with farbling etc later on.`
+    - iOS only: According to Braves GitHub repository, the [Canvas Fingerprinting Protection is temporarily (github.com)](https://github.com/brave/brave-ios/issues/4522) going to be [removed (github.com)](https://github.com/brave/brave-ios/pull/4523) because of the following - `Currently, the canvas fingerprinting protection is breaking captchas for iOS users. Remove the canvas fingerprint protection for now and improve the fingerprint protection implementation with farbling etc later on.`
 - 07.01.2022
-    - [Brave 1.34.80 Mobile released](https://github.com/brave/brave-browser/pull/20389/files)
-    - [GrabBag 3: Fixing PoolParty, Improving Fingerprinting Protections, More Debouncing, and Less Chromium Article released](https://brave.com/privacy-updates/15-grab-bag-3/)
-    - [Former Mozilla Firefox employee: "Why I switched from Firefox to Brave as my main browser after 21 years"](https://twitter.com/ratcliffe_mike/status/1479426171209146375), the entire Blog post can be found [here](https://flailingmonkey.com/why-i-switched-from-firefox-to-brave-after-21-years/)
+    - [Brave 1.34.80 Mobile released (github.com)](https://github.com/brave/brave-browser/pull/20389/files)
+    - [GrabBag 3: Fixing PoolParty, Improving Fingerprinting Protections, More Debouncing, and Less Chromium Article released (brave.com)](https://brave.com/privacy-updates/15-grab-bag-3/)
+    - [Former Mozilla Firefox employee: "Why I switched from Firefox to Brave as my main browser after 21 years" (twitter.com)](https://twitter.com/ratcliffe_mike/status/1479426171209146375), the entire Blog post can be found [here (flailingmonkey.com)](https://flailingmonkey.com/why-i-switched-from-firefox-to-brave-after-21-years/)
 - 06.01.2022
     - New flags and changes for Chromium 97.x will be released this weekend. Need some more time for the mobile version and to test the new changes.
-    - [Brave 1.34.80 Desktop released](https://github.com/brave/brave-browser/pull/20360/files)
-    - [Firefox 95 vs. Chrome 97 Browser Performance On Linux](https://www.phoronix.com/scan.php?page=news_item&px=Firefox-95-Chrome-97)
+    - [Brave 1.34.80 Desktop released (github.com)](https://github.com/brave/brave-browser/pull/20360/files)
+    - [Firefox 95 vs. Chrome 97 Browser Performance On Linux (phoronix.com)](https://www.phoronix.com/scan.php?page=news_item&px=Firefox-95-Chrome-97)
 - 05.01.2022
-    - [Brave Now Has Over 50 Million Users](https://brave.com/2021-recap/)
+    - [Brave Now Has Over 50 Million Users (brave.com)](https://brave.com/2021-recap/)
 - 31.12.2021
-    - [CNET Article Recommends Brave: "This privacy-focused browser stops websites tracking you even better than Chrome does"](https://www.cnet.com/tech/mobile/a-privacy-focused-browser-that-stops-websites-from-tracking-you-even-better-than-chrome-does/)
-    - [Using Brave's “Private Window with Tor” could get you fired](https://old.reddit.com/r/cscareerquestions/comments/rsdg0r/til_pressing_altshiftn_in_brave_browser_will/)
+    - [CNET Article Recommends Brave: "This privacy-focused browser stops websites tracking you even better than Chrome does" (cnet.com)](https://www.cnet.com/tech/mobile/a-privacy-focused-browser-that-stops-websites-from-tracking-you-even-better-than-chrome-does/)
+    - [Using Brave's “Private Window with Tor” could get you fired (old.reddit.com)](https://old.reddit.com/r/cscareerquestions/comments/rsdg0r/til_pressing_altshiftn_in_brave_browser_will/)
 - 22.12.2021
-    - [Partitioning Network-State for Privacy](https://brave.com/privacy-updates/14-partitioning-network-state/) article released.
+    - [Partitioning Network-State for Privacy (brave.com)](https://brave.com/privacy-updates/14-partitioning-network-state/) article released.
 - 16.12.2021
-    - Brave Shields UI update via `--enable-features=BraveShieldsPanelV2` in [Nightly 1.35.44+](https://twitter.com/CKsTechNews/status/1472036674305765380)
-    - [Brave Browser Mobile v1.33.106](https://github.com/brave/brave-browser/pull/20138/files) released
-    - [Brave Wallet now available on Android (beta), and soon on iOS! Users can store, manage, grow, & swap their crypto portfolio from a crypto wallet built natively into the Brave mobile browser.](https://brave.com/mobile-brave-wallet/)
+    - Brave Shields UI update via `--enable-features=BraveShieldsPanelV2` in [Nightly 1.35.44+ (twitter.com)](https://twitter.com/CKsTechNews/status/1472036674305765380)
+    - [Brave Browser Mobile v1.33.106 (github.com)](https://github.com/brave/brave-browser/pull/20138/files) released
+    - [Brave Wallet now available on Android (beta), and soon on iOS! Users can store, manage, grow, & swap their crypto portfolio from a crypto wallet built natively into the Brave mobile browser (brave.com)](https://brave.com/mobile-brave-wallet/).
 - 15.12.2021
-    - [Brave Browser Desktop v1.33.106](https://github.com/brave/brave-browser/pull/20092/files) released
-    - [Brave: Preventing Pool-Party Attacks](https://brave.com/privacy-updates/13-pool-party-side-channels/) article released
+    - [Brave Browser Desktop v1.33.106 (github.com)](https://github.com/brave/brave-browser/pull/20092/files) released
+    - [Brave: Preventing Pool-Party Attacks (brave.com)](https://brave.com/privacy-updates/13-pool-party-side-channels/) article released
 - 11.12.2021
-    - [Brave is not affected by CVE-2021-44228 Apache Log4j Remote Code Execution Vulnerability](https://security.googleblog.com/2021/12/apache-log4j-vulnerability.html?m=1), same like every other Chromium based Browser.
-    - Microsoft steals Braves Ads idea and calls it [Transparent Ads](https://techcommunity.microsoft.com/t5/articles/introducing-transparent-ads-in-microsoft-edge-preview/m-p/3035970#M6283) without even mentioning Brave Browser, after that they take over [Xander](https://www.wsj.com/articles/at-t-to-sell-digital-ad-tech-platform-xandr-to-microsoft-11640101193), an ad platform.
-    - [CSS-Exfil-Protection](https://github.com/mlgualtieri/CSS-Exfil-Protection) will be declared obsolete with Chromium 102+.
-    - The attack on uBlock is fixed, as [per discussion](https://github.com/brave/brave-browser/issues/20043). It will be integrated in the next stable bugfix release. Rust fixed it with v0.4.2+.
+    - [Brave is not affected by CVE-2021-44228 Apache Log4j Remote Code Execution Vulnerability (security.googleblog.com)](https://security.googleblog.com/2021/12/apache-log4j-vulnerability.html?m=1), same like every other Chromium based Browser.
+    - Microsoft steals Braves Ads idea and calls it [Transparent Ads (techcommunity.microsoft.com)](https://techcommunity.microsoft.com/t5/articles/introducing-transparent-ads-in-microsoft-edge-preview/m-p/3035970#M6283) without even mentioning Brave Browser, after that they take over [Xander (wsj.com)](https://www.wsj.com/articles/at-t-to-sell-digital-ad-tech-platform-xandr-to-microsoft-11640101193), an ad platform.
+    - [CSS-Exfil-Protection (github.com)](https://github.com/mlgualtieri/CSS-Exfil-Protection) will be declared obsolete with Chromium 102+.
+    - The attack on uBlock is fixed, as [per discussion (github.com)](https://github.com/brave/brave-browser/issues/20043). It will be integrated in the next stable bugfix release. Rust fixed it with v0.4.2+.
 - 08.12.2021
     - Next flags update will be for the major 97x Chromium version.
-    - [Brave 1.32.115](https://github.com/brave/brave-browser/pull/19985/files) released
+    - [Brave 1.32.115 (github.com)](https://github.com/brave/brave-browser/pull/19985/files) released
 - 03.12.2021
-    - [Contradiction regarding Privacy Communities](https://chef-koch.bearblog.dev/brave-browser-hardening-by-chef-koch/#contradiction-regarding-privacy-communities) section added.
+    - [Contradiction regarding Privacy Communities (chef-koch.bearblog.dev)](https://chef-koch.bearblog.dev/brave-browser-hardening-by-chef-koch/#contradiction-regarding-privacy-communities) section added.
 - 02.12.2021
     - Brave Browser lands in an unofficial F-Droid Repository.
-    - [XSinator – XS-Leak Browser Test Suite test](https://github.com/RUB-NDS/xsinator.com) added into Parcourstest
+    - [XSinator – XS-Leak Browser Test Suite test (github.com)](https://github.com/RUB-NDS/xsinator.com) added into Parcourstest
     - Desktop Privacy: `#extensions-menu-access-control`added, upcoming in the next stave version.
     - Desktop/Mobile: `#brave-news` is a new flag which controls if you can entirely enable or disable Brave News, even on Android. This is not security or privacy relevant. Upcoming in the next stable version.
     - Desktop/Mobile: `#brave-ads-allowed-to-fallback-to-custom-push-notification-ads` is an individual flag which normally does not need to enabled. In the future this flag will become redundant and self-regulated.
@@ -200,32 +195,32 @@
 - 29.11.2021
     - Brave News for Android, Nightly only for now added to the Browser FAQ. The flag currently is not listed because there are multiple reasons not to use it.
 - 25.11.2021
-    - Brave Browser [1.32.113](https://github.com/brave/brave-browser/releases/tag/v1.32.113) Desktop released
+    - Brave Browser [1.32.113 (github.com)](https://github.com/brave/brave-browser/releases/tag/v1.32.113) Desktop released
 - 24.11.2021
-    - Brave Browser [1.32.112](https://github.com/brave/brave-browser/releases/tag/v1.32.112) Mobile released
+    - Brave Browser [1.32.112 (github.com)](https://github.com/brave/brave-browser/releases/tag/v1.32.112) Mobile released
 - 23.11.2021
     - Mention Brave Search censorship.
 - 18.11.2021
     - Brave Search requires you to solve a Captcha behind a VPN or Tor
-    - [Brave and UC San Diego Announce SugarCoat, A New Solution to Strengthen the Protection of Web Users’ Privacy While Not Breaking Websites](https://brave.com/privacy-updates/12-sugarcoat/)
+    - [Brave and UC San Diego Announce SugarCoat, A New Solution to Strengthen the Protection of Web Users’ Privacy While Not Breaking Websites (brave.com)](https://brave.com/privacy-updates/12-sugarcoat/)
 - 16.11.2021
-    - [Brave Wallet: a secure crypto wallet, built natively in a web3 browser](https://brave.com/wallet/)
-    - [Brave Adds Crypto Wallet, NFTs, DApps Natively In Browser](https://www.forbes.com/sites/johnkoetsier/2021/11/16/brave-adds-crypto-wallet-nfts-dapps-natively-in-browser/)
-    - [Brave Browser 1.32.106 Released](https://github.com/brave/brave-browser/releases/tag/v1.32.106) + [Announce - The Brave Wallet, a Browser-Native Crypto Wallet](https://brave.com/brave-wallet-launch/)
+    - [Brave Wallet: a secure crypto wallet, built natively in a web3 browser (brave.com)](https://brave.com/wallet/)
+    - [Brave Adds Crypto Wallet, NFTs, DApps Natively In Browser (forbes.com)](https://www.forbes.com/sites/johnkoetsier/2021/11/16/brave-adds-crypto-wallet-nfts-dapps-natively-in-browser/)
+    - [Brave Browser 1.32.106 Released](https://github.com/brave/brave-browser/releases/tag/v1.32.106) + [Announce - The Brave Wallet, a Browser-Native Crypto Wallet (brave.com)](https://brave.com/brave-wallet-launch/)
 - 11.11.2021
-    - [Microsoft has blocked third parties from changing the default browser in Windows 11 #19402](https://github.com/brave/brave-browser/issues/19402)
+    - [Microsoft has blocked third parties from changing the default browser in Windows 11 #19402 (github.com)](https://github.com/brave/brave-browser/issues/19402)
     - Brave VPN FAQ added
     - Desktop/Mobile privacy: Set `force-major-version-to-100` to disabled until this is resolved in Brave. Introduced into 96.0.4664.35+ BETA.
 - 10.11.2021
-    - [Chromium added the ability for websites owner to block the view source option](https://chromium-review.googlesource.com/c/chromium/src/+/3260807). It [works](https://textslashplain.com/2021/11/11/view-source/) on machine level and is [highly controversial](https://news.ycombinator.com/item?id=29171599).
+    - [Chromium added the ability for websites owner to block the view source option (chromium-review.googlesource.com)](https://chromium-review.googlesource.com/c/chromium/src/+/3260807). It [works (textsplashplain.com)](https://textslashplain.com/2021/11/11/view-source/) on machine level and is [highly controversial](https://news.ycombinator.com/item?id=29171599).
     - Syncv2 fixed with 1.33.74 Beta+
     - Sandbox workaround for Linux is to set `MESA_GLSL_CACHE_DISABLE=true` in the environment variables until above mentioned Intel iGPU bug is adopted in Brave. AMD and nVidia users are NOT affected.
 - 09.11.2021
-    - [Brave Browser 1.31.91](https://github.com/brave/brave-browser/releases/tag/v1.31.91) released
+    - [Brave Browser 1.31.91 (github.com)](https://github.com/brave/brave-browser/releases/tag/v1.31.91) released
 - 07.11.2021
-	- Desktop/Mobile security: `#intensive-wake-up-throttling` added to limit cryptojacking
+	- Desktop/Mobile security: `#intensive-wake-up-throttling` added to limit possible cryptojacking.
 - 05.11.2021
-    - Desktop/Mobile privacy: [#enable-fenced-frames](https://github.com/shivanigithub/fenced-frame#privacy-considerations) added
+    - Desktop/Mobile privacy: [#enable-fenced-frames (github.com)](https://github.com/shivanigithub/fenced-frame#privacy-considerations) added
 - 04.11.2021
     - `Backup chrome flags to json and restore the backup on another machine` script no longer works with 95.x and higher. I contacted the author.
     - Listed extension `Hackertab.dev` now got greedy and integrated ads and gets removed.
@@ -239,7 +234,7 @@
     - The `chrome://flags#freeze-user-agent` flag was renamed to `chrome://flags/#reduce-user-agent` in Chrome 93+ and the values were updated to align with the plan below (also testable via `--enable-features=ReduceUserAgent`). We enforce the flag.
     - New parcourstest entry added: `is-chrome-100-yet.glitch.me` that must return `NO`.
 - 01.11.2021
-    - [Force Chrome major version to 100 in the User-Agent string](https://developer.chrome.com/blog/force-major-version-to-100/) with flag `#force-major-version-to-100` in Chrome 96+. [We do not want to use it](https://www.bleepingcomputer.com/news/google/google-tests-if-chrome-1000-user-agent-breaks-websites/) since [it is controversial](https://github.com/WICG/ua-client-hints), see [here](https://www.androidpolice.com/2020/01/14/chrome-wants-to-kill-browser-user-agent-strings-cites-compatibility-and-privacy-concerns/).
+    - [Force Chrome major version to 100 in the User-Agent string (developer-chrome.com)](https://developer.chrome.com/blog/force-major-version-to-100/) with flag `#force-major-version-to-100` in Chrome 96+. [We do not want to use it (bleepingcomputer.com)](https://www.bleepingcomputer.com/news/google/google-tests-if-chrome-1000-user-agent-breaks-websites/) since [it is controversial (github.com)](https://github.com/WICG/ua-client-hints), see [here (androidpolice.com)](https://www.androidpolice.com/2020/01/14/chrome-wants-to-kill-browser-user-agent-strings-cites-compatibility-and-privacy-concerns/).
     - No one noticed it for months but it was not `brave://flags#` how listed Brave flags started, it actually is `brave://flags/#`. Now flags working if you copy the URL and open it in another tap. Opening them via right-click and open in new tab will automatically blocked, you need to copy the link and open it in another tab, then it jumps to the flag and highlights it, however I replaced it now with `chrome://` to make it compatible with other chromium based browsers. Brave internal uses chrome anyway.
 - 31.10.2021
     - Why does fingerprinting matters less than you think added.
@@ -251,7 +246,7 @@
     - Removed since 95+ Desktop: `#dns-httpssvc`, `#omnibox-default-typed-navigations-to-https`, `#brave-first-party-ephemeral-storage`, `enable-unsafe-webgpu-service`, `#quiet-notification-prompts` got implemented into the settings UI, `#privacy-sandbox-settings`, `#safety-check-chrome-cleaner-child`
     - Removed since 95+ Mobile: `#u2f-security-key-api`, `#cookies-without-same-site-must-be-secure`, `#legacy-tls-enforced`, `#omnibox-default-typed-navigations-to-https`, `#treat-unsafe-downloads-as-active-content`, `#brave-first-party-ephemeral-storage`, `#safe-browsing-client-side-detection-android`, `#omnibox-drive-suggestions`, `#omnibox-local-zero-suggest-frcency-ranking`, `#share-by-default-in-cct`, `#enable-accessibility-live-caption`, `#enable-accessibility-live-caption-soda`, `#system-keyboard-lock`, `#privacy-sandbox-settings`, `#chrome-share-highlights-android`, `#cookie-deprecation-messages`, `#enable-android-dark-search`, `#enable-ephemeral-tab-bottom-sheet`, `#quiet-notification-prompts`, `#read-later`, `#share-button-in-top-toolbar`, `#toolbar-iph-android`, `#sharing-hub-desktop-app-menu`, `#sharing-hub-desktop-omnibox`
 - 29.10.2021
-    - [Brave Browser 1.31.88](https://community.brave.com/t/release-channel-1-31-88/294854) released.
+    - [Brave Browser 1.31.88 (community.brave.com)](https://community.brave.com/t/release-channel-1-31-88/294854) released.
 - 28.10.2021
     - `#brave-vpn` flag got removed but it will return, once it is final, I have no exact date or when the official beta starts.
     - Added Zoom Levels tracing as privacy concern.
@@ -263,63 +258,63 @@
     - Marked Alt-Svc header tracking as fixed, see above.
     - End-of-Life: `#https-only-mode-setting` does not needs to be enforced anymore starting with Chrome 96+. This listed flag will be changed once Brave comes with 96+ stable. `#brave-dark-mode-block` gets removed as flag on Desktop at some point, there is no specific date given, Brave Shields settings will handle it if you set it to aggressive (which we do, see below).
     - Outdated with Chrome 95+ Desktop: `#brave-speedreader` now has his own Menu Point under Settings, therefore we do not need any flag anymore. `#brave-decentralized-dns` removed as suggestion, the option under Settings now fully works, so we do not need to list the flag. `#brave-adblock-cname-uncloaking` is not anymore needed to be enforced, this depends starting with 95.x on the Shields settings, on mobile it still needs to be enforced until 96.x.
-    - Added new section for [Browser Desktop Defaults](https://chef-koch.bearblog.dev/brave-browser-hardening-by-chef-koch/#changes-we-enforce-as-defaults-on-shields-and-permissions-on-desktop) with pictures.
+    - Added new section for [Browser Desktop Defaults (chef-koch.bearblog.dev)](https://chef-koch.bearblog.dev/brave-browser-hardening-by-chef-koch/#changes-we-enforce-as-defaults-on-shields-and-permissions-on-desktop) with pictures.
     - Starting working on Chrome 96 and 97 flags. There are bigger changes to come which will take some time to test.
 - 27.10.2021
-    - [Why does Brave consumes more RAM than Chrome](https://chef-koch.bearblog.dev/brave-browser-hardening-by-chef-koch/#why-does-brave-consumes-more-ram-than-chrome) section added.
+    - [Why does Brave consumes more RAM than Chrome (chef-koch.bearblog.dev)](https://chef-koch.bearblog.dev/brave-browser-hardening-by-chef-koch/#why-does-brave-consumes-more-ram-than-chrome) section added.
 - 21.10.2021
     - Brave Wallet FAQ added, needs 1.33.24+ Brave native Wallet is estimated to be available in Release channel in version 1.32.x around November 16, 2021.
 - 20.10.2021
-    - IDLE detection marked as [solved](https://github.com/brave/brave-browser/issues/18409).
-    - [Brave 1.31.87](https://github.com/brave/brave-browser/pull/18865/files) Stable + Google Chrome 95.0.4638.54 Stable Released
-    - Desktop/Mobile Privacy: `#cross-origin-embedder-policy-credentialless` enabled, it becomes enabled by default in [Chrome 96](https://www.chromestatus.com/feature/4918234241302528).
+    - IDLE detection marked as [solved (github.com)](https://github.com/brave/brave-browser/issues/18409).
+    - [Brave 1.31.87 (github.com)](https://github.com/brave/brave-browser/pull/18865/files) Stable + Google Chrome 95.0.4638.54 Stable Released
+    - Desktop/Mobile Privacy: `#cross-origin-embedder-policy-credentialless` enabled, it becomes enabled by default in [Chrome 96 (chromestatus.com)](https://www.chromestatus.com/feature/4918234241302528).
 - 14.10.2021
     - Fix Internal linking for headings.
     - Info about `try.bravesoftware.com`: This is not a malware URL, it is or was a referral website. They earn commission when somebody downloads and use Brave Rewards which is not anymore applicable to newer brave accounts because the referral program is stopped now.
-	- Desktop/Mobile Privacy: `#brave-debounce` added, see [here](https://brave.com/privacy-updates-11/) what it is
-	- Brave released [#5: Encrypting DNS Zone Transfers](https://brave.com/web-standards-at-brave/5-encrypting-dns-zone-transfers/) article.
-	- Desktop/Mobile Privacy: `#brave-first-party-ephemeral-storage` enabled, same like [this](https://github.com/brave/brave-core/pull/7647) but for [session cookies only](https://github.com/brave/brave-core/pull/7387). We do not need to touch `#enable-autofill-account-wallet-storage` because we use [third-party password manager for passwords](https://www.tomsguide.com/news/dont-let-web-browsers-save-passwords) and we disabled auto fill entirely for password fields.
+	- Desktop/Mobile Privacy: `#brave-debounce` added, see [here (brave.com)](https://brave.com/privacy-updates-11/) what it is
+	- Brave released [#5: Encrypting DNS Zone Transfers (brave.com)](https://brave.com/web-standards-at-brave/5-encrypting-dns-zone-transfers/) article.
+	- Desktop/Mobile Privacy: `#brave-first-party-ephemeral-storage` enabled, same like [this (github.com)](https://github.com/brave/brave-core/pull/7647) but for [session cookies only (github.com)](https://github.com/brave/brave-core/pull/7387). We do not need to touch `#enable-autofill-account-wallet-storage` because we use [third-party password manager for passwords (tomsguide.com)](https://www.tomsguide.com/news/dont-let-web-browsers-save-passwords) and we disabled auto fill entirely for password fields.
 	- Desktop/Mobile usability: `#brave-cosmetic-filtering-sync-load` enabled (Chrome 95+) which ensures that the custom filters are regularly synced and updated.
 	- `#brave-rewards-bitflyer` flag moved to outdated.
 	- Rewards on Arch based Distros are borked because of Wayland.
     - Preparations for Chrome 96, we are going wait until Google fixes the quieter permission notifications and tab group options, right-now it puts extra pressure on the CPU under Android and Linux which gets fixed in Chrome 96.
 	- Mention `Privacytests.org`, which provides an overview chart, it is as time of writing this still beta.
-	- Desktop/Mobile Security: `#u2f-security-key-api` disabled - [Chrome 95 does not introduce any GUI improvements](https://www.androidpolice.com/2021/09/27/whats-new-in-chrome-95-now-rolling-out-to-the-beta-channel-apk-download/).
+	- Desktop/Mobile Security: `#u2f-security-key-api` disabled - [Chrome 95 does not introduce any GUI improvements (androidpolice.com)](https://www.androidpolice.com/2021/09/27/whats-new-in-chrome-95-now-rolling-out-to-the-beta-channel-apk-download/).
 - 08.10.2021
-    - Desktop/Mobile Security: [#https-only-mode-setting enforced](https://beebom.com/how-enable-https-only-mode-chrome-firefox-edge-safari/). This makes [Brave Shields HTTPS mode obsolete](https://twitter.com/CKsTechNews/status/1446457584052056066). After you enabled the mentioned option you must go to the Settings page and enable the HTTPS first mode manually, it is not enough to just toggle the flag and restart Brave Browser. Brave Shield HTTPS upgrade option might gets removed and replaced with this option, once it is enabled by default.
+    - Desktop/Mobile Security: [#https-only-mode-setting enforced (beebom.com)](https://beebom.com/how-enable-https-only-mode-chrome-firefox-edge-safari/). This makes [Brave Shields HTTPS mode obsolete (twitter.com)](https://twitter.com/CKsTechNews/status/1446457584052056066). After you enabled the mentioned option you must go to the Settings page and enable the HTTPS first mode manually, it is not enough to just toggle the flag and restart Brave Browser. Brave Shield HTTPS upgrade option might gets removed and replaced with this option, once it is enabled by default.
 - 06.10.2021
     - Default fonts section added
 - 02.10.2021
     - Extension list updated to reflect latest extension trends.
     - Preparations for Chrome 95.
 - 29.09.2021
-    - Manually added filter-lists updating [every 7 days](https://twitter.com/fanboynz/status/1443363282660651009), it is planned to reduce the update time.
+    - Manually added filter-lists updating [every 7 days (twitter.com)](https://twitter.com/fanboynz/status/1443363282660651009), it is planned to reduce the update time.
     - enumerateDevices fingerprinting is resolved
   	- IDLE detection (`chrome://settings/content/idleDetection`) topic is covered (see above under "Unresolved Issues")
 - 25.09.2021
     - Brave Talk FAQ added
-  	- ClearURLs extension is not needed anymore since [1.30.84+](https://github.com/brave/brave-browser/releases/tag/v1.30.84) or higher. For [cosmetic based parameters](https://github.com/brave/adblock-rust/issues/1664) e.g. hiding additional references, you must [manually subscribe an ad-block list](brave://adblock/).
+  	- ClearURLs extension is not needed anymore since [1.30.84+ (github.com)](https://github.com/brave/brave-browser/releases/tag/v1.30.84) or higher. For [cosmetic based parameters (github.com)](https://github.com/brave/adblock-rust/issues/1664) e.g. hiding additional references, you must [manually subscribe an ad-block list (brave://adblock/)](brave://adblock/).
 - 17.09.2021
     - [Logo](https://www.ledger.com/academy/brave-browser-rewarding-you-for-watching-ads) updated + Reference updated & some markdown gimmicks added
 - 15.09.2021
-    - Chrome 94+ removes `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` cmdline.
+    - Chrome 94+ removes `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` command line option.
 - 31.08.2021
-    - Desktop/Mobile: Enable Native Wallet removed, it is [redundant now since v1.29.76](https://www.gemini.com/blog/gemini-now-provides-an-integrated-crypto-experience-for-brave-users), you can toggle it now without enforcing the flag.
-    - Added [Reference for the Brave vs. Browser X discussion](https://rentry.co/BraveHardening#reference-for-the-brave-vs-browser-x-discussion) section
+    - Desktop/Mobile: Enable Native Wallet removed, it is [redundant now since v1.29.76 (gemini.com)](https://www.gemini.com/blog/gemini-now-provides-an-integrated-crypto-experience-for-brave-users), you can toggle it now without enforcing the flag.
+    - Added [Reference for the Brave vs. Browser X discussion (rentry.co)](https://rentry.co/BraveHardening#reference-for-the-brave-vs-browser-x-discussion) section
     - Obsolete flags removed: `#enable-ftp`, `#sync-compromised-credentials`, `#brave-adblock-default-1p-blocking`, `#brave-dark-mode-block`, `#omnibox-short-bookmark-suggestions`, `#omnibox-tab-switch-suggestions`, `#omnibox-pedal-suggestions`, `#schemeful-same-site`, `#brave-permission-lifetime`, `#safe-browsing-real-time-url-lookup-enterprise-ga-endpoint`, `#clear-cross-browsing-context-group-main-frame-name`, `#passwords-account-storage`, `#brave-ads-custom-notifications`, `#window-naming`
-    - [Brave release schedule link](https://github.com/brave/brave-browser/wiki/Brave-Release-Schedule) added.
-    - Mention some useful command line parameters, they are listed under "[Other Useful Brave Browser Tips](https://rentry.co/BraveHardening#other-useful-brave-browser-tips)"
+    - [Brave release schedule link (github.com)](https://github.com/brave/brave-browser/wiki/Brave-Release-Schedule) added.
+    - Mention some useful command line parameters, they are listed under "[Other Useful Brave Browser Tips (rentry.co)](https://rentry.co/BraveHardening#other-useful-brave-browser-tips)"
 - 29.08.2021
     - Desktop privacy: `#enable-lens-region-search` disabled
     - Desktop privacy: `#privacy-review` enabled
     - Desktop usability: `#extension-workflow-justification` enabled
     - Desktop/Mobile usability: `#media-session-webrtc` enabled
 - 27.08.2021
-    - Desktop privacy: [Unsafe WebGPU Service](https://blog.chromium.org/2021/08/chrome-94-beta-webcodecs-webgpu.html?m=1) disabled, the upper layer flag `#enable-unsafe-webgpu` is by default disabled
+    - Desktop privacy: [Unsafe WebGPU Service (blog.chromium.org)](https://blog.chromium.org/2021/08/chrome-94-beta-webcodecs-webgpu.html?m=1) disabled, the upper layer flag `#enable-unsafe-webgpu` is by default disabled
 - 25.08.2021
     - Mobile privacy: Safe Browsing Client Side Detection on Android disabled
     - Mobile performance: `#enable-instant-start` enabled
-    - Mobile security: `#enable-tls13-early-data` is EOL, on Desktop - we keep it until v100.
+    - Mobile security: `#enable-tls13-early-data` is EOL, on Desktop - we keep it until v100.x.
     - Linux performance: `Enable Mojo Shared Memory Channel` mentioned (this depends on your Distro).
     - Desktop usability: `Enable experimental Brave native wallet` enabled DO NOT enable it on mobile it will crash some websites because Wallet services require Google Play Store and are NOT bypassable via MicroG, if you have Google Play Services preinstalled (Stock ROMs) you can enable it.
 - 22.08.2021
@@ -331,17 +326,17 @@
     - Desktop performance: Chrome Cleanup Tool in safety check disabled
     - Desktop/Mobile security: TLS 1.3 Early Data (now usable since Chrome 92+)
     - Desktop privacy: Omnibox keyword search button disabled
-    - Desktop usability: [Omnibox Keyword Space Triggering Setting enabled](https://www.digitalinformationworld.com/2021/05/an-annoying-change-for-omnibox-custom.html) (Chrome 92.0.4505.0+)
+    - Desktop usability: [Omnibox Keyword Space Triggering Setting enabled (digitalinformationworld.com)](https://www.digitalinformationworld.com/2021/05/an-annoying-change-for-omnibox-custom.html) (Chrome 92.0.4505.0+)
 - 20.08.2021
-    - Desktop/mobile privacy: Disabled [WebXR Incubations](https://www.chromestatus.com/feature/5732397976911872)
+    - Desktop/mobile privacy: Disabled [WebXR Incubations (chromestatus.com)](https://www.chromestatus.com/feature/5732397976911872)
     - Mobile usability: `#enable-quick-action-search-widget-android` added, needs ([Chrome 93+](https://www.androidpolice.com/2021/06/29/chrome-for-android-is-rediscovering-widgets-now-that-apple-made-them-hot-again/))
     - Mobile usability: `#webnotes-stylize` added, needs ([Chrome 93+](https://www.androidpolice.com/2021/06/11/chrome-will-make-text-snippet-sharing-much-prettier-in-the-future/))
 - 19.08.2021
-    - [Ask me anything (AMA) section](https://rentry.co/BraveHardening#brave-ask-me-anything-ama-sorted-from-newest-to-oldest) added
-    - Desktop/Mobile Privacy: Added [WebID](https://github.com/WICG/WebID)
-    - Desktop/Mobile Security: Added [WebOTP Cross Device](https://www.chromestatus.com/feature/5702992143581184)
-    - Desktop/Mobile Privacy + Security: Added [HTTP Cache Partitioning](https://developers.google.com/web/updates/2020/10/http-cache-partitioning)
-    - Desktop usability: `#scrollable-tabstrip` set to `enabled - tabs shrink to a medium width` to workaround [this](https://community.brave.com/t/better-tabs-design/89108/16)
+    - [Ask me anything (AMA) section (rentry.co)](https://rentry.co/BraveHardening#brave-ask-me-anything-ama-sorted-from-newest-to-oldest) added
+    - Desktop/Mobile Privacy: Added [WebID (github.com)](https://github.com/WICG/WebID)
+    - Desktop/Mobile Security: Added [WebOTP Cross Device (chromestatus.com)](https://www.chromestatus.com/feature/5702992143581184)
+    - Desktop/Mobile Privacy + Security: Added [HTTP Cache Partitioning (developers.google.com)](https://developers.google.com/web/updates/2020/10/http-cache-partitioning)
+    - Desktop usability: `#scrollable-tabstrip` set to `enabled - tabs shrink to a medium width` to workaround [this (community.brave.com)](https://community.brave.com/t/better-tabs-design/89108/16).
     - Deprecated: `#turn-off-streaming-media-caching-on-battery`
     - Deprecated: `#turn-off-streaming-media-caching-always`
 - 18.08.2021
@@ -349,36 +344,36 @@
     - Desktop usability: Added Enable Brave Ads custom notifications. This allows to see media content within the ads notification which triggers showing more ads. Even if you do not use Brave to gain some BATs, you can set it to enabled (in case you change your mind).
     - Desktop/Mobile Security: Added Enforce the use of Braves VPN (there will be an GUI option given at some point, but for now we enforce it)
     - Desktop usability: Added Brave Talk enabled which is a secure alternative to Microsoft Teams. You find it in the sidebar once enabled (first entry, the webcam symbol).
-    - Desktop/Mobile Security: Enable [Ephemeral Storage](https://threatpost.com/chrome-adds-ability-to-force-ephemeral-mode/105273/)
+    - Desktop/Mobile Security: Enable [Ephemeral Storage (threatpost.com)](https://threatpost.com/chrome-adds-ability-to-force-ephemeral-mode/105273/)
 - 24.07.2021
 	- Desktop/Mobile usability: Changed Dark mode setting from `invert everything` to `increase text contrast`. It lands in the next Brave stable version.
-	- [SameSite 🍪 sandbox](https://samesite-sandbox.glitch.me/) test added
+	- [SameSite 🍪 sandbox (samesite-sandbox.glitch.me)](https://samesite-sandbox.glitch.me/) test added
 - 18.07.2021
-	- Desktop/Security: Added [Strict Extension Isolation](https://www.chromestory.com/2021/05/strict-extension-isolation/)
-	- Desktop/usability: Added [COLRv1 Color Gradient Vector Fonts flag](https://www.chromestatus.com/feature/5638148514119680)
+	- Desktop/Security: Added [Strict Extension Isolation (chromestory.com)](https://www.chromestory.com/2021/05/strict-extension-isolation/)
+	- Desktop/usability: Added [COLRv1 Color Gradient Vector Fonts flag (chromestatus.com)](https://www.chromestatus.com/feature/5638148514119680)
 - 20.06.2021
-	- No more 5 BAT payout minimum for Creators, increased to 10
+	- No more 5 BAT payout minimum for creators, increased to 10.
 - 14.06.2021
 	- TablesNG test added
 - 13.06.2021
 	- Linux: No video hardware acceleration available on some pages
 - 11.06.2021
-	- Workaround: (Linux) [SIGSEGV & SIGTRAP error codes](https://bbs.archlinux.org/viewtopic.php?pid=1950852#p1950852) in Brave added
-	- Google killed [#omnibox-context-menu-show-full-urls & omnibox ui](https://therecord.media/google-abandons-experiment-to-show-simplified-domain-urls-in-chrome/), If users wanted to view the full link, they could click or hover the Chrome address bar to reveal the rest of the page URL. You find the native settings under `View` menu-bar item... `Always Show Full URLs` as option since v1.25.70+.
+	- Workaround: (Linux) [SIGSEGV & SIGTRAP error codes (bbs.archlinux.org)](https://bbs.archlinux.org/viewtopic.php?pid=1950852#p1950852) in Brave added
+	- Google killed [#omnibox-context-menu-show-full-urls & omnibox ui (therecord.media)](https://therecord.media/google-abandons-experiment-to-show-simplified-domain-urls-in-chrome/), If users wanted to view the full link, they could click or hover the Chrome address bar to reveal the rest of the page URL. You find the native settings under `View` menu-bar item... `Always Show Full URLs` as option since v1.25.70+.
 - 10.06.2021
-	- Brave FAQ section added to [address concerns from random people](https://old.reddit.com/r/privacy/comments/nvza9j/brave_is_not_private/)
+	- Brave FAQ section added to [address concerns from random people (old.reddit.com)](https://old.reddit.com/r/privacy/comments/nvza9j/brave_is_not_private/)
 - 05.06.2021
-	- Ad-blocking/Speedreader: (Desktop) `#speedreader-legacy-backend` added. Uses [AdBlock](https://www.ctrl.blog/entry/brave-ab-performance.html) rules to determine if pages are readable and distills using CSS selector rules.
+	- Ad-blocking/Speedreader: (Desktop) `#speedreader-legacy-backend` added. Uses [AdBlock (ctrl.blog)](https://www.ctrl.blog/entry/brave-ab-performance.html) rules to determine if pages are readable and distills using CSS selector rules.
 - 03.06.2021
-	- AdBlocking/usability: (Mobile/Desktop) `#brave-adblock-cname-uncloaking` added which takes [DNS CNAME records](https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/) into account when making network request blocking decisions.
+	- AdBlocking/usability: (Mobile/Desktop) `#brave-adblock-cname-uncloaking` added which takes [DNS CNAME records (cloudflare.com)](https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/) into account when making network request blocking decisions.
 	- Brave Search FAQ: Explained what "bangs" are.
 - 31.05.2021
 	- Privacy: Enforce `#privacy-sandbox-settings`, currently only works for Australia, Brasil, Canada, India, Indonesia, Japan, Mexico, New Zealand and Philippines its part of disabling FLoC (Federated Learning of Cohorts). We enforce it because in the future this flag will be expanded to trigger other privacy related mechanism.
 - 29.05.2021
 	- Privacy: `#enable-autofill-credit-card-authentication` (Mobile/Desktop) - Avoid Google Endpoint connections/leakage.
 	- Privacy: `#passwords-account-storage` (Mobile/Desktop) - Avoid Google Endpoint connections/leakage.
-	- Test: [Parcourstest](https://rentry.co/BraveHardening#parcourstest) section added
-	- Removed: `#heavy-ad-privacy-mitigations`only needed for [developers](https://developers.google.cn/web/updates/2020/05/heavy-ad-interventions?hl=zh-cn) basically overthinking the process and they send reports about blocked ADs.
+	- Test: [Parcourstest (rentry.co)](https://rentry.co/BraveHardening#parcourstest) section added
+	- Removed: `#heavy-ad-privacy-mitigations`only needed for [developers (developers.google.com)](https://developers.google.cn/web/updates/2020/05/heavy-ad-interventions?hl=zh-cn) basically overthinking the process and they send reports about blocked ADs.
 - 28.05.2021
 	- Privacy: `#system-keyboard-lock` (Mobile/Desktop) disabled due to privacy (fingerprinting) concerns.
 	- usability: `#installed-apps-in-cbd` (Desktop) added
@@ -399,7 +394,7 @@
     - Disabled: `Live Caption` (Mobile/Desktop) due to privacy concerns (downloads & depends on third-party closed source Google stuff, will be addressed by Brave Team)
 	- Added: `#shared-highlighting-v2` Shared Highlighting 2.0 (Mobile/Desktop) to improve usability
 	- Added: `#enable-prerender2` Prerender2 (Mobile/Desktop) enabled to increase performance
-	- Added: [Linux specific Tips](https://rentry.co/BraveHardening#linux-specific-tips) section
+	- Added: [Linux specific Tips (rentry.co)](https://rentry.co/BraveHardening#linux-specific-tips) section
 	- Corrected: Typos & all user based feedback reports addressed
 - 24.05.2021
 	- Disabled: `#safe-browsing-real-time-url-lookup-enterprise-ga-endpoint` (Desktop) It connects to some Google Endpoints.
@@ -432,4 +427,5 @@
 	- Added: `Tab Groups Collapse Freezing` (Desktop)
 - 05.03.2021
 	- Initial release: First public version
-	- Brave was originally built on Gecko (Mozilla) but due to some [issues/limitations they decided to move to Chromium](https://brianbondy.com/blog/174/the-road-to-brave-10).
+	- Brave was originally built on Gecko (Mozilla) but due to some [issues/limitations they decided to move to Chromium (brianbondy.com)](https://brianbondy.com/blog/174/the-road-to-brave-10).
+    
