@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 22.04.2022
+    - Mobile Privacy: `#feed-stamp`, added since Android 1.36.116+. The flag is somewhat optional, if you do not enabled Feeds it is irrelevant but if you enabled Feeds StAMP based Cards are fetched - but tunneled - by default. We take no risk and disable it regardless if it is tunneled or not.
     - Desktop Usability: `#quick-commands`, added since Brave Beta 1.39.78+.
     - Desktop/Mobile Privacy: `#brave-reduce-language`, added since Brave Beta 1.39.78+.
 - 21.04.2022

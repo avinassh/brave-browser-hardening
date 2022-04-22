@@ -440,6 +440,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 [#enable-generic-sensor-extra-classes](chrome://flags/#enable-generic-sensor-extra-classes) | Generic Sensor Extra Classes | ❌ | unknown
 [#enable-payment-request-basic-card](chrome://flags/#enable-payment-request-basic-card) | PaymentRequest API 'basic-card' method | ❌ | unknown
 [#enable-quic](chrome://flags/#enable-quic) | Enable QUIC Protocol | ✔️ (Brave filters controversial APIs) | unknown
+[#feed-stamp](chrome://flags/#feed-stamp) | Enable StAMP cards in the Feed | ❌ | Default, depends on if you use Feeds or not.
 [#font-access](chrome://flags/#font-access) | Font Access APIs | ❌ | unknown
 [#force-major-version-to-100](chrome://flags/#force-major-version-to-100) | [#force-major-version-to-100](https://blog.chromium.org/2021/10/chrome-96-beta-conditional-focus.html) | ❌ | unknown
 [#google-mobile-services-passwords](chrome://flags/#google-mobile-services-passwords) | Google Mobile Services for Passwords | ❌ | unknown
