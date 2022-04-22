@@ -26,6 +26,7 @@ This is my own test setup.
 - Privacy: [is-chrome-100-yet.glitch.me (is-chrome-100-yet.glitch.me)](https://is-chrome-100-yet.glitch.me/) must return: NO which is always the case because we never use not enforce `#force-major-version-to-100`.
 - Functionality: [webcamtests (webcamtests.com)](https://webcamtests.com/), Webcam Test Web Utility must show a picture in case you use and plugged in your webcam. Since we blocked the webcam permission by default, you need to unlock that permission first for the website. Do not add an general exclusion to the permission page. This then also tests if it really blocks the cam permission or not each time we revisit the page.
 - Security: [XSinator – XS-Leak Browser Test Suite (xsinator.com)](https://xsinator.com/), needs to pass, this will not happen this year but this is a long-time goal.
+- Security (optional): To check if the HTTPS-Upgrade option is functional you can visit [http://https-everywhere.badssl.com](http://https-everywhere.badssl.com/). But we do not need it since we use the - Always use HTTPS option. However, on Android you can only, for whatever reasons enable always use HTTPS if the upgrade option is checked.
 
 
 Official Test:
