@@ -283,6 +283,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 [#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️ we enforce it | unknown
 [#brave-domain-block-1pes](chrome://flags/#brave-domain-block-1pes) | Enable domain blocking using First Party Ephemeral Storage | ✔️ | unknown
 [#brave-extension-network-blocking](chrome://flags/#brave-extension-network-blocking) | Enable extension network blocking | ✔️ (91+) | unknown
+[#brave-reduce-language](chrome://flags/#brave-reduce-language) | Reduce the identifiability of my language preferences – Mac, Windows, Linux, Chrome OS, Android, Fuchsia | ✔️ | Default, enabled depending on your Shields settings.
 [#device-posture](chrome://flags/#device-posture) | Device Posture API | ❌ | unknown
 [#disable-process-reuse](chrome://flags/#disable-process-reuse) | Disable subframe process reuse | ✔️ | unknown
 [#edit-context](chrome://flags/#edit-context) | EditContext API | ❌ (100.0+) | unknown
@@ -428,6 +429,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 [#brave-dark-mode-block](chrome://flags/#brave-dark-mode-block) | Enable dark mode blocking fingerprinting protection | ✔️ We enforce it for all Shield modes, otherwise it is only activated in aggressive mode. | unknown
 [#brave-debounce](chrome://flags/#brave-debounce) | Enable debouncing (94.x+) | ✔️ | unknown
 [#brave-domain-block-1pes](chrome://flags/#brave-domain-block-1pes) | Enable domain blocking using First Party Ephemeral Storage | ✔️ | unknown
+[#brave-reduce-language](chrome://flags/#brave-reduce-language) | Reduce the identifiability of my language preferences – Mac, Windows, Linux, Chrome OS, Android, Fuchsia | ✔️ | Default, enabled depending on your Shields settings.
 [#continuous-search](chrome://flags/#continuous-search) | Continues Search | ❌ | unknown
 [#device-posture](chrome://flags/#device-posture) | Device Posture API | ❌ | unknown
 [#edit-context](chrome://flags/#edit-context) | EditContext API | ❌ (100.0+) | unknown

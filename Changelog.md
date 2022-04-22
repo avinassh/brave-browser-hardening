@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 22.04.2022
+    - Desktop/Mobile Privacy: `#brave-reduce-language`, added since Brave Beta 1.39.78+.
 - 21.04.2022
     - Release: [Brave Browser 1.38.104 for Desktop + Android + MacOS (github.com)](https://github.com/brave/brave-browser/issues/22458)
 - 20.04.2022
