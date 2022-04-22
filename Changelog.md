@@ -6,6 +6,7 @@
 - 21.04.2022
     - Release: [Brave Browser 1.38.104 for Desktop + Android + MacOS (github.com)](https://github.com/brave/brave-browser/issues/22458)
 - 20.04.2022
+    - Info: Brave Search removed the Beta tag in the Search Settings. The Website itself remains beta.
     - Article: [Brave Search no longer requires you to append ‘Reddit’ to your searches (theverge.com)](https://www.theverge.com/2022/4/20/23034024/brave-search-feature-discussions-append-reddit)
     - Article: [Goggles: Democracy dies in darkness, and so does the We [pdf] (brave.com)](https://brave.com/static-assets/files/goggles.pdf), this was published a while back but I forgot to add it.
     - Article: [Discussions in Brave Search: real human answers in search results (brave.com)](https://brave.com/discussions-in-brave-search/)
