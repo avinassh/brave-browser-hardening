@@ -359,6 +359,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 [#page-info-about-this-site](chrome://flags/#page-info-about-this-site) | About this Site in Page Info | ✔️ | unknown
 [#page-info-history-desktop](chrome://flags/#page-info-history-desktop) | Page info history | ✔️ (Chrome 97+) | unknown
 [#playback-speed-button](chrome://flags/#playback-speed-button) | Playback Speed Button | ✔️ | unknown
+[#quick-commands](chrome://flags/#quick-commands) | Quick Commands | ✔️ | Default (Disabled)
 [#scrollable-tabstrip](chrome://flags/#scrollable-tabstrip) | Tab Scrolling | ✔️ (tabs shrink to a medium width) | unknown
 [#shared-highlighting-v2](chrome://flags/#shared-highlighting-v2) | Shared Highlighting 2.0 | ✔️ (Chrome 90.x+) | unknown
 [#sharing-hub-desktop-app-menu](chrome://flags/#sharing-hub-desktop-app-menu) | Desktop Sharing Hub in App Menu | ✔️ (Chrome 91+) | unknown
