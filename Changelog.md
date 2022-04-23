@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 23.04.2022
+    - Release: [Brave Browser lands on Flatpak (flathub.org)](https://flathub.org/apps/details/com.brave.Browser)
 - 22.04.2022
     - Article: [In a 2021 study of popular web browsers, Brave is the only "out-of-the-box" web browser that does not share IP address or details of web pages visited with their backend (ieeexplore.ieee.org)](https://ieeexplore.ieee.org/abstract/document/9374407)
     - Mobile Privacy: `#feed-stamp`, added since Android 1.36.116+. The flag is somewhat optional, if you do not enabled Feeds it is irrelevant but if you enabled Feeds StAMP based Cards are fetched - but tunneled - by default. We take no risk and disable it regardless if it is tunneled or not.
