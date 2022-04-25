@@ -23,5 +23,6 @@ Brave needs to fix mentioned points otherwise I cannot suggest using it as priva
 - Starting with Brave Browser v1.26.67+ you can set the search engine to Brave Search. Since 1.34.x Brave was added officially in the list.
 - You get locally based search results if you change the location settings on search.brave.com and save cookies under `brave://settings/cookies`, you must check that "Sites that can always use cookies" is selected for the website. This is a web limitation and not Braves fault, without cookies no new content can be indexed to show the actual results.
 - [Hyperweb for iOS lets you choose the default search engne provider](https://apps.apple.com/gb/app/hyperweb/id1581824571).
+- You can customize the Braves Search Engine and disable the real human results view in the Search Engine Settings.
 
 [🔝 Back to top 🔝](#)
