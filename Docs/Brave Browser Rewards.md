@@ -2,6 +2,9 @@
 
 ![New and improved Brave Reward Popup to claim Rewards](https://i.ibb.co/bgB0BKL/Reward-claim.png)
 
+![Flagged Rewards Account](https://i.ibb.co/92DPfnR/Rewards-flagged.webp)
+
+
 - Brave Rewards, depending on your country simply counts as income, which means it is [NOT tax free (koinly.io)](https://koinly.io/blog/crypto-airdrop-tax/).
 - Claiming Rewards on Mobile [requires SafetyNet to pass (ruqqus.com)](https://ruqqus.com/+BraveBrowser/post/bk8n/android-if-your-phone-fails-safetynet) and depends on Google Play Services. If you never pass SafetyNet you will not be able to claim your BAT and you might be flagged by the system which means you will never see any ads.
 - I got some BAT and cannot verify my wallet (country not supported etc.). Create a publisher's account and connect your YouTube, Reddit or a website. Then tip yourself. You'll lose 10% of your BAT in the process, but it's better than losing everything.
@@ -25,3 +28,4 @@
 - [The new Gemini User Wallet in Brave Rewards lets users seamlessly redeem and move their BAT. (video) (vimeo.com)](https://vimeo.com/595169365), for text only announce, [check this out (brave.com)](https://brave.com/gemini-user-wallet/).
 - `I can't claim my BAT!?` Try disabling any VPN/Proxy/SOCKS. In case you're on Android you need SafetyNet to pass, you can try to [bypass it via Magisk (android.gadgethacks.com)](https://android.gadgethacks.com/how-to/magisk-101-fix-safetynet-cts-profile-mismatch-errors-0178047/). If you cannot claim your reward disable your VPN/Proxy and restart (relaunch) your Browser. Keep in mind that toggling VPN, Proxies, Tor, Shadowsocks etc. might results that your account gets flagged automatically by the system, this means you do not see any ads anymore once this is done. You can ask in the forum to remove the flag from your account but if they notice you constantly toggle such systems you might even get banned. The flagging system is in place to avoid fraud and not to censor someone.
 
+[🔝 Back to top 🔝](#)
