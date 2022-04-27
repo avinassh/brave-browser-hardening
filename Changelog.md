@@ -1,4 +1,7 @@
 ## [Project History](#project-history)
+- 27.04.2022
+    - Release: [Brave Browser 1.38.109 for Android (github.com)](https://github.com/brave/brave-browser/issues/22575)
+    - Release: [Brave Browser 1.38.109 for Desktop (github.com)](https://github.com/brave/brave-browser/pull/22578/files)
 - 23.04.2022
     - Release: [Brave Browser lands on Flatpak (flathub.org)](https://flathub.org/apps/details/com.brave.Browser)
 - 22.04.2022
