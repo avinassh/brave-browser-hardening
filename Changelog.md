@@ -1,5 +1,7 @@
 ## [Project History](#project-history)
 - 28.04.2022
+    - Info: de-AMP flag enforcement is not needed as the Settings override the flags preferences.
+    - Info: Starting with 1.38.109>= Shields v2 is enabled by default, if you prefer the old Shield version you can enable `#brave-shields-v1`in the flags and disable `#brave-shields-v2`. Usually just disabling the v2 flag is just enough however, the problem is that it might break some sync features. So this is the recommend way to do it.
     - Workaround: In order to get the Hardware Media Key Handling opinion back, that disappeared in latest Stable, Beta and Nightly you need to enable `#temporary-unexpire-flags-m100`, restart Brave Browser and then you see again `#hardware-media-key-handling` flag.
 - 27.04.2022
     - News: [Verifying Brave Rewards with Gemini on Android has been released! (Version 1.38.x of Brave app on Android — keep an eye out on the app store for when the update becomes available for you!) (brave.com)](https://brave.com/gemini-on-android/)

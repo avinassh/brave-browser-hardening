@@ -526,7 +526,6 @@ Flag | Name | Comment | Default flag state
 [#brave-adblock-cosmetic-filtering](chrome://flags/#brave-adblock-cosmetic-filtering) | Enable cosmetic filtering | Enabled by default even if it only shows "default" | unknown
 [#brave-adblock-csp-rules](chrome://flags/#brave-adblock-csp-rules) | Enable support for CSP rules | Not need to be enforced (since 1.25.68+) | unknown
 [#brave-ads-allowed-to-fallback-to-custom-push-notification-ads](chrome://flags/#brave-ads-allowed-to-fallback-to-custom-push-notification-ads) | Allow Brave Ads to fallback from native to custom push notifications | This is OS specific and in the future will be obsolete since Brave will detect the OS and then automatically fallback to the legacy system. | unknown
-[#brave-de-amp](chrome://flags/#brave-de-amp) | Enable De-AMP | [Enabled by default](https://github.com/brave/brave-browser/issues/20458) on Desktop, [on Android it is by default off](https://github.com/brave/brave-browser/issues/21643), for now to avoid breakage but this will be resolved | unknown
 [#brave-decentralized-dns](chrome://flags/#brave-decentralized-dns) | Enable Decentralized DNS | ✔️ This is now a settings point under Browser Settings since v95+ which you can easily switch. | unknown
 [#brave-news](chrome://flags/#brave-news) | Enable Brave News | Your own decision to enable it or not, it is a global switch. | unknown
 [#enable-lens-region-search](chrome://flags/#enable-lens-region-search) | Search your screen with Google Lens (93.1.31.39+), since 1.36.112 it is disabled by default. | ❌ | unknown
