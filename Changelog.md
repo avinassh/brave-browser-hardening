@@ -1,5 +1,6 @@
 ## [Project History](#project-history)
 - 27.04.2022
+    - News: [Verifying Brave Rewards with Gemini on Android has been released! (Version 1.38.x of Brave app on Android — keep an eye out on the app store for when the update becomes available for you!) (brave.com)](https://brave.com/gemini-on-android/)
     - Release: [Brave Browser 1.38.109 for Android (github.com)](https://github.com/brave/brave-browser/issues/22575)
     - Release: [Brave Browser 1.38.109 for Desktop (github.com)](https://github.com/brave/brave-browser/pull/22578/files)
 - 23.04.2022
