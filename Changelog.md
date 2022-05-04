@@ -1,6 +1,7 @@
 ## [Project History](#project-history)
 - 03.05.2022
-    - Info: TLS Post-Quantum Confidentiality flag removed since 101+.
+    - Info: Difference between DDG and Brave de-AMP - Brave avoids rendering AMP pages and minimizes fetching from GOOGLE servers, whereas DDG's AMP bypass feature over-fetches and renders AMP content.
+    - Outdated: TLS Post-Quantum Confidentiality integrated into Chrome 101+, flag removed.
     - Release: [Brave Browser 1.38.111 for Desktop (github.com)](https://github.com/brave/brave-browser/issues/22668)
 - 28.04.2022
     - Info: de-AMP flag enforcement is not needed as the Settings override the flags preferences.
