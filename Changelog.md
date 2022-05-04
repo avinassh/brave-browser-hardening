@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 03.05.2022
+    - Release: [Brave Browser 1.38.111 for Desktop (github.com)](https://github.com/brave/brave-browser/issues/22668)
 - 28.04.2022
     - Info: de-AMP flag enforcement is not needed as the Settings override the flags preferences.
     - Info: Starting with 1.38.109>= Shields v2 is enabled by default, if you prefer the old Shield version you can enable `#brave-shields-v1`in the flags and disable `#brave-shields-v2`. Usually just disabling the v2 flag is just enough however, the problem is that it might break some sync features. So this is the recommend way to do it.
