@@ -4,6 +4,7 @@
 
 ![Flagged Rewards Account](https://i.ibb.co/92DPfnR/Rewards-flagged.webp)
 
+- [What personal information can users discover through one of my creator channels? (bravefaq.com)](https://bravefaq.com/categories/creators/page/what-personal-information-can-users-discover-through-one-of-my-creator-channels)
 
 - Brave Rewards, depending on your country simply counts as income, which means it is [NOT tax free (koinly.io)](https://koinly.io/blog/crypto-airdrop-tax/).
 - Claiming Rewards on Mobile [requires SafetyNet to pass (ruqqus.com)](https://ruqqus.com/+BraveBrowser/post/bk8n/android-if-your-phone-fails-safetynet) and depends on Google Play Services. If you never pass SafetyNet you will not be able to claim your BAT and you might be flagged by the system which means you will never see any ads.
