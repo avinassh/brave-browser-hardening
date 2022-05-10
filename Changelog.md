@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+10.05.2022
+    - Release: [Brave Browser 1.38.112 for Desktop and Android (github.com)](https://github.com/brave/brave-browser/issues/22764)
 - 03.05.2022
     - Info: Difference between DDG and Brave de-AMP - Brave avoids rendering AMP pages and minimizes fetching from GOOGLE servers, whereas DDG's AMP bypass feature over-fetches and renders AMP content.
     - Outdated: TLS Post-Quantum Confidentiality integrated into Chrome 101+, flag removed.
