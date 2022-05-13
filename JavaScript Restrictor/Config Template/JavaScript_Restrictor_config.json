@@ -1,71 +1,48 @@
 {
-	"__default__": "CK",
+	"__default__": "CKTN",
 	"custom_levels": {
-		"CK": {
-			"analytics": 0,
-			"arrays": 1,
+		"CKTN": {
+			"analytics": 1,
+			"arrays": 0,
 			"audiobuffer": 1,
 			"battery": 0,
-			"enumerateDevices": 1,
+			"coopschedule": 1,
+			"enumerateDevices": 3,
 			"gamepads": 1,
-			"geolocation": 6,
+			"geolocation": 5,
 			"hardware": 1,
-			"htmlcanvaselement": 1,
-			"level_description": "Hardened defaults",
-			"level_id": "CK",
-			"level_text": "CKTN",
+			"htmlcanvaselement": 0,
+			"level_description": "Hardened Config for Brave",
+			"level_id": "CKTN",
+			"level_text": "CKs-Config",
+			"net": 0,
+			"nfc": 0,
 			"physical_environment": 1,
-			"plugins": 1,
-			"shared_array": 1,
-			"time_precision": 2,
-			"vr": 1,
-			"webgl": 1,
-			"webworker": 1,
+			"playback": 0,
+			"plugins": 0,
+			"shared_array": 0,
+			"time_precision": 3,
+			"useridle": 0,
+			"vr": 0,
+			"webgl": 0,
+			"webworker": 0,
 			"windowname": 0,
 			"xhr": 0
 		}
 	},
-	"domains": {
-		"15rock.com": {
-			"level_id": "CK"
-		},
-		"browseraudit.com": {
-			"level_id": "0"
-		},
-		"checkout.payever.org": {
-			"level_id": "CK"
-		},
-		"chef-koch.bearblog.dev": {
-			"level_id": "CK"
-		},
-		"doileak.com": {
-			"level_id": "CK"
-		},
-		"ebay-kleinanzeigen.de": {
-			"level_id": "CK"
-		},
-		"geizhals.de": {
-			"level_id": "CK"
-		},
-		"github.com": {
-			"level_id": "CK"
-		},
-		"hddcaddy.com": {
-			"level_id": "CK"
-		},
-		"lemmy.ml": {
-			"level_id": "CK"
-		},
-		"mindfactory.de": {
-			"level_id": "CK"
-		},
-		"news.ycombinator.com": {
-			"level_id": "CK"
-		},
-		"polcak.github.io": {
-			"level_id": "2"
-		}
+	"domains": {},
+	"fpDetectionOn": false,
+	"fpdSettings": {
+		"behavior": 0,
+		"detection": 0
 	},
-	"fpDetectionOn": true,
-	"version": 6.1
+	"fpdWhitelist": {},
+	"nbsSettings": {
+		"blocking": 1,
+		"notifications": 1
+	},
+	"nbsWhitelist": {},
+	"requestShieldOn": true,
+	"version": 6.5,
+	"whitelistedHosts": {}
 }
