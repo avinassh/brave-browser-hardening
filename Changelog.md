@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 14.05.2022
+    - Release: [Brave Browser 1.38.117 for Desktop (github.com)](https://github.com/brave/brave-browser/issues/22809)
 - 10.05.2022
     - Release: [Brave Browser 1.38.115 for Desktop (github.com)](https://github.com/brave/brave-browser/pull/22790/files)
     - Release: [Brave Browser 1.38.113 for Android (github.com)](https://github.com/brave/brave-browser/pull/22779/files)
