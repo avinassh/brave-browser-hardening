@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 19.05.2022
+    - News: [Brave Announced a New ‘Privacy Hub’ to Educate Users About Web Tracking (brave.com)](https://brave.com/1.38-release-ios/)
 - 17.05.2022
     - Release: [Brave Browser 1.38.119 for Desktop (github.com)](https://github.com/brave/brave-browser/issues/22890)
 - 14.05.2022
