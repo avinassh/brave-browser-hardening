@@ -264,6 +264,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 [#disallow-doc-written-script-loads](chrome://flags/#disallow-doc-written-script-loads) | Block scripts loaded via document.write |  ✔️ | unknown
 [#enable-isolated-sandboxed-iframes](chrome://flags/#enable-isolated-sandboxed-iframes) | Isolated sandboxed iframes |  ✔️ | unknown
 [#enable-tls13-early-data](chrome://flags/#enable-tls13-early-data) | TLS 1.3 Early Data | ✔️ | unknown
+[#origin-agent-cluster-default](chrome://flags/#origin-agent-cluster-default) | [Origin-keyed Agent Clusters by default](https://lists.webkit.org/pipermail/webkit-dev/2021-December/032067.html) | ✔️ | 102.x
 [#strict-extension-isolation](chrome://flags/#strict-extension-isolation) | Strict Extension Isolation | ✔️ | unknown
 [#strict-origin-isolation](chrome://flags/#strict-origin-isolation) | Strict-Origin-Isolation | ❌ | unknown
 [#sync-trusted-vault-passphrase-recovery](chrome://flags/#sync-trusted-vault-passphrase-recovery) | Enable sync trusted vault passphrase with improved recovery. | ❌ | unknown
@@ -413,6 +414,7 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 [#disallow-doc-written-script-loads](chrome://flags/#disallow-doc-written-script-loads) | Block scripts loaded via document.write |  ✔️ | disabled
 [#enable-site-isolation-for-password-sites](chrome://flags/#enable-site-isolation-for-password-sites) | Enable site Isolation for Password Sites | ✔️ | disabled
 [#enable-site-per-process](chrome://flags/#enable-site-per-process) | [Part of Site isolation](https://www.chromium.org/Home/chromium-security/site-isolation/) | ✔️ | disabled
+[#origin-agent-cluster-default](chrome://flags/#origin-agent-cluster-default) | [Origin-keyed Agent Clusters by default](https://lists.webkit.org/pipermail/webkit-dev/2021-December/032067.html) | ✔️ | 102.x
 [#strict-origin-isolation](chrome://flags/#strict-origin-isolation) | Strict-Origin-Isolation | ❌ | unknown
 [#sync-trusted-vault-passphrase-recovery](chrome://flags/#sync-trusted-vault-passphrase-recovery) | Enable sync trusted vault passphrase with improved recovery | ❌ | unknown
 
