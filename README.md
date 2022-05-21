@@ -260,7 +260,6 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 [#block-insecure-private-network-requests](chrome://flags/#block-insecure-private-network-requests) | Block insecure private network requests | ✔️ | unknown
 [#brave-domain-block](chrome://flags/#brave-domain-block) | Enable domain blocking | ✔️ | unknown
 [#brave-ephemeral-storage](chrome://flags/#brave-ephemeral-storage) | Enable Ephemeral Storage | ✔️ | unknown
-[#brave-vpn](chrome://flags/#brave-vpn) | Enable experimental Brave VPN (1.30.27+), the flag got removed but it will return | ✔️ | unknown
 [#disallow-doc-written-script-loads](chrome://flags/#disallow-doc-written-script-loads) | Block scripts loaded via document.write |  ✔️ | unknown
 [#enable-isolated-sandboxed-iframes](chrome://flags/#enable-isolated-sandboxed-iframes) | Isolated sandboxed iframes |  ✔️ | unknown
 [#enable-tls13-early-data](chrome://flags/#enable-tls13-early-data) | TLS 1.3 Early Data | ✔️ | unknown
@@ -410,7 +409,6 @@ Flag | Name | Enabled (✔️) / Disabled (❌) or/and Comment | Default flag st
 -- | -- | -- | --
 [#block-insecure-private-network-requests](chrome://flags/#block-insecure-private-network-requestst) | Block insecure private network requests. | ✔️ | disabled
 [#brave-ephemeral-storage](chrome://flags/#brave-ephemeral-storage) | Enable Ephemeral Storage | ✔️ | depends on Shields setting
-[#brave-vpn](chrome://flags/#brave-vpn) | Enable experimental Brave VPN (1.30.27+), the flag got removed but it will return, as this is for now iOS only | ✔️ | disabled
 [#disallow-doc-written-script-loads](chrome://flags/#disallow-doc-written-script-loads) | Block scripts loaded via document.write |  ✔️ | disabled
 [#enable-site-isolation-for-password-sites](chrome://flags/#enable-site-isolation-for-password-sites) | Enable site Isolation for Password Sites | ✔️ | disabled
 [#enable-site-per-process](chrome://flags/#enable-site-per-process) | [Part of Site isolation](https://www.chromium.org/Home/chromium-security/site-isolation/) | ✔️ | disabled
