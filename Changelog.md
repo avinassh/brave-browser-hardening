@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 21.05.2022
+    - Release: [Brave Browser 1.38.119 for Android (github.com)](https://github.com/brave/brave-browser/pull/22943/files)
 - 20.05.2022
     - Desktop/Mobile Privacy: `#origin-agent-cluster-default`, see [here for more details (github.com)](https://github.com/mikewest/deprecating-document-domain).
 - 19.05.2022
