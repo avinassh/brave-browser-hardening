@@ -1,4 +1,7 @@
 ## [Project History](#project-history)
+- 23.05.2022
+    - Info: `translate.brave.com` is possible in the works and might use the same Api as Vivaldi translation, Lingvanex.
+    - Info: Added Translation FAQ section about the things we know so far.
 - 21.05.2022
     - Release: [Brave Browser 1.38.119 for Android (github.com)](https://github.com/brave/brave-browser/pull/22943/files)
 - 20.05.2022
