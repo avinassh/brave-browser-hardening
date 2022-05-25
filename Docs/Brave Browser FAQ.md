@@ -1,5 +1,6 @@
 ## [Brave Browser FAQ](#brave-browser-faq)
 
+- The official onion URL is `https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/`.
 - [Brave Team answered to wrong accusations (reddit.com)](https://np.reddit.com/r/brave_browser/comments/nw7et2/i_just_read_a_post_on_rprivacytoolsio_and_wtf/h18fxec/?context=3), see [here (old.reddit.com)](https://old.reddit.com/r/CryptoCurrency/comments/nxce6t/brave_browser_scam_a_fake_privacy_browser_sharing/h1ely5i/) for more details. Especially [Firefox fanboys cannot accept the competition (ebin.city)](http://ebin.city/~werwolf/posts/brave-is-shit/) even after they got [proven wrong (news.ycombinator.com)](https://news.ycombinator.com/item?id=27552530) they do not even edit their article.
 - [Brave forces rival browser 'Braver' to change its name (decrypt.co)](https://decrypt.co/35146/brave-forces-rival-browser-braver-change-name), the Browser was always behind Chromium (un-googled, Brave,... and is now "dead")
 - [Brave has its own alternative to Firefox's Total Cookie Protection with Ephemeral Site Storage (brave.com)](https://brave.com/privacy-updates/7-ephemeral-storage/)
