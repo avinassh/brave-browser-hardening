@@ -1,4 +1,6 @@
 ## [Project History](#project-history)
+- 25.05.2022
+    - News: [Brave and Guardian Team Up Again to Integrate the Brave Android Browser with Guardian Firewall + VPN (brave.com)](https://brave.com/android-vpn/)
 - 23.05.2022
     - Release: [Brave Browser 1.39.111 for Desktop (github.com)](https://github.com/brave/brave-browser/pull/23016/files)
     - Info: `translate.brave.com` is possible in the works and might use the same Api as Vivaldi translation, Lingvanex.
