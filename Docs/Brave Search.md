@@ -25,3 +25,5 @@ Brave needs to fix mentioned points otherwise I cannot suggest using it as priva
 - [Hyperweb for iOS lets you choose the default search engne provider (apps.apple.com)](https://apps.apple.com/gb/app/hyperweb/id1581824571).
 - You can customize the Braves Search Engine and disable the real human results view in the Search Engine Settings.
 - [The search engine itself is not open source (old.reddit.com)](https://old.reddit.com/r/brave_browser/comments/o5qknc/announcement_brave_search_beta_now_available_in/h2p3q22/).
+- [Brave Search Results Independence (search.brave.com)](https://search.brave.com/help/independence).
+
