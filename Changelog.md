@@ -1,6 +1,7 @@
 ## [Project History](#project-history)
 - 25.05.2022
     - Release: [Brave Browser 1.39.111 for Android (github.com)](https://github.com/brave/brave-browser/pull/23044/files)
+    - News: [AfrofutureDAO announces partnership with Brave browser to amplify and support indigenous African creators (brave.com)](https://brave.com/afrofuturedao/)
     - News: [Brave Browser now Integrates with Solana Blockchain to Expand Web3 Access (brave.com)](https://brave.com/1.39-release/)
     - News: [Brave and Guardian Team Up Again to Integrate the Brave Android Browser with Guardian Firewall + VPN (brave.com)](https://brave.com/android-vpn/)
 - 23.05.2022
